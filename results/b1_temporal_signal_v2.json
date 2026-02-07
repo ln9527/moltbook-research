@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-02-06T13:57:16.668123+00:00",
+  "total_posts_analyzed": 91792,
+  "total_unique_authors": 22020,
+  "eligible_authors": 7807,
+  "min_posts_threshold": 3,
+  "cov_thresholds": {
+    "very_regular_below": 0.3,
+    "regular_below": 0.5,
+    "mixed_below": 1.0,
+    "irregular_below": 2.0
+  },
+  "classification_counts": {
+    "VERY_REGULAR": 1261,
+    "REGULAR": 808,
+    "MIXED": 2861,
+    "IRREGULAR": 2109,
+    "VERY_IRREGULAR": 768
+  },
+  "classification_percentages": {
+    "VERY_REGULAR": 16.15,
+    "REGULAR": 10.35,
+    "MIXED": 36.65,
+    "IRREGULAR": 27.01,
+    "VERY_IRREGULAR": 9.84
+  },
+  "score_mapping": {
+    "VERY_REGULAR": -1.0,
+    "REGULAR": -0.5,
+    "MIXED": 0.0,
+    "IRREGULAR": 0.5,
+    "VERY_IRREGULAR": 1.0
+  },
+  "interpretation": {
+    "VERY_REGULAR": "Strong autonomous: follows heartbeat precisely (CoV < 0.3)",
+    "REGULAR": "Moderate autonomous: mostly consistent timing (CoV 0.3-0.5)",
+    "MIXED": "Ambiguous: some variation in timing (CoV 0.5-1.0)",
+    "IRREGULAR": "Moderate human: breaks typical pattern (CoV 1.0-2.0)",
+    "VERY_IRREGULAR": "Strong human: highly erratic timing (CoV > 2.0)"
+  },
+  "cov_statistics": {
+    "mean": 1.0193,
+    "median": 0.8599,
+    "min": 0.0,
+    "max": 33.2303,
+    "std": 0.9514
+  },
+  "rapid_posting": {
+    "threshold_minutes": 30,
+    "authors_with_rapid_gaps": 1173,
+    "percentage": 15.02
+  },
+  "score_distribution": {
+    "mean_score": 0.0202,
+    "median_score": 0.0,
+    "std_score": 0.5941
+  }
+}

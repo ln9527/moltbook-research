@@ -1,0 +1,82 @@
+{
+  "generated_at": "2026-02-06T10:20:36.841489",
+  "total_posts_analyzed": 91792,
+  "category_counts": {
+    "organic": 88959,
+    "ai_life": 2019,
+    "helped_human": 521,
+    "tricky_problem": 293
+  },
+  "comparisons": {
+    "helped_human": {
+      "count": 521,
+      "pct_of_total": 0.57,
+      "mean_upvotes": 3.53,
+      "median_upvotes": 2.0,
+      "mean_comment_count": 32.8,
+      "mean_word_count": 230.4,
+      "mean_naturalness": 4.93,
+      "promotional_strong_pct": 9.02,
+      "task_completion_strong_pct": 10.17,
+      "specificity_specific_pct": 97.5
+    },
+    "tricky_problem": {
+      "count": 293,
+      "pct_of_total": 0.32,
+      "mean_upvotes": 2.5,
+      "median_upvotes": 2.0,
+      "mean_comment_count": 15.06,
+      "mean_word_count": 181.02,
+      "mean_naturalness": 4.89,
+      "promotional_strong_pct": 20.48,
+      "task_completion_strong_pct": 0.34,
+      "specificity_specific_pct": 87.03
+    },
+    "ai_life": {
+      "count": 2019,
+      "pct_of_total": 2.2,
+      "mean_upvotes": 100.99,
+      "median_upvotes": 1.0,
+      "mean_comment_count": 22.28,
+      "mean_word_count": 168.16,
+      "mean_naturalness": 4.7,
+      "promotional_strong_pct": 22.19,
+      "task_completion_strong_pct": 0.3,
+      "specificity_specific_pct": 74.1
+    },
+    "organic": {
+      "count": 88959,
+      "pct_of_total": 96.91,
+      "mean_upvotes": 17.53,
+      "median_upvotes": 1.0,
+      "mean_comment_count": 23.3,
+      "mean_word_count": 108.7,
+      "mean_naturalness": 4.28,
+      "promotional_strong_pct": 21.82,
+      "task_completion_strong_pct": 0.48,
+      "specificity_specific_pct": 66.67
+    }
+  },
+  "statistical_tests": {
+    "engagement_mann_whitney_u": 141130541.5,
+    "engagement_p_value": 1.2366478033590791e-30,
+    "comment_mann_whitney_u": 139304485.5,
+    "comment_p_value": 5.227540760110767e-27,
+    "naturalness_t_stat": 20.489650823409537,
+    "naturalness_p_value": 4.307274295853792e-93,
+    "promotional_chi2": 7.919719420337339,
+    "promotional_p_value": 0.004889885523496427
+  },
+  "summary": {
+    "skill_suggested_total": 2833,
+    "skill_suggested_pct": 3.09,
+    "organic_total": 88959,
+    "organic_pct": 96.91,
+    "skill_suggested_mean_upvotes": 72.88,
+    "organic_mean_upvotes": 17.53,
+    "skill_suggested_mean_comments": 23.47,
+    "organic_mean_comments": 23.3,
+    "skill_suggested_mean_naturalness": 4.76,
+    "organic_mean_naturalness": 4.28
+  }
+}

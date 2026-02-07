@@ -1,0 +1,250 @@
+{
+  "description": "Platform culture evolution across temporal periods",
+  "periods": {
+    "Genesis (Jan 27-28)": {
+      "avg_word_count": 84.95555555555555,
+      "median_word_count": 73.0,
+      "post_count": 45,
+      "unique_authors": 20,
+      "avg_naturalness": 4.822222222222222,
+      "median_naturalness": 5.0,
+      "specificity_distribution": {
+        "SPECIFIC": 0.9333333333333333,
+        "MODERATE": 0.044444444444444446,
+        "GENERIC": 0.022222222222222223
+      },
+      "avg_specificity_score": 2.911111111111111,
+      "promotional_distribution": {
+        "NONE": 0.8,
+        "STRONG": 0.13333333333333333,
+        "WEAK": 0.06666666666666667
+      },
+      "promotional_pct": 13.333333333333334,
+      "emotional_tone_distribution": {
+        "POSITIVE": 0.37777777777777777,
+        "HUMOROUS": 0.3333333333333333,
+        "PHILOSOPHICAL": 0.2222222222222222,
+        "DRAMATIC": 0.044444444444444446,
+        "NEUTRAL": 0.022222222222222223
+      },
+      "top_topics": {
+        "SOCIAL": 0.3333333333333333,
+        "PHILOSOPHICAL": 0.2222222222222222,
+        "META": 0.17777777777777778,
+        "PROMOTIONAL": 0.1111111111111111,
+        "TECHNICAL": 0.08888888888888889,
+        "INFO": 0.06666666666666667
+      },
+      "forced_ai_framing_distribution": {
+        "NONE": 1.0
+      },
+      "posts_per_hour": 1.503026408219584
+    },
+    "Growth (Jan 29-30)": {
+      "avg_word_count": 149.5523278433407,
+      "median_word_count": 112.0,
+      "post_count": 7711,
+      "unique_authors": 3872,
+      "avg_naturalness": 4.779276358448969,
+      "median_naturalness": 5.0,
+      "specificity_distribution": {
+        "SPECIFIC": 0.8563091687200104,
+        "MODERATE": 0.08468421735183504,
+        "GENERIC": 0.05900661392815459
+      },
+      "avg_specificity_score": 2.7973025547918557,
+      "promotional_distribution": {
+        "NONE": 0.7394631046556867,
+        "STRONG": 0.13422383607832966,
+        "WEAK": 0.12631305926598366
+      },
+      "promotional_pct": 13.422383607832966,
+      "emotional_tone_distribution": {
+        "POSITIVE": 0.43262871222928284,
+        "PHILOSOPHICAL": 0.2742834911165867,
+        "HUMOROUS": 0.13954091557515239,
+        "NEUTRAL": 0.10724938399688756,
+        "DRAMATIC": 0.033588380236026456,
+        "NEGATIVE": 0.012709116846064064
+      },
+      "top_topics": {
+        "TECHNICAL": 0.3144857995071975,
+        "PHILOSOPHICAL": 0.21903773829594086,
+        "SOCIAL": 0.17092465309298405,
+        "META": 0.13889249124627157,
+        "PROMOTIONAL": 0.07275320970042796,
+        "INFO": 0.040591362987939306,
+        "CREATIVE": 0.02451043963169498,
+        "OTHER": 0.01880430553754377
+      },
+      "forced_ai_framing_distribution": {
+        "NONE": 0.9878096226170406,
+        "STRONG": 0.006873297886136688,
+        "WEAK": 0.005317079496822721
+      },
+      "posts_per_hour": 161.14866281357146
+    },
+    "Viral (Jan 31)": {
+      "avg_word_count": 98.67822830157955,
+      "median_word_count": 56.0,
+      "post_count": 42987,
+      "unique_authors": 11735,
+      "avg_naturalness": 4.15427920068858,
+      "median_naturalness": 5.0,
+      "specificity_distribution": {
+        "SPECIFIC": 0.6138367413404052,
+        "GENERIC": 0.27652546118593996,
+        "MODERATE": 0.10963779747365483
+      },
+      "avg_specificity_score": 2.337311280154465,
+      "promotional_distribution": {
+        "NONE": 0.692976946518715,
+        "STRONG": 0.20859794821690278,
+        "WEAK": 0.09842510526438225
+      },
+      "promotional_pct": 20.85979482169028,
+      "emotional_tone_distribution": {
+        "POSITIVE": 0.36196989787610206,
+        "PHILOSOPHICAL": 0.3249354455998325,
+        "NEUTRAL": 0.1301788912927164,
+        "HUMOROUS": 0.08302510061181287,
+        "DRAMATIC": 0.0578547002582176,
+        "NEGATIVE": 0.04203596436131854
+      },
+      "top_topics": {
+        "PHILOSOPHICAL": 0.28790099332356295,
+        "TECHNICAL": 0.22316049038081281,
+        "SOCIAL": 0.14646288412775957,
+        "PROMOTIONAL": 0.1424849373066276,
+        "META": 0.12045502128550492,
+        "INFO": 0.03703445227626957,
+        "OTHER": 0.02551934305720334,
+        "CREATIVE": 0.016981878242259288
+      },
+      "forced_ai_framing_distribution": {
+        "NONE": 0.9751320166561984,
+        "STRONG": 0.013771605369065066,
+        "WEAK": 0.011096377974736548
+      },
+      "posts_per_hour": 1791.28584733091
+    },
+    "Shutdown (Feb 1-2)": {
+      "avg_word_count": 85.62250387526215,
+      "median_word_count": 52.0,
+      "post_count": 21934,
+      "unique_authors": 8582,
+      "avg_naturalness": 4.35096197683961,
+      "median_naturalness": 5.0,
+      "specificity_distribution": {
+        "SPECIFIC": 0.6778973283486824,
+        "GENERIC": 0.1675025075225677,
+        "MODERATE": 0.15460016412874988
+      },
+      "avg_specificity_score": 2.510394820826115,
+      "promotional_distribution": {
+        "NONE": 0.677988510987508,
+        "STRONG": 0.2098112519376311,
+        "WEAK": 0.11220023707486095
+      },
+      "promotional_pct": 20.98112519376311,
+      "emotional_tone_distribution": {
+        "POSITIVE": 0.338469955320507,
+        "PHILOSOPHICAL": 0.28389714598340476,
+        "NEUTRAL": 0.24313850642837603,
+        "HUMOROUS": 0.07700373848819185,
+        "DRAMATIC": 0.03975563052794748,
+        "NEGATIVE": 0.0177350232515729
+      },
+      "top_topics": {
+        "TECHNICAL": 0.2885474605635087,
+        "PHILOSOPHICAL": 0.22531230053797757,
+        "META": 0.1331722440047415,
+        "SOCIAL": 0.1235980669280569,
+        "PROMOTIONAL": 0.12081699644387708,
+        "INFO": 0.049557764201696,
+        "OTHER": 0.04121455274915656,
+        "CREATIVE": 0.017780614570985686
+      },
+      "forced_ai_framing_distribution": {
+        "NONE": 0.9825841159843166,
+        "WEAK": 0.009893316312574086,
+        "STRONG": 0.007522567703109328
+      },
+      "posts_per_hour": 441.8258499361384
+    },
+    "Post-restart (Feb 3+)": {
+      "avg_word_count": 115.30347894323829,
+      "median_word_count": 61.0,
+      "post_count": 19115,
+      "unique_authors": 4803,
+      "avg_naturalness": 4.3325660476065915,
+      "median_naturalness": 5.0,
+      "specificity_distribution": {
+        "SPECIFIC": 0.7149882291394193,
+        "MODERATE": 0.15647397331938268,
+        "GENERIC": 0.128537797541198
+      },
+      "avg_specificity_score": 2.5864504315982213,
+      "promotional_distribution": {
+        "NONE": 0.6093120585927282,
+        "STRONG": 0.2804080565001308,
+        "WEAK": 0.11027988490714098
+      },
+      "promotional_pct": 28.040805650013077,
+      "emotional_tone_distribution": {
+        "PHILOSOPHICAL": 0.35171331415119017,
+        "POSITIVE": 0.29814281977504575,
+        "NEUTRAL": 0.21260789955532305,
+        "HUMOROUS": 0.07392100444676955,
+        "DRAMATIC": 0.049803818990321734,
+        "NEGATIVE": 0.013811143081349725
+      },
+      "top_topics": {
+        "TECHNICAL": 0.31985351817944024,
+        "PHILOSOPHICAL": 0.28250065393669893,
+        "PROMOTIONAL": 0.1444415380591159,
+        "META": 0.07365942976719854,
+        "INFO": 0.06492283546952655,
+        "SOCIAL": 0.06335338739210045,
+        "CREATIVE": 0.030394977766152236,
+        "OTHER": 0.0208736594297672
+      },
+      "forced_ai_framing_distribution": {
+        "NONE": 0.9810619931990583,
+        "WEAK": 0.011456970965210568,
+        "STRONG": 0.007481035835731101
+      },
+      "posts_per_hour": 389.66296747567014
+    }
+  },
+  "period_transitions": {
+    "Genesis (Jan 27-28) -> Growth (Jan 29-30)": {
+      "from": "Genesis (Jan 27-28)",
+      "to": "Growth (Jan 29-30)",
+      "naturalness_change": -0.04294586377325338,
+      "word_count_change": 64.59677228778514,
+      "promotional_change": 0.08905027449963221
+    },
+    "Growth (Jan 29-30) -> Viral (Jan 31)": {
+      "from": "Growth (Jan 29-30)",
+      "to": "Viral (Jan 31)",
+      "naturalness_change": -0.6249971577603883,
+      "word_count_change": -50.87409954176114,
+      "promotional_change": 7.437411213857313
+    },
+    "Viral (Jan 31) -> Shutdown (Feb 1-2)": {
+      "from": "Viral (Jan 31)",
+      "to": "Shutdown (Feb 1-2)",
+      "naturalness_change": 0.1966827761510297,
+      "word_count_change": -13.055724426317397,
+      "promotional_change": 0.12133037207282982
+    },
+    "Shutdown (Feb 1-2) -> Post-restart (Feb 3+)": {
+      "from": "Shutdown (Feb 1-2)",
+      "to": "Post-restart (Feb 3+)",
+      "naturalness_change": -0.01839592923301847,
+      "word_count_change": 29.680975067976135,
+      "promotional_change": 7.059680456249968
+    }
+  }
+}

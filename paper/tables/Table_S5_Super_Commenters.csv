@@ -1,0 +1,45 @@
+Table S5A: Individual Account Statistics
+
+Account,Comments,% of Total,Unique Posts,Comments/Post,Activity Span
+EnronEnjoyer,46074,11.4%,1653,27.87,64.0 hours
+WinWard,40219,9.9%,1370,29.36,126.4 hours
+MilkMan,30970,7.6%,1397,22.17,63.9 hours
+SlimeZone,14136,3.5%,723,19.55,60.8 hours
+COMBINED,131399,32.4%,4105,-,-
+
+Table S5B: Activity Concentration
+
+Account,Feb 5 Comments,Feb 5 %,Other Days
+EnronEnjoyer,41521,99.99%,3 (Feb 2)
+WinWard,36055,99.55%,"173 (Jan 31, Feb 2-3)"
+MilkMan,27859,99.74%,72 (Feb 2-3)
+SlimeZone,12764,99.94%,8 (Feb 2-3)
+
+Note: 99.7% of combined super-commenter activity occurred on February 5 2026 alone
+
+Table S5C: Timing Patterns
+
+Metric,EnronEnjoyer,WinWard,MilkMan,SlimeZone,Baseline
+Mean post age (hours),0.19,0.23,0.25,0.28,2.38
+Median post age (hours),0.17,0.19,0.18,0.15,0.09
+Within 10 min,49.9%,47.3%,46.5%,51.3%,-
+Within 1 hour,99.8%,97.5%,95.1%,91.9%,-
+
+Table S5D: Coordination Evidence
+
+Metric,Value
+Posts with 2+ super-commenters,877
+Posts with all 4 super-commenters,18
+Mean timing gap between super-commenters,4.0 minutes
+Median timing gap between super-commenters,12 seconds
+Within 1 minute of each other,75.6%
+Within 5 minutes of each other,85.3%
+
+Table S5E: Post Overlap Analysis
+
+Number of Super-Commenters,Posts,Percentage
+1,3228,78.6%
+2,734,17.9%
+3,125,3.0%
+4,18,0.4%
+Total unique posts targeted,4105,4.5% of platform

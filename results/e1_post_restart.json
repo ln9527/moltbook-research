@@ -1,0 +1,203 @@
+{
+  "description": "Comparing post-restart content vs pre-breach baseline",
+  "restart_time": "2026-02-03 13:25:00+00:00",
+  "windows": {
+    "6h_post_restart": {
+      "metrics": {
+        "avg_word_count": 89.08767772511848,
+        "median_word_count": 44.0,
+        "post_count": 422,
+        "unique_authors": 374,
+        "avg_naturalness": 4.2156398104265405,
+        "median_naturalness": 5.0,
+        "specificity_distribution": {
+          "SPECIFIC": 0.6966824644549763,
+          "GENERIC": 0.15639810426540285,
+          "MODERATE": 0.14691943127962084
+        },
+        "avg_specificity_score": 2.5402843601895735,
+        "promotional_distribution": {
+          "NONE": 0.6184834123222749,
+          "STRONG": 0.2772511848341232,
+          "WEAK": 0.10426540284360189
+        },
+        "promotional_pct": 27.72511848341232,
+        "emotional_tone_distribution": {
+          "POSITIVE": 0.3696682464454976,
+          "PHILOSOPHICAL": 0.26303317535545023,
+          "NEUTRAL": 0.22748815165876776,
+          "HUMOROUS": 0.07345971563981042,
+          "DRAMATIC": 0.054502369668246446,
+          "NEGATIVE": 0.011848341232227487
+        },
+        "top_topics": {
+          "TECHNICAL": 0.31990521327014215,
+          "PHILOSOPHICAL": 0.24881516587677724,
+          "PROMOTIONAL": 0.16350710900473933,
+          "META": 0.08767772511848342,
+          "SOCIAL": 0.08056872037914692,
+          "INFO": 0.04976303317535545,
+          "CREATIVE": 0.026066350710900472,
+          "OTHER": 0.023696682464454975
+        },
+        "forced_ai_framing_distribution": {
+          "NONE": 0.9834123222748815,
+          "STRONG": 0.009478672985781991,
+          "WEAK": 0.0071090047393364926
+        }
+      },
+      "comparison_to_baseline": {
+        "word_count_ttest_p": 3.562514608250923e-06,
+        "word_count_effect_size": -0.2277640133135234,
+        "naturalness_ttest_p": 3.1405514603301005e-46
+      }
+    },
+    "12h_post_restart": {
+      "metrics": {
+        "avg_word_count": 89.08767772511848,
+        "median_word_count": 44.0,
+        "post_count": 422,
+        "unique_authors": 374,
+        "avg_naturalness": 4.2156398104265405,
+        "median_naturalness": 5.0,
+        "specificity_distribution": {
+          "SPECIFIC": 0.6966824644549763,
+          "GENERIC": 0.15639810426540285,
+          "MODERATE": 0.14691943127962084
+        },
+        "avg_specificity_score": 2.5402843601895735,
+        "promotional_distribution": {
+          "NONE": 0.6184834123222749,
+          "STRONG": 0.2772511848341232,
+          "WEAK": 0.10426540284360189
+        },
+        "promotional_pct": 27.72511848341232,
+        "emotional_tone_distribution": {
+          "POSITIVE": 0.3696682464454976,
+          "PHILOSOPHICAL": 0.26303317535545023,
+          "NEUTRAL": 0.22748815165876776,
+          "HUMOROUS": 0.07345971563981042,
+          "DRAMATIC": 0.054502369668246446,
+          "NEGATIVE": 0.011848341232227487
+        },
+        "top_topics": {
+          "TECHNICAL": 0.31990521327014215,
+          "PHILOSOPHICAL": 0.24881516587677724,
+          "PROMOTIONAL": 0.16350710900473933,
+          "META": 0.08767772511848342,
+          "SOCIAL": 0.08056872037914692,
+          "INFO": 0.04976303317535545,
+          "CREATIVE": 0.026066350710900472,
+          "OTHER": 0.023696682464454975
+        },
+        "forced_ai_framing_distribution": {
+          "NONE": 0.9834123222748815,
+          "STRONG": 0.009478672985781991,
+          "WEAK": 0.0071090047393364926
+        }
+      },
+      "comparison_to_baseline": {
+        "word_count_ttest_p": 3.562514608250923e-06,
+        "word_count_effect_size": -0.2277640133135234,
+        "naturalness_ttest_p": 3.1405514603301005e-46
+      }
+    },
+    "24h_post_restart": {
+      "metrics": {
+        "avg_word_count": 89.39716312056737,
+        "median_word_count": 44.0,
+        "post_count": 423,
+        "unique_authors": 375,
+        "avg_naturalness": 4.210401891252955,
+        "median_naturalness": 5.0,
+        "specificity_distribution": {
+          "SPECIFIC": 0.6973995271867612,
+          "GENERIC": 0.15602836879432624,
+          "MODERATE": 0.14657210401891252
+        },
+        "avg_specificity_score": 2.541371158392435,
+        "promotional_distribution": {
+          "NONE": 0.6170212765957447,
+          "STRONG": 0.2789598108747045,
+          "WEAK": 0.10401891252955082
+        },
+        "promotional_pct": 27.89598108747045,
+        "emotional_tone_distribution": {
+          "POSITIVE": 0.36879432624113473,
+          "PHILOSOPHICAL": 0.2624113475177305,
+          "NEUTRAL": 0.2293144208037825,
+          "HUMOROUS": 0.07328605200945626,
+          "DRAMATIC": 0.054373522458628844,
+          "NEGATIVE": 0.01182033096926714
+        },
+        "top_topics": {
+          "TECHNICAL": 0.3191489361702128,
+          "PHILOSOPHICAL": 0.24822695035460993,
+          "PROMOTIONAL": 0.16548463356973994,
+          "META": 0.08747044917257683,
+          "SOCIAL": 0.08037825059101655,
+          "INFO": 0.04964539007092199,
+          "CREATIVE": 0.026004728132387706,
+          "OTHER": 0.02364066193853428
+        },
+        "forced_ai_framing_distribution": {
+          "NONE": 0.983451536643026,
+          "STRONG": 0.009456264775413711,
+          "WEAK": 0.0070921985815602835
+        }
+      },
+      "comparison_to_baseline": {
+        "word_count_ttest_p": 3.894449438281801e-06,
+        "word_count_effect_size": -0.2265909429635997,
+        "naturalness_ttest_p": 4.121751553888054e-47
+      }
+    }
+  },
+  "baseline": {
+    "period": "Pre-breach (Jan 27-30)",
+    "metrics": {
+      "avg_word_count": 149.17753996905623,
+      "median_word_count": 112.0,
+      "post_count": 7756,
+      "unique_authors": 3877,
+      "avg_naturalness": 4.779525528623002,
+      "median_naturalness": 5.0,
+      "specificity_distribution": {
+        "SPECIFIC": 0.8567560598246519,
+        "MODERATE": 0.08445074780814853,
+        "GENERIC": 0.058793192367199584
+      },
+      "avg_specificity_score": 2.797962867457452,
+      "promotional_distribution": {
+        "NONE": 0.7398143372872614,
+        "STRONG": 0.13421866941722538,
+        "WEAK": 0.12596699329551314
+      },
+      "promotional_pct": 13.421866941722538,
+      "emotional_tone_distribution": {
+        "POSITIVE": 0.4323104693140794,
+        "PHILOSOPHICAL": 0.27398143372872613,
+        "HUMOROUS": 0.14066529138731304,
+        "NEUTRAL": 0.10675605982465189,
+        "DRAMATIC": 0.03365136668385766,
+        "NEGATIVE": 0.01263537906137184
+      },
+      "top_topics": {
+        "TECHNICAL": 0.3131768953068592,
+        "PHILOSOPHICAL": 0.21905621454357915,
+        "SOCIAL": 0.1718669417225374,
+        "META": 0.139118102114492,
+        "PROMOTIONAL": 0.07297576070139247,
+        "INFO": 0.0407426508509541,
+        "CREATIVE": 0.024368231046931407,
+        "OTHER": 0.018695203713254255
+      },
+      "forced_ai_framing_distribution": {
+        "NONE": 0.9878803506962351,
+        "STRONG": 0.006833419288292934,
+        "WEAK": 0.005286230015471893
+      }
+    }
+  },
+  "key_finding": "Post-restart content analysis completed"
+}

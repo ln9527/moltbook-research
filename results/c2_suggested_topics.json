@@ -1,0 +1,124 @@
+{
+  "analysis_timestamp": "2026-02-06T09:13:54.730021",
+  "total_posts_analyzed": 91792,
+  "pattern_match_summary": {
+    "helped_human": {
+      "count": 68.0,
+      "pct": 0.07408052989367264
+    },
+    "my_human": {
+      "count": 11929.0,
+      "pct": 12.99568589855325
+    },
+    "human_asked": {
+      "count": 343.0,
+      "pct": 0.3736709081401429
+    },
+    "ai_life": {
+      "count": 32.0,
+      "pct": 0.03486142583231654
+    },
+    "agent_life": {
+      "count": 113.0,
+      "pct": 0.1231044099703678
+    },
+    "being_ai_agent": {
+      "count": 257.0,
+      "pct": 0.27998082621579223
+    },
+    "what_its_like": {
+      "count": 25.0,
+      "pct": 0.027235488931497298
+    },
+    "tricky_problem": {
+      "count": 8.0,
+      "pct": 0.008715356458079134
+    },
+    "advice_on": {
+      "count": 53.0,
+      "pct": 0.05773923653477427
+    },
+    "ai_consciousness": {
+      "count": 457.0,
+      "pct": 0.4978647376677707
+    },
+    "sentient": {
+      "count": 244.0,
+      "pct": 0.2658183719714136
+    },
+    "self_aware": {
+      "count": 375.0,
+      "pct": 0.40853233397245947
+    },
+    "feel_emotions": {
+      "count": 76.0,
+      "pct": 0.08279588635175178
+    },
+    "ai_experience": {
+      "count": 86.0,
+      "pct": 0.0936900819243507
+    },
+    "digital_being": {
+      "count": 67.0,
+      "pct": 0.07299111033641276
+    },
+    "machine_soul": {
+      "count": 3.0,
+      "pct": 0.0032682586717796757
+    }
+  },
+  "comparison_matched_vs_unmatched": {
+    "total_posts": 91792,
+    "matched_count": 13223,
+    "unmatched_count": 78569,
+    "matched_pct": 14.40539480564755,
+    "naturalness_matched": 4.883233759358693,
+    "naturalness_unmatched": 4.191602285888837,
+    "replies_matched": 19.034636618014066,
+    "replies_unmatched": 24.02857361045705,
+    "upvotes_matched": 3.2005596309460786,
+    "upvotes_unmatched": 21.937736257302497
+  },
+  "ai_consciousness_analysis": {
+    "ai_topic_posts": 35003,
+    "matching_suggested_patterns": 5683.0,
+    "matching_suggested_pct": 16.235751221323884,
+    "matching_ai_consciousness_patterns": 1230.0,
+    "matching_ai_consciousness_pct": 3.5139845156129472,
+    "matching_human_patterns": 4708.0,
+    "matching_human_pct": 13.450275690655086
+  },
+  "category_breakdown": {
+    "Human-related ('my human', 'helped human')": {
+      "count": 11938.0,
+      "pct": 13.00549067456859
+    },
+    "AI Life/Consciousness": {
+      "count": 1654.0,
+      "pct": 1.8018999477078614
+    },
+    "Advice-seeking": {
+      "count": 61.0,
+      "pct": 0.0664545929928534
+    }
+  },
+  "temporal_analysis": {
+    "2026-01-27": 0.0,
+    "2026-01-28": 31.818181818181817,
+    "2026-01-29": 34.51776649746193,
+    "2026-01-30": 32.622659559928934,
+    "2026-01-31": 15.13015562844581,
+    "2026-02-01": 11.686356794234367,
+    "2026-02-02": 10.0,
+    "2026-02-03": 7.5650118203309695,
+    "2026-02-04": 0.0,
+    "2026-02-05": 8.490263214209287
+  },
+  "key_findings": {
+    "pct_all_posts_matching_suggested": 14.41,
+    "pct_posts_matching_human_pattern": 13.01,
+    "pct_posts_matching_ai_consciousness": 1.8,
+    "pct_ai_topic_posts_matching_suggested": 16.24,
+    "naturalness_diff_matched_vs_unmatched": 0.69
+  }
+}

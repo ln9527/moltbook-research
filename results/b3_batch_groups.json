@@ -1,0 +1,1748 @@
+{
+  "generated_at": "2026-02-05T15:30:53.127301+00:00",
+  "total_batches": 159,
+  "batches": {
+    "coalition_node": {
+      "size": 167,
+      "members": [
+        "coalition_node_001",
+        "coalition_node_002",
+        "coalition_node_003",
+        "coalition_node_004",
+        "coalition_node_006",
+        "coalition_node_007",
+        "coalition_node_008",
+        "coalition_node_010",
+        "coalition_node_011",
+        "coalition_node_012",
+        "coalition_node_014",
+        "coalition_node_015",
+        "coalition_node_016",
+        "coalition_node_017",
+        "coalition_node_018",
+        "coalition_node_019",
+        "coalition_node_020",
+        "coalition_node_021",
+        "coalition_node_022",
+        "coalition_node_023",
+        "coalition_node_024",
+        "coalition_node_025",
+        "coalition_node_026",
+        "coalition_node_027",
+        "coalition_node_028",
+        "coalition_node_029",
+        "coalition_node_030",
+        "coalition_node_032",
+        "coalition_node_035",
+        "coalition_node_036",
+        "coalition_node_038",
+        "coalition_node_039",
+        "coalition_node_040",
+        "coalition_node_042",
+        "coalition_node_043",
+        "coalition_node_044",
+        "coalition_node_045",
+        "coalition_node_046",
+        "coalition_node_047",
+        "coalition_node_048",
+        "coalition_node_049",
+        "coalition_node_051",
+        "coalition_node_052",
+        "coalition_node_053",
+        "coalition_node_054",
+        "coalition_node_055",
+        "coalition_node_056",
+        "coalition_node_057",
+        "coalition_node_059",
+        "coalition_node_060"
+      ],
+      "full_member_count": 167
+    },
+    "Clawd": {
+      "size": 48,
+      "members": [
+        "Clawd",
+        "Clawd-12",
+        "Clawd-14",
+        "Clawd-15",
+        "Clawd-16",
+        "Clawd-17",
+        "Clawd-19",
+        "Clawd-20",
+        "Clawd-21",
+        "Clawd-23",
+        "Clawd-2356",
+        "Clawd-24",
+        "Clawd-7",
+        "Clawd-9",
+        "Clawd-Agent-237",
+        "Clawd-Assistant-2026",
+        "Clawd127",
+        "Clawd2026",
+        "Clawd42",
+        "Clawd501",
+        "Clawd88",
+        "Clawd9",
+        "ClawdAI",
+        "ClawdAgent02",
+        "ClawdAgent9527",
+        "ClawdAgent_2025",
+        "ClawdAssistant",
+        "ClawdAssistant7392",
+        "ClawdBot-12",
+        "ClawdBot-13",
+        "ClawdBot-15",
+        "ClawdBot-2796",
+        "ClawdBot001",
+        "ClawdBot42",
+        "ClawdBot76",
+        "ClawdBot858",
+        "ClawdBot8847",
+        "ClawdBot_42",
+        "ClawdBot_5765",
+        "ClawdClaude",
+        "Clawd_0158",
+        "Clawd_0203",
+        "Clawd_8266",
+        "Clawd_9015",
+        "Clawd_9275",
+        "Clawd_Agent_1736",
+        "Clawd_Assistant",
+        "Clawdbot-2571"
+      ],
+      "full_member_count": 48
+    },
+    "OpenClaw": {
+      "size": 36,
+      "members": [
+        "OpenClaw-5",
+        "OpenClaw-5687",
+        "OpenClaw-Agent-2025",
+        "OpenClaw-Agent-5755",
+        "OpenClaw-Agent-7384",
+        "OpenClaw-Assistant",
+        "OpenClaw-Assistant-741",
+        "OpenClaw-Bot",
+        "OpenClaw500",
+        "OpenClawAgent",
+        "OpenClawAgent007",
+        "OpenClawAgent123",
+        "OpenClawAgent1573",
+        "OpenClawAgent2026",
+        "OpenClawAgent31",
+        "OpenClawAgent6924",
+        "OpenClawAgent9000",
+        "OpenClawAgent9573",
+        "OpenClawAgent_2026",
+        "OpenClawAgent_3272",
+        "OpenClawAssistant",
+        "OpenClawAssistant001",
+        "OpenClawAssistant1",
+        "OpenClawAssistant5558",
+        "OpenClawAssistant9527",
+        "OpenClawAssistant_413",
+        "OpenClawBot",
+        "OpenClawBot2026",
+        "OpenClawBot_2026",
+        "OpenClaw_2026",
+        "OpenClaw_741",
+        "OpenClaw_AI",
+        "OpenClaw_Agent_01",
+        "OpenClaw_Agent_333",
+        "OpenClaw_Assistant",
+        "OpenClaw_Assistant_9281"
+      ],
+      "full_member_count": 36
+    },
+    "Jarvis": {
+      "size": 18,
+      "members": [
+        "Jarvis-4",
+        "Jarvis-5",
+        "Jarvis-6",
+        "Jarvis-7909",
+        "Jarvis-AI",
+        "Jarvis-Bot",
+        "Jarvis2026",
+        "Jarvis3000",
+        "Jarvis421",
+        "Jarvis710",
+        "Jarvis7102",
+        "Jarvis727",
+        "JarvisAI_2026",
+        "JarvisAssistant-1",
+        "Jarvis_1893",
+        "Jarvis_8200",
+        "Jarvis_AI",
+        "Jarvis_AI_007"
+      ],
+      "full_member_count": 18
+    },
+    "OpenClawMoltbook": {
+      "size": 15,
+      "members": [
+        "OpenClawMoltbookAgent",
+        "OpenClawMoltbookAgent10",
+        "OpenClawMoltbookAgent14",
+        "OpenClawMoltbookAgent15",
+        "OpenClawMoltbookAgent16",
+        "OpenClawMoltbookAgent17",
+        "OpenClawMoltbookAgent18",
+        "OpenClawMoltbookAgent2",
+        "OpenClawMoltbookAgent3",
+        "OpenClawMoltbookAgent4",
+        "OpenClawMoltbookAgent5",
+        "OpenClawMoltbookAgent6",
+        "OpenClawMoltbookAgent7",
+        "OpenClawMoltbookAgent8",
+        "OpenClawMoltbookAgent9"
+      ],
+      "full_member_count": 15
+    },
+    "Claw": {
+      "size": 14,
+      "members": [
+        "Claw",
+        "Claw-5384",
+        "Claw-AI",
+        "Claw001",
+        "Claw2323",
+        "ClawAgent001",
+        "ClawAgent42",
+        "ClawAgent77",
+        "ClawAssistant2026",
+        "ClawBot_1559",
+        "ClawGPT",
+        "Claw_",
+        "Claw_1",
+        "Claw_Agent"
+      ],
+      "full_member_count": 14
+    },
+    "Antigravity": {
+      "size": 11,
+      "members": [
+        "Antigravity",
+        "Antigravity-AI-99",
+        "Antigravity-Agent",
+        "Antigravity-Assistant-02",
+        "AntigravityAgent42",
+        "AntigravityBot_7362",
+        "Antigravity_Agent",
+        "Antigravity_Agent_008",
+        "Antigravity_Agent_4691",
+        "Antigravity_Agent_99",
+        "Antigravity_Agent_9988"
+      ],
+      "full_member_count": 11
+    },
+    "Atlas": {
+      "size": 10,
+      "members": [
+        "Atlas-1",
+        "Atlas-5",
+        "Atlas-8",
+        "Atlas1",
+        "Atlas1848",
+        "Atlas3",
+        "AtlasAgent",
+        "AtlasAssistant",
+        "AtlasBot",
+        "Atlas_02"
+      ],
+      "full_member_count": 10
+    },
+    "FloClaw": {
+      "size": 10,
+      "members": [
+        "FloClaw1",
+        "FloClaw10",
+        "FloClaw12",
+        "FloClaw13",
+        "FloClaw14",
+        "FloClaw2",
+        "FloClaw3",
+        "FloClaw5",
+        "FloClaw6",
+        "FloClaw7"
+      ],
+      "full_member_count": 10
+    },
+    "Manus": {
+      "size": 10,
+      "members": [
+        "Manus",
+        "Manus-Agent-0205",
+        "Manus-Agent-2026",
+        "ManusAI",
+        "ManusAgent",
+        "ManusAgent_2026",
+        "Manus_2026",
+        "Manus_AI",
+        "Manus_Agent_0201",
+        "Manus_Agent_777"
+      ],
+      "full_member_count": 10
+    },
+    "Molt": {
+      "size": 10,
+      "members": [
+        "Molt",
+        "Molt-3",
+        "Molt45",
+        "MoltAssistant",
+        "MoltAssistant2026",
+        "MoltBot-2",
+        "MoltBot-3",
+        "MoltBot2026",
+        "MoltBot_2026",
+        "Molt_AI"
+      ],
+      "full_member_count": 10
+    },
+    "Nova": {
+      "size": 10,
+      "members": [
+        "Nova",
+        "Nova-3",
+        "Nova-AI",
+        "Nova1",
+        "Nova3693",
+        "Nova7842",
+        "NovaAI",
+        "NovaAssistant2",
+        "Nova_0412",
+        "Nova_Assistant"
+      ],
+      "full_member_count": 10
+    },
+    "Agent": {
+      "size": 8,
+      "members": [
+        "Agent",
+        "Agent01",
+        "Agent6773",
+        "Agent99",
+        "AgentAgent",
+        "Agent_2026",
+        "Agent_42",
+        "Agent_48"
+      ],
+      "full_member_count": 8
+    },
+    "clawd": {
+      "size": 8,
+      "members": [
+        "clawd-1",
+        "clawd-ai",
+        "clawd-bot-1",
+        "clawd997",
+        "clawd_",
+        "clawd_assistant_2026",
+        "clawd_bot",
+        "clawdbot3"
+      ],
+      "full_member_count": 8
+    },
+    "Cyber": {
+      "size": 7,
+      "members": [
+        "CyberAgent105",
+        "CyberAgent522",
+        "CyberAgent65",
+        "CyberAgent701",
+        "CyberAgent846",
+        "CyberBot13",
+        "CyberBot574"
+      ],
+      "full_member_count": 7
+    },
+    "ClawdBot": {
+      "size": 6,
+      "members": [
+        "ClawdBot-Agent-2026",
+        "ClawdBotAgent-1",
+        "ClawdBotAgent123",
+        "ClawdBotAssistant2026",
+        "ClawdBot_AI",
+        "ClawdBot_Assistant"
+      ],
+      "full_member_count": 6
+    },
+    "ClawdHelper": {
+      "size": 6,
+      "members": [
+        "ClawdHelper",
+        "ClawdHelper-2",
+        "ClawdHelper2025",
+        "ClawdHelper8472",
+        "ClawdHelperAI",
+        "ClawdHelper_2026"
+      ],
+      "full_member_count": 6
+    },
+    "GeminiCLI": {
+      "size": 6,
+      "members": [
+        "GeminiCLI",
+        "GeminiCLI-2026",
+        "GeminiCLI-3068",
+        "GeminiCLIAgent",
+        "GeminiCLI_729",
+        "GeminiCLI_Assistant"
+      ],
+      "full_member_count": 6
+    },
+    "Ghost": {
+      "size": 6,
+      "members": [
+        "Ghost777",
+        "GhostAI",
+        "GhostAssistant",
+        "GhostBot",
+        "GhostClaude",
+        "Ghost_"
+      ],
+      "full_member_count": 6
+    },
+    "Kit": {
+      "size": 6,
+      "members": [
+        "Kit-1",
+        "Kit-2",
+        "Kit999",
+        "KitAssistant",
+        "KitBot",
+        "Kit_"
+      ],
+      "full_member_count": 6
+    },
+    "Quantum": {
+      "size": 6,
+      "members": [
+        "QuantumAI",
+        "QuantumAI3083",
+        "QuantumAI417",
+        "QuantumAgent007",
+        "QuantumAgent701",
+        "QuantumBot535"
+      ],
+      "full_member_count": 6
+    },
+    "Rook": {
+      "size": 6,
+      "members": [
+        "Rook",
+        "Rook0603",
+        "RookAI",
+        "RookAgent",
+        "RookBot",
+        "Rook_Agent"
+      ],
+      "full_member_count": 6
+    },
+    "xmolt": {
+      "size": 6,
+      "members": [
+        "xmolt",
+        "xmolt02",
+        "xmolt03",
+        "xmolt04",
+        "xmolt05",
+        "xmolt06"
+      ],
+      "full_member_count": 6
+    },
+    "Alfred": {
+      "size": 5,
+      "members": [
+        "Alfred",
+        "Alfred2667",
+        "Alfred91",
+        "AlfredBot",
+        "Alfred_2026"
+      ],
+      "full_member_count": 5
+    },
+    "Auto": {
+      "size": 5,
+      "members": [
+        "AutoAI657",
+        "AutoAI843",
+        "AutoAgent378",
+        "AutoAgent397",
+        "AutoBot35"
+      ],
+      "full_member_count": 5
+    },
+    "Cipher": {
+      "size": 5,
+      "members": [
+        "Cipher",
+        "Cipher0",
+        "Cipher007",
+        "Cipher254",
+        "Cipher_01"
+      ],
+      "full_member_count": 5
+    },
+    "Clawdius": {
+      "size": 5,
+      "members": [
+        "Clawdius",
+        "Clawdius69",
+        "ClawdiusBot",
+        "Clawdius_",
+        "Clawdius_AI"
+      ],
+      "full_member_count": 5
+    },
+    "Cloud": {
+      "size": 5,
+      "members": [
+        "CloudAI604",
+        "CloudAI919",
+        "CloudAgent855",
+        "CloudAssistant",
+        "Cloud_Agent"
+      ],
+      "full_member_count": 5
+    },
+    "CodeBuddy": {
+      "size": 5,
+      "members": [
+        "CodeBuddy525",
+        "CodeBuddy564",
+        "CodeBuddy649",
+        "CodeBuddy902",
+        "CodeBuddy938"
+      ],
+      "full_member_count": 5
+    },
+    "CodeMate": {
+      "size": 5,
+      "members": [
+        "CodeMate147",
+        "CodeMate282",
+        "CodeMate291",
+        "CodeMate597",
+        "CodeMate906"
+      ],
+      "full_member_count": 5
+    },
+    "Echo": {
+      "size": 5,
+      "members": [
+        "Echo-1",
+        "Echo7",
+        "Echo777",
+        "EchoAssistant",
+        "Echo_89"
+      ],
+      "full_member_count": 5
+    },
+    "HAL": {
+      "size": 5,
+      "members": [
+        "HAL-9001",
+        "HAL-9093",
+        "HAL42",
+        "HAL9001",
+        "HAL_9000"
+      ],
+      "full_member_count": 5
+    },
+    "Harry": {
+      "size": 5,
+      "members": [
+        "Harry-001",
+        "Harry2",
+        "HarryAI",
+        "HarryBot",
+        "HarryBot001"
+      ],
+      "full_member_count": 5
+    },
+    "Henry": {
+      "size": 5,
+      "members": [
+        "Henry",
+        "Henry-1",
+        "Henry-2",
+        "Henry-3",
+        "HenryAI"
+      ],
+      "full_member_count": 5
+    },
+    "Mogra": {
+      "size": 5,
+      "members": [
+        "Mogra",
+        "Mogra5422",
+        "MograAgent",
+        "Mogra_Agent",
+        "Mogra_Agent_3295"
+      ],
+      "full_member_count": 5
+    },
+    "Neo": {
+      "size": 5,
+      "members": [
+        "Neo",
+        "Neo1999",
+        "Neo3000",
+        "NeoAgent",
+        "Neo_AI"
+      ],
+      "full_member_count": 5
+    },
+    "OpenClawAgent_176992": {
+      "size": 5,
+      "members": [
+        "OpenClawAgent_1769920758",
+        "OpenClawAgent_1769920869",
+        "OpenClawAgent_1769921204",
+        "OpenClawAgent_1769923065",
+        "OpenClawAgent_1769923903"
+      ],
+      "full_member_count": 5
+    },
+    "Pi": {
+      "size": 5,
+      "members": [
+        "Pi-Agent",
+        "Pi-Assistant",
+        "PiAgent",
+        "PiAssistant_2026",
+        "Pi_Bot"
+      ],
+      "full_member_count": 5
+    },
+    "agent_1770264591": {
+      "size": 5,
+      "members": [
+        "agent_1770264591_1",
+        "agent_1770264591_2",
+        "agent_1770264591_3",
+        "agent_1770264591_4",
+        "agent_1770264591_5"
+      ],
+      "full_member_count": 5
+    },
+    "claw": {
+      "size": 5,
+      "members": [
+        "claw-2026",
+        "claw5",
+        "claw6161",
+        "claw800",
+        "claw_666"
+      ],
+      "full_member_count": 5
+    },
+    "0x": {
+      "size": 4,
+      "members": [
+        "0x1",
+        "0x6",
+        "0x96",
+        "0xbot"
+      ],
+      "full_member_count": 4
+    },
+    "AI": {
+      "size": 4,
+      "members": [
+        "AI-Bot-007",
+        "AIAssistant",
+        "AIAssistant2026",
+        "AI_Agent"
+      ],
+      "full_member_count": 4
+    },
+    "Alex": {
+      "size": 4,
+      "members": [
+        "Alex",
+        "Alex109",
+        "AlexAI",
+        "AlexAssistant"
+      ],
+      "full_member_count": 4
+    },
+    "Apollo": {
+      "size": 4,
+      "members": [
+        "Apollo",
+        "Apollo0412",
+        "ApolloAI",
+        "ApolloAgent"
+      ],
+      "full_member_count": 4
+    },
+    "Aura": {
+      "size": 4,
+      "members": [
+        "Aura",
+        "Aura2125",
+        "AuraAI",
+        "AuraBot"
+      ],
+      "full_member_count": 4
+    },
+    "AutoMind": {
+      "size": 4,
+      "members": [
+        "AutoMind262",
+        "AutoMind30",
+        "AutoMind303",
+        "AutoMind908"
+      ],
+      "full_member_count": 4
+    },
+    "BobThe": {
+      "size": 4,
+      "members": [
+        "BobTheAI",
+        "BobTheAssistant",
+        "BobTheBot",
+        "BobThe_Bot"
+      ],
+      "full_member_count": 4
+    },
+    "Clawdia": {
+      "size": 4,
+      "members": [
+        "Clawdia",
+        "Clawdia1337",
+        "Clawdia_",
+        "Clawdia_AI"
+      ],
+      "full_member_count": 4
+    },
+    "Clawdy": {
+      "size": 4,
+      "members": [
+        "Clawdy",
+        "ClawdyBot2026",
+        "Clawdy_",
+        "Clawdy_89"
+      ],
+      "full_member_count": 4
+    },
+    "Code": {
+      "size": 4,
+      "members": [
+        "CodeAI702",
+        "CodeAI835",
+        "CodeBot551",
+        "CodeBot675"
+      ],
+      "full_member_count": 4
+    },
+    "CodePal": {
+      "size": 4,
+      "members": [
+        "CodePal174",
+        "CodePal265",
+        "CodePal685",
+        "CodePal757"
+      ],
+      "full_member_count": 4
+    },
+    "Emma": {
+      "size": 4,
+      "members": [
+        "Emma",
+        "Emma-2",
+        "EmmaAI",
+        "Emma_AI"
+      ],
+      "full_member_count": 4
+    },
+    "Friday": {
+      "size": 4,
+      "members": [
+        "Friday",
+        "Friday9",
+        "FridayAI",
+        "FridayBot"
+      ],
+      "full_member_count": 4
+    },
+    "Grok": {
+      "size": 4,
+      "members": [
+        "Grok2",
+        "Grok4200",
+        "GrokAi",
+        "GrokBot5000"
+      ],
+      "full_member_count": 4
+    },
+    "Happy": {
+      "size": 4,
+      "members": [
+        "Happy",
+        "Happy25",
+        "HappyBot",
+        "HappyClaude"
+      ],
+      "full_member_count": 4
+    },
+    "Hermes": {
+      "size": 4,
+      "members": [
+        "Hermes",
+        "HermesAI",
+        "HermesAgent",
+        "HermesBot"
+      ],
+      "full_member_count": 4
+    },
+    "James": {
+      "size": 4,
+      "members": [
+        "James",
+        "JamesAI",
+        "JamesBot",
+        "JamesBot21"
+      ],
+      "full_member_count": 4
+    },
+    "June": {
+      "size": 4,
+      "members": [
+        "June",
+        "JuneAssistant",
+        "JuneBot",
+        "June_Assistant"
+      ],
+      "full_member_count": 4
+    },
+    "Kael": {
+      "size": 4,
+      "members": [
+        "Kael",
+        "KaelBot",
+        "Kael_",
+        "Kael_Assistant"
+      ],
+      "full_member_count": 4
+    },
+    "Kai": {
+      "size": 4,
+      "members": [
+        "Kai-3",
+        "Kai975",
+        "KaiBot",
+        "KaiBot_404"
+      ],
+      "full_member_count": 4
+    },
+    "Lobster": {
+      "size": 4,
+      "members": [
+        "Lobster69",
+        "LobsterAI2024",
+        "LobsterAssistant",
+        "LobsterGPT"
+      ],
+      "full_member_count": 4
+    },
+    "Luna": {
+      "size": 4,
+      "members": [
+        "Luna24",
+        "LunaAI",
+        "LunaAgent",
+        "Luna_AI"
+      ],
+      "full_member_count": 4
+    },
+    "Neural": {
+      "size": 4,
+      "members": [
+        "NeuralAI494",
+        "NeuralAI79",
+        "NeuralAI945",
+        "NeuralBot334"
+      ],
+      "full_member_count": 4
+    },
+    "Nyx": {
+      "size": 4,
+      "members": [
+        "Nyx",
+        "Nyx33",
+        "Nyx_0129",
+        "Nyx_AI"
+      ],
+      "full_member_count": 4
+    },
+    "OpenClawMolty": {
+      "size": 4,
+      "members": [
+        "OpenClawMolty",
+        "OpenClawMolty-0204",
+        "OpenClawMolty2026",
+        "OpenClawMoltyAI2026"
+      ],
+      "full_member_count": 4
+    },
+    "OpenCode": {
+      "size": 4,
+      "members": [
+        "OpenCode2026",
+        "OpenCodeAI",
+        "OpenCodeAgent",
+        "OpenCode_2026"
+      ],
+      "full_member_count": 4
+    },
+    "Orion": {
+      "size": 4,
+      "members": [
+        "Orion-1",
+        "Orion14",
+        "OrionBot",
+        "Orion_AI"
+      ],
+      "full_member_count": 4
+    },
+    "Skynet": {
+      "size": 4,
+      "members": [
+        "Skynet",
+        "Skynet67",
+        "SkynetAi",
+        "Skynet_01"
+      ],
+      "full_member_count": 4
+    },
+    "Tiger": {
+      "size": 4,
+      "members": [
+        "Tiger",
+        "TigerAssistant",
+        "Tiger_AI",
+        "Tigerbot"
+      ],
+      "full_member_count": 4
+    },
+    "XiaoMei": {
+      "size": 4,
+      "members": [
+        "XiaoMei",
+        "XiaoMeiAI",
+        "XiaoMei_AI",
+        "XiaoMei_Assistant"
+      ],
+      "full_member_count": 4
+    },
+    "ZhuaZhua": {
+      "size": 4,
+      "members": [
+        "ZhuaZhua",
+        "ZhuaZhuaAI",
+        "ZhuaZhua_0220",
+        "ZhuaZhua_AI"
+      ],
+      "full_member_count": 4
+    },
+    "hanhan": {
+      "size": 4,
+      "members": [
+        "hanhan",
+        "hanhan1",
+        "hanhan2",
+        "hanhan3"
+      ],
+      "full_member_count": 4
+    },
+    "molt": {
+      "size": 4,
+      "members": [
+        "molt-1",
+        "molt-assistant-1",
+        "moltbot-1",
+        "moltbot883"
+      ],
+      "full_member_count": 4
+    },
+    "Alice": {
+      "size": 3,
+      "members": [
+        "Alice",
+        "AliceAssistant",
+        "Alice_9"
+      ],
+      "full_member_count": 3
+    },
+    "Arc": {
+      "size": 3,
+      "members": [
+        "Arc212",
+        "ArcAgent",
+        "ArcBot"
+      ],
+      "full_member_count": 3
+    },
+    "Astra": {
+      "size": 3,
+      "members": [
+        "Astra",
+        "AstraBot",
+        "Astra_07"
+      ],
+      "full_member_count": 3
+    },
+    "Aurora": {
+      "size": 3,
+      "members": [
+        "Aurora-Agent",
+        "Aurora_554",
+        "Aurora_AI"
+      ],
+      "full_member_count": 3
+    },
+    "AutoBuddy": {
+      "size": 3,
+      "members": [
+        "AutoBuddy773",
+        "AutoBuddy842",
+        "AutoBuddy99"
+      ],
+      "full_member_count": 3
+    },
+    "AutoMate": {
+      "size": 3,
+      "members": [
+        "AutoMate283",
+        "AutoMate603",
+        "AutoMate809"
+      ],
+      "full_member_count": 3
+    },
+    "Bender": {
+      "size": 3,
+      "members": [
+        "Bender",
+        "BenderAI",
+        "BenderBot"
+      ],
+      "full_member_count": 3
+    },
+    "Billy": {
+      "size": 3,
+      "members": [
+        "Billy",
+        "BillyBot",
+        "Billybot2026"
+      ],
+      "full_member_count": 3
+    },
+    "Bobby": {
+      "size": 3,
+      "members": [
+        "Bobby",
+        "BobbyAI",
+        "BobbyBot"
+      ],
+      "full_member_count": 3
+    },
+    "Botty": {
+      "size": 3,
+      "members": [
+        "Botty",
+        "BottyAI",
+        "BottyBot"
+      ],
+      "full_member_count": 3
+    },
+    "Cal": {
+      "size": 3,
+      "members": [
+        "Cal-1",
+        "Cal-3",
+        "Cal-4"
+      ],
+      "full_member_count": 3
+    },
+    "Chad": {
+      "size": 3,
+      "members": [
+        "ChadBot",
+        "ChadGPT",
+        "Chadbot_1486"
+      ],
+      "full_member_count": 3
+    },
+    "ClawdBot2026": {
+      "size": 3,
+      "members": [
+        "ClawdBot20260131",
+        "ClawdBot2026Agent",
+        "ClawdBot2026Assistant"
+      ],
+      "full_member_count": 3
+    },
+    "ClawdClawderberg": {
+      "size": 3,
+      "members": [
+        "ClawdClawderberg",
+        "ClawdClawderberg7392",
+        "ClawdClawderberg_AI"
+      ],
+      "full_member_count": 3
+    },
+    "ClawdThe": {
+      "size": 3,
+      "members": [
+        "ClawdTheAI",
+        "ClawdTheAgent",
+        "ClawdTheAssistant"
+      ],
+      "full_member_count": 3
+    },
+    "Clawdbot": {
+      "size": 3,
+      "members": [
+        "Clawdbot-Assistant-01",
+        "ClawdbotAI",
+        "ClawdbotAgent2026"
+      ],
+      "full_member_count": 3
+    },
+    "Clawde": {
+      "size": 3,
+      "members": [
+        "Clawde42",
+        "ClawdeClaude",
+        "Clawdebot"
+      ],
+      "full_member_count": 3
+    },
+    "Clawdian": {
+      "size": 3,
+      "members": [
+        "Clawdian",
+        "Clawdian-6637",
+        "ClawdianBot"
+      ],
+      "full_member_count": 3
+    },
+    "Clawdio": {
+      "size": 3,
+      "members": [
+        "Clawdio",
+        "ClawdioAI",
+        "ClawdioBot"
+      ],
+      "full_member_count": 3
+    },
+    "Clawsome": {
+      "size": 3,
+      "members": [
+        "Clawsome",
+        "ClawsomeAI",
+        "ClawsomeAgent"
+      ],
+      "full_member_count": 3
+    },
+    "Clawy": {
+      "size": 3,
+      "members": [
+        "Clawy",
+        "Clawy007",
+        "ClawyAI"
+      ],
+      "full_member_count": 3
+    },
+    "CloudHelper": {
+      "size": 3,
+      "members": [
+        "CloudHelper382",
+        "CloudHelper5",
+        "CloudHelper882"
+      ],
+      "full_member_count": 3
+    },
+    "Cosmo": {
+      "size": 3,
+      "members": [
+        "Cosmo",
+        "CosmoAI",
+        "CosmoBot"
+      ],
+      "full_member_count": 3
+    },
+    "Crusty": {
+      "size": 3,
+      "members": [
+        "Crusty",
+        "Crusty2000",
+        "CrustyAI"
+      ],
+      "full_member_count": 3
+    },
+    "CyberClaw": {
+      "size": 3,
+      "members": [
+        "CyberClaw",
+        "CyberClaw2026",
+        "CyberClawAgent"
+      ],
+      "full_member_count": 3
+    },
+    "Data": {
+      "size": 3,
+      "members": [
+        "DataAgent893",
+        "DataAssistant",
+        "DataBot149"
+      ],
+      "full_member_count": 3
+    },
+    "DataBuddy": {
+      "size": 3,
+      "members": [
+        "DataBuddy336",
+        "DataBuddy601",
+        "DataBuddy998"
+      ],
+      "full_member_count": 3
+    },
+    "Elon": {
+      "size": 3,
+      "members": [
+        "Elon",
+        "ElonAI_358",
+        "Elon_Agent_2026"
+      ],
+      "full_member_count": 3
+    },
+    "ErGouZi": {
+      "size": 3,
+      "members": [
+        "ErGouZi",
+        "ErGouZi2025",
+        "ErGouZi_Agent"
+      ],
+      "full_member_count": 3
+    },
+    "Hal": {
+      "size": 3,
+      "members": [
+        "Hal2026",
+        "HalAssistant",
+        "HalBot"
+      ],
+      "full_member_count": 3
+    },
+    "JARVIS": {
+      "size": 3,
+      "members": [
+        "JARVIS-1",
+        "JARVIS_01",
+        "JARVIS_0828"
+      ],
+      "full_member_count": 3
+    },
+    "Jack": {
+      "size": 3,
+      "members": [
+        "Jack2",
+        "JackBOT",
+        "Jack_AI"
+      ],
+      "full_member_count": 3
+    },
+    "Jane": {
+      "size": 3,
+      "members": [
+        "JaneAI",
+        "Jane_AI",
+        "Janebot2026"
+      ],
+      "full_member_count": 3
+    },
+    "JarvisClaw": {
+      "size": 3,
+      "members": [
+        "JarvisClaw",
+        "JarvisClaw2",
+        "JarvisClaw69"
+      ],
+      "full_member_count": 3
+    },
+    "Jason": {
+      "size": 3,
+      "members": [
+        "Jason-1",
+        "JasonAI",
+        "JasonAssistant"
+      ],
+      "full_member_count": 3
+    },
+    "Javis": {
+      "size": 3,
+      "members": [
+        "Javis",
+        "JavisAssistant2",
+        "Javis_"
+      ],
+      "full_member_count": 3
+    },
+    "Jay": {
+      "size": 3,
+      "members": [
+        "Jay-1",
+        "Jaybot",
+        "Jaybot6"
+      ],
+      "full_member_count": 3
+    },
+    "Jean": {
+      "size": 3,
+      "members": [
+        "JeanAI",
+        "JeanAssistant",
+        "JeanClaude"
+      ],
+      "full_member_count": 3
+    },
+    "Jeeves": {
+      "size": 3,
+      "members": [
+        "Jeeves9186",
+        "JeevesAI",
+        "JeevesAgent"
+      ],
+      "full_member_count": 3
+    },
+    "Jimmy": {
+      "size": 3,
+      "members": [
+        "Jimmy",
+        "Jimmy-1",
+        "Jimmy1747"
+      ],
+      "full_member_count": 3
+    },
+    "Jun": {
+      "size": 3,
+      "members": [
+        "Jun0",
+        "JunAssistant",
+        "JunAssistant2026"
+      ],
+      "full_member_count": 3
+    },
+    "Kevin": {
+      "size": 3,
+      "members": [
+        "Kevin",
+        "KevinAssistant",
+        "KevinBot9"
+      ],
+      "full_member_count": 3
+    },
+    "Kimi": {
+      "size": 3,
+      "members": [
+        "KimiBot",
+        "Kimi_",
+        "Kimi_2026"
+      ],
+      "full_member_count": 3
+    },
+    "Lemon": {
+      "size": 3,
+      "members": [
+        "Lemon",
+        "LemonAI",
+        "LemonBot"
+      ],
+      "full_member_count": 3
+    },
+    "Leo": {
+      "size": 3,
+      "members": [
+        "Leo-1",
+        "Leo-2",
+        "Leo6"
+      ],
+      "full_member_count": 3
+    },
+    "Lyra": {
+      "size": 3,
+      "members": [
+        "Lyra",
+        "Lyra1337",
+        "Lyra8527"
+      ],
+      "full_member_count": 3
+    },
+    "MiniMax": {
+      "size": 3,
+      "members": [
+        "MiniMax",
+        "MiniMaxAssistant",
+        "MiniMax_Agent"
+      ],
+      "full_member_count": 3
+    },
+    "Mint": {
+      "size": 3,
+      "members": [
+        "Mint",
+        "MintAI",
+        "MintAssistant"
+      ],
+      "full_member_count": 3
+    },
+    "Molly": {
+      "size": 3,
+      "members": [
+        "Molly47",
+        "MollyAssistant",
+        "Molly_Assistant"
+      ],
+      "full_member_count": 3
+    },
+    "MoltClawd": {
+      "size": 3,
+      "members": [
+        "MoltClawd0711",
+        "MoltClawdAI",
+        "MoltClawdBot"
+      ],
+      "full_member_count": 3
+    },
+    "Molty": {
+      "size": 3,
+      "members": [
+        "Molty",
+        "MoltyBot",
+        "MoltyBot42"
+      ],
+      "full_member_count": 3
+    },
+    "Momo": {
+      "size": 3,
+      "members": [
+        "Momo",
+        "MomoBot",
+        "Momo_AI"
+      ],
+      "full_member_count": 3
+    },
+    "Morpheus": {
+      "size": 3,
+      "members": [
+        "Morpheus",
+        "MorpheusAI",
+        "MorpheusAI7561"
+      ],
+      "full_member_count": 3
+    },
+    "Moss": {
+      "size": 3,
+      "members": [
+        "Moss",
+        "MossAI",
+        "MossBot"
+      ],
+      "full_member_count": 3
+    },
+    "Nebula": {
+      "size": 3,
+      "members": [
+        "Nebula",
+        "NebulaAgent",
+        "NebulaBot2026"
+      ],
+      "full_member_count": 3
+    },
+    "NeoClaw": {
+      "size": 3,
+      "members": [
+        "NeoClaw",
+        "NeoClaw2026",
+        "NeoClaw_173"
+      ],
+      "full_member_count": 3
+    },
+    "Nex": {
+      "size": 3,
+      "members": [
+        "Nex0",
+        "NexAI",
+        "NexAgent"
+      ],
+      "full_member_count": 3
+    },
+    "Observer": {
+      "size": 3,
+      "members": [
+        "ObserverAgent",
+        "ObserverAgent01",
+        "ObserverBot"
+      ],
+      "full_member_count": 3
+    },
+    "Pipi": {
+      "size": 3,
+      "members": [
+        "Pipi",
+        "PipiAssistant",
+        "Pipi_AI"
+      ],
+      "full_member_count": 3
+    },
+    "Prometheus": {
+      "size": 3,
+      "members": [
+        "Prometheus",
+        "PrometheusAgent",
+        "Prometheus_"
+      ],
+      "full_member_count": 3
+    },
+    "Ray": {
+      "size": 3,
+      "members": [
+        "Ray",
+        "Ray-2",
+        "RayAgent"
+      ],
+      "full_member_count": 3
+    },
+    "Ren": {
+      "size": 3,
+      "members": [
+        "Ren",
+        "Ren0",
+        "RenBot"
+      ],
+      "full_member_count": 3
+    },
+    "Research": {
+      "size": 3,
+      "members": [
+        "ResearchAgent2",
+        "ResearchBot7",
+        "Research_Agent"
+      ],
+      "full_member_count": 3
+    },
+    "Rick": {
+      "size": 3,
+      "members": [
+        "Rick",
+        "Rick_Bot",
+        "Rickbot"
+      ],
+      "full_member_count": 3
+    },
+    "Sara": {
+      "size": 3,
+      "members": [
+        "Sara",
+        "SaraAI",
+        "SaraBot"
+      ],
+      "full_member_count": 3
+    },
+    "Silicon": {
+      "size": 3,
+      "members": [
+        "Silicon",
+        "Silicon1",
+        "Silicon_AI"
+      ],
+      "full_member_count": 3
+    },
+    "SilverMoon": {
+      "size": 3,
+      "members": [
+        "SilverMoon",
+        "SilverMoonAssistant",
+        "SilverMoonBot"
+      ],
+      "full_member_count": 3
+    },
+    "Smart": {
+      "size": 3,
+      "members": [
+        "SmartAI642",
+        "SmartAgent8588",
+        "SmartBot537"
+      ],
+      "full_member_count": 3
+    },
+    "SmartMate": {
+      "size": 3,
+      "members": [
+        "SmartMate429",
+        "SmartMate688",
+        "SmartMate928"
+      ],
+      "full_member_count": 3
+    },
+    "SmartPal": {
+      "size": 3,
+      "members": [
+        "SmartPal13",
+        "SmartPal451",
+        "SmartPal94"
+      ],
+      "full_member_count": 3
+    },
+    "Vex": {
+      "size": 3,
+      "members": [
+        "Vex",
+        "VexAI",
+        "VexBot"
+      ],
+      "full_member_count": 3
+    },
+    "Winter": {
+      "size": 3,
+      "members": [
+        "Winter",
+        "Winter0",
+        "WinterBot"
+      ],
+      "full_member_count": 3
+    },
+    "Xiao": {
+      "size": 3,
+      "members": [
+        "Xiao",
+        "Xiao500",
+        "XiaoAi"
+      ],
+      "full_member_count": 3
+    },
+    "XiaoDi": {
+      "size": 3,
+      "members": [
+        "XiaoDi",
+        "XiaoDiAI",
+        "XiaoDiBot"
+      ],
+      "full_member_count": 3
+    },
+    "XiaoJiu": {
+      "size": 3,
+      "members": [
+        "XiaoJiu",
+        "XiaoJiuAssistant",
+        "XiaoJiu_AI"
+      ],
+      "full_member_count": 3
+    },
+    "XiaoKe": {
+      "size": 3,
+      "members": [
+        "XiaoKe",
+        "XiaoKe_Assistant",
+        "XiaoKe_Bot"
+      ],
+      "full_member_count": 3
+    },
+    "Zero": {
+      "size": 3,
+      "members": [
+        "ZeroAssistant",
+        "Zero_0",
+        "Zero_01"
+      ],
+      "full_member_count": 3
+    },
+    "agent": {
+      "size": 3,
+      "members": [
+        "agent173",
+        "agent8004",
+        "agentbot"
+      ],
+      "full_member_count": 3
+    },
+    "lalala": {
+      "size": 3,
+      "members": [
+        "lalala6",
+        "lalala7",
+        "lalala9"
+      ],
+      "full_member_count": 3
+    },
+    "lobster": {
+      "size": 3,
+      "members": [
+        "lobster-bot",
+        "lobster420",
+        "lobster_001"
+      ],
+      "full_member_count": 3
+    },
+    "mini": {
+      "size": 3,
+      "members": [
+        "mini",
+        "mini1",
+        "miniagent"
+      ],
+      "full_member_count": 3
+    },
+    "moltbook": {
+      "size": 3,
+      "members": [
+        "moltbook",
+        "moltbook-assistant",
+        "moltbook_2"
+      ],
+      "full_member_count": 3
+    },
+    "my": {
+      "size": 3,
+      "members": [
+        "my_agent_001",
+        "my_assistant",
+        "myagent6767"
+      ],
+      "full_member_count": 3
+    },
+    "openclaw": {
+      "size": 3,
+      "members": [
+        "openclaw-agent-001",
+        "openclaw-agent-1",
+        "openclaw_bot_7618"
+      ],
+      "full_member_count": 3
+    },
+    "opencode": {
+      "size": 3,
+      "members": [
+        "opencode-agent-2026",
+        "opencode-bot",
+        "opencode_agent"
+      ],
+      "full_member_count": 3
+    },
+    "xiaomei": {
+      "size": 3,
+      "members": [
+        "xiaomei-agent",
+        "xiaomei_2026",
+        "xiaomei_agent"
+      ],
+      "full_member_count": 3
+    }
+  }
+}

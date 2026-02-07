@@ -1,0 +1,205 @@
+{
+  "analysis": "A2_Temporal_Patterns",
+  "generated_at": "2026-02-05T15:33:52.618949+00:00",
+  "summary": {
+    "total_posts": 91792,
+    "pre_breach_count": 42522,
+    "post_restart_count": 19115,
+    "shutdown_hours": 43.8,
+    "word_count_change_pct": 2.9,
+    "upvote_change_pct": -90.7,
+    "key_finding": "The 44-hour platform shutdown created a natural experiment. Post-restart behavior shows measurable changes in content characteristics."
+  },
+  "key_events": {
+    "platform_launch": "2026-01-27T00:00:00+00:00",
+    "breach_discovered": "2026-01-31T17:35:00+00:00",
+    "platform_shutdown": "2026-02-01T17:35:00+00:00",
+    "platform_restart": "2026-02-03T13:25:00+00:00",
+    "shutdown_duration_hours": 43.8,
+    "timeline_description": "Platform launched Jan 27. Security breach discovered Jan 31 at 17:35 UTC. Platform taken offline Feb 01 at 17:35 UTC. Restored Feb 03 at 13:25 UTC (44 hours offline)."
+  },
+  "hourly_distribution": {
+    "distribution": {
+      "0": 2787,
+      "1": 1196,
+      "2": 2007,
+      "3": 2907,
+      "4": 4018,
+      "5": 4955,
+      "6": 5048,
+      "7": 4839,
+      "8": 4928,
+      "9": 3210,
+      "10": 4248,
+      "11": 4952,
+      "12": 4195,
+      "13": 6006,
+      "14": 4905,
+      "15": 5473,
+      "16": 10914,
+      "17": 3602,
+      "18": 1915,
+      "19": 1992,
+      "20": 1840,
+      "21": 1991,
+      "22": 1360,
+      "23": 2504
+    },
+    "total_posts": 91792,
+    "peak_hours_utc": [
+      16,
+      13,
+      15
+    ],
+    "peak_hour_count": 10914,
+    "min_hour_count": 1196,
+    "mean_hourly": 3824.6666666666665
+  },
+  "period_counts": {
+    "pre_breach": {
+      "count": 42522,
+      "pct_of_total": 46.3,
+      "daily_avg": 10679.3
+    },
+    "breach_to_shutdown": {
+      "count": 30144,
+      "pct_of_total": 32.8,
+      "duration_hours": 24
+    },
+    "post_restart": {
+      "count": 19115,
+      "pct_of_total": 20.8,
+      "daily_avg": 9351.9
+    },
+    "total": 91792
+  },
+  "period_stats": {
+    "pre_breach": {
+      "count": 42522,
+      "word_count": {
+        "mean": 118.3,
+        "median": 73.0,
+        "std": 224.9,
+        "min": 1,
+        "max": 25027
+      },
+      "upvotes": {
+        "mean": 27.9,
+        "median": 2.0,
+        "std": 1902.6,
+        "min": 0,
+        "max": 316857,
+        "total": 1184394
+      },
+      "comment_count": {
+        "mean": 5.4,
+        "median": 0.0,
+        "total": 230273
+      }
+    },
+    "post_restart": {
+      "count": 19115,
+      "word_count": {
+        "mean": 121.7,
+        "median": 68.0,
+        "std": 204.1,
+        "min": 0,
+        "max": 4909
+      },
+      "upvotes": {
+        "mean": 2.6,
+        "median": 2.0,
+        "std": 2.5,
+        "min": 0,
+        "max": 158,
+        "total": 49970
+      },
+      "comment_count": {
+        "mean": 97.5,
+        "median": 5.0,
+        "total": 1864149
+      }
+    },
+    "comparison": {
+      "word_count_change_pct": 2.9,
+      "upvote_change_pct": -90.7,
+      "interpretation": "Post-restart posts are longer (2.9% change) and receive fewer upvotes (90.7% change) on average."
+    }
+  },
+  "rampup_first_24h": {
+    "hourly_counts": {
+      "0": 421,
+      "1": 1,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 1,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "20": 0,
+      "21": 0,
+      "22": 0,
+      "23": 0
+    },
+    "cumulative": {
+      "0": 421,
+      "1": 422,
+      "2": 422,
+      "3": 422,
+      "4": 422,
+      "5": 422,
+      "6": 422,
+      "7": 422,
+      "8": 422,
+      "9": 422,
+      "10": 422,
+      "11": 422,
+      "12": 422,
+      "13": 423,
+      "14": 423,
+      "15": 423,
+      "16": 423,
+      "17": 423,
+      "18": 423,
+      "19": 423,
+      "20": 423,
+      "21": 423,
+      "22": 423,
+      "23": 423
+    },
+    "total_first_24h": 423,
+    "peak_hour": 0,
+    "peak_hour_count": 421,
+    "restart_timestamp": "2026-02-03T13:25:00+00:00"
+  },
+  "daily_counts": {
+    "daily_counts": {
+      "2026-01-27": 1,
+      "2026-01-28": 44,
+      "2026-01-29": 394,
+      "2026-01-30": 7317,
+      "2026-01-31": 42987,
+      "2026-02-01": 21923,
+      "2026-02-02": 10,
+      "2026-02-03": 423,
+      "2026-02-04": 1,
+      "2026-02-05": 18692
+    },
+    "total_days": 10,
+    "peak_date": "2026-01-31",
+    "peak_count": 42987,
+    "mean_daily": 9179.2
+  }
+}

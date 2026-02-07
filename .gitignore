@@ -1,0 +1,46 @@
+# Data files (available via GitHub Releases)
+data/raw/
+data/derived/
+data/intermediate/
+data/processed/
+data/snapshots/
+data/state/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# Logs and outputs
+logs/
+outputs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Claude Code
+.claude/

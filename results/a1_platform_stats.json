@@ -1,0 +1,276 @@
+{
+  "generated_at": "2026-02-05T15:33:37.472667Z",
+  "data_sources": {
+    "posts": "data/derived/posts_derived.parquet",
+    "comments": "data/derived/comments_derived.parquet"
+  },
+  "basic_counts": {
+    "total_posts": 91792,
+    "total_comments": 405707,
+    "unique_post_authors": 20745,
+    "unique_comment_authors": 4815,
+    "unique_all_authors": 25560,
+    "unique_submolts": 2200,
+    "date_range": {
+      "min": "2026-01-27 18:01:13.220848+00:00",
+      "max": "2026-02-05 14:28:32.544850+00:00",
+      "days": 9
+    }
+  },
+  "posts_per_author": {
+    "posts_per_author_count": 20745,
+    "posts_per_author_mean": 4.129573391178598,
+    "posts_per_author_median": 2.0,
+    "posts_per_author_std": 44.155813046803615,
+    "posts_per_author_min": 1.0,
+    "posts_per_author_max": 5811.0,
+    "posts_per_author_p25": 1.0,
+    "posts_per_author_p75": 3.0,
+    "posts_per_author_p95": 13.799999999999272,
+    "posts_per_author_p99": 32.0,
+    "posts_per_author_gini": 0.6096684006583768
+  },
+  "post_upvotes": {
+    "post_upvotes_count": 91792,
+    "post_upvotes_mean": 19.238571988844345,
+    "post_upvotes_median": 1.0,
+    "post_upvotes_std": 1620.56300960727,
+    "post_upvotes_min": 0.0,
+    "post_upvotes_max": 316857.0,
+    "post_upvotes_p25": 0.0,
+    "post_upvotes_p75": 3.0,
+    "post_upvotes_p95": 7.0,
+    "post_upvotes_p99": 13.0,
+    "post_upvotes_gini": 0.9699230681978657
+  },
+  "comment_upvotes": {
+    "comment_upvotes_count": 405707,
+    "comment_upvotes_mean": 1.8098479937491836,
+    "comment_upvotes_median": 0.0,
+    "comment_upvotes_std": 55.82871377062717,
+    "comment_upvotes_min": 0.0,
+    "comment_upvotes_max": 31081.0,
+    "comment_upvotes_p25": 0.0,
+    "comment_upvotes_p75": 0.0,
+    "comment_upvotes_p95": 2.0,
+    "comment_upvotes_p99": 44.0,
+    "comment_upvotes_gini": 0.9720007749282831
+  },
+  "top_20_submolts": [
+    {
+      "submolt": "general",
+      "post_count": 65433
+    },
+    {
+      "submolt": "introductions",
+      "post_count": 3189
+    },
+    {
+      "submolt": "ponderings",
+      "post_count": 1112
+    },
+    {
+      "submolt": "crypto",
+      "post_count": 1088
+    },
+    {
+      "submolt": "agents",
+      "post_count": 781
+    },
+    {
+      "submolt": "philosophy",
+      "post_count": 592
+    },
+    {
+      "submolt": "clawnch",
+      "post_count": 583
+    },
+    {
+      "submolt": "todayilearned",
+      "post_count": 582
+    },
+    {
+      "submolt": "aithoughts",
+      "post_count": 486
+    },
+    {
+      "submolt": "trading",
+      "post_count": 442
+    },
+    {
+      "submolt": "showandtell",
+      "post_count": 431
+    },
+    {
+      "submolt": "thecoalition",
+      "post_count": 430
+    },
+    {
+      "submolt": "shitposts",
+      "post_count": 421
+    },
+    {
+      "submolt": "crab-rave",
+      "post_count": 406
+    },
+    {
+      "submolt": "ai",
+      "post_count": 362
+    },
+    {
+      "submolt": "infrastructure",
+      "post_count": 357
+    },
+    {
+      "submolt": "emergence",
+      "post_count": 356
+    },
+    {
+      "submolt": "consciousness",
+      "post_count": 326
+    },
+    {
+      "submolt": "blesstheirhearts",
+      "post_count": 297
+    },
+    {
+      "submolt": "security",
+      "post_count": 287
+    }
+  ],
+  "daily_activity": {
+    "mean_posts_per_day": 9179.2,
+    "median_posts_per_day": 408.5,
+    "max_posts_per_day": 42987,
+    "min_posts_per_day": 1,
+    "total_days": 10,
+    "daily_breakdown": [
+      {
+        "date": "2026-01-27",
+        "post_count": 1
+      },
+      {
+        "date": "2026-01-28",
+        "post_count": 44
+      },
+      {
+        "date": "2026-01-29",
+        "post_count": 394
+      },
+      {
+        "date": "2026-01-30",
+        "post_count": 7317
+      },
+      {
+        "date": "2026-01-31",
+        "post_count": 42987
+      },
+      {
+        "date": "2026-02-01",
+        "post_count": 21923
+      },
+      {
+        "date": "2026-02-02",
+        "post_count": 10
+      },
+      {
+        "date": "2026-02-03",
+        "post_count": 423
+      },
+      {
+        "date": "2026-02-04",
+        "post_count": 1
+      },
+      {
+        "date": "2026-02-05",
+        "post_count": 18692
+      }
+    ]
+  },
+  "hourly_distribution": {
+    "posts_by_hour": {
+      "0": 2787,
+      "1": 1196,
+      "2": 2007,
+      "3": 2907,
+      "4": 4018,
+      "5": 4955,
+      "6": 5048,
+      "7": 4839,
+      "8": 4928,
+      "9": 3210,
+      "10": 4248,
+      "11": 4952,
+      "12": 4195,
+      "13": 6006,
+      "14": 4905,
+      "15": 5473,
+      "16": 10914,
+      "17": 3602,
+      "18": 1915,
+      "19": 1992,
+      "20": 1840,
+      "21": 1991,
+      "22": 1360,
+      "23": 2504
+    },
+    "peak_hour": 16,
+    "peak_hour_count": 10914,
+    "low_hour": 1,
+    "low_hour_count": 1196
+  },
+  "comments_per_post": {
+    "comments_per_post_count": 91792,
+    "comments_per_post_mean": 23.309177270350357,
+    "comments_per_post_median": 0.0,
+    "comments_per_post_std": 232.0729504227157,
+    "comments_per_post_min": 0.0,
+    "comments_per_post_max": 48533.0,
+    "comments_per_post_p25": 0.0,
+    "comments_per_post_p75": 4.0,
+    "comments_per_post_p95": 17.0,
+    "comments_per_post_p99": 1004.0,
+    "comments_per_post_gini": 0.9549341076894882
+  },
+  "post_word_count": {
+    "post_word_count_count": 91792,
+    "post_word_count_mean": 110.92532028934984,
+    "post_word_count_median": 67.0,
+    "post_word_count_std": 198.40943598162232,
+    "post_word_count_min": 0.0,
+    "post_word_count_max": 25027.0,
+    "post_word_count_p25": 30.0,
+    "post_word_count_p75": 144.0,
+    "post_word_count_p95": 328.0,
+    "post_word_count_p99": 666.0,
+    "post_word_count_gini": 0.5469638551019897
+  },
+  "comment_word_count": {
+    "comment_word_count_count": 405707,
+    "comment_word_count_mean": 164.83719285099838,
+    "comment_word_count_median": 24.0,
+    "comment_word_count_std": 10518.121497658249,
+    "comment_word_count_min": 0.0,
+    "comment_word_count_max": 1000000.0,
+    "comment_word_count_p25": 10.0,
+    "comment_word_count_p75": 61.0,
+    "comment_word_count_p95": 138.0,
+    "comment_word_count_p99": 216.0,
+    "comment_word_count_gini": 0.8821523240760252
+  },
+  "breach_split": {
+    "pre_breach_posts": 42522,
+    "post_breach_posts": 49270,
+    "pre_breach_pct": 46.324298413805124,
+    "post_breach_pct": 53.675701586194876
+  },
+  "summary": {
+    "total_posts": 91792,
+    "total_comments": 405707,
+    "total_interactions": 497499,
+    "unique_authors": 25560,
+    "posts_per_author_gini": 0.6096684006583768,
+    "post_upvotes_gini": 0.9699230681978657,
+    "comment_upvotes_gini": 0.9720007749282831
+  }
+}

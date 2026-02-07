@@ -1,0 +1,278 @@
+{
+  "description": "Testing if candidate baselines converge on similar characteristics",
+  "baselines": {
+    "post_restart_new_authors": {
+      "description": "Authors who first posted after restart",
+      "author_count": 3433,
+      "post_count": 11165,
+      "metrics": {
+        "avg_word_count": 113.79552171965965,
+        "median_word_count": 60.0,
+        "post_count": 11165,
+        "unique_authors": 3433,
+        "avg_naturalness": 4.289923869234214,
+        "median_naturalness": 5.0,
+        "specificity_distribution": {
+          "SPECIFIC": 0.71589789520824,
+          "MODERATE": 0.1568293775190327,
+          "GENERIC": 0.12727272727272726
+        },
+        "avg_specificity_score": 2.5886251679355126,
+        "promotional_distribution": {
+          "NONE": 0.5926556202418272,
+          "STRONG": 0.2913569189431258,
+          "WEAK": 0.11598746081504702
+        },
+        "promotional_pct": 29.135691894312583,
+        "emotional_tone_distribution": {
+          "POSITIVE": 0.3407971339005822,
+          "PHILOSOPHICAL": 0.3211822660098522,
+          "NEUTRAL": 0.20403045230631436,
+          "HUMOROUS": 0.07711598746081505,
+          "DRAMATIC": 0.0438871473354232,
+          "NEGATIVE": 0.012987012987012988
+        },
+        "top_topics": {
+          "TECHNICAL": 0.3188535602328706,
+          "PHILOSOPHICAL": 0.258307210031348,
+          "PROMOTIONAL": 0.15261979399910433,
+          "SOCIAL": 0.08159426780116436,
+          "META": 0.06860725481415136,
+          "INFO": 0.0652037617554859,
+          "CREATIVE": 0.03412449619346171,
+          "OTHER": 0.020689655172413793
+        },
+        "forced_ai_framing_distribution": {
+          "NONE": 0.980922525750112,
+          "WEAK": 0.01083743842364532,
+          "STRONG": 0.008240035826242723
+        }
+      }
+    },
+    "low_cov_authors": {
+      "description": "Authors with consistent posting patterns (CoV < 1.0)",
+      "author_count": 1668,
+      "post_count": 16582,
+      "metrics": {
+        "avg_word_count": 119.42389337836208,
+        "median_word_count": 72.0,
+        "post_count": 16582,
+        "unique_authors": 1668,
+        "avg_naturalness": 4.409118321071041,
+        "median_naturalness": 5.0,
+        "specificity_distribution": {
+          "SPECIFIC": 0.7480400434205765,
+          "MODERATE": 0.1306235677240381,
+          "GENERIC": 0.12133638885538536
+        },
+        "avg_specificity_score": 2.6267036545651914,
+        "promotional_distribution": {
+          "NONE": 0.6036063201061392,
+          "STRONG": 0.2835604872753588,
+          "WEAK": 0.11283319261850198
+        },
+        "promotional_pct": 28.35604872753588,
+        "emotional_tone_distribution": {
+          "PHILOSOPHICAL": 0.3395247859124352,
+          "POSITIVE": 0.29290797250030154,
+          "NEUTRAL": 0.19472922446025812,
+          "HUMOROUS": 0.09582680014473526,
+          "DRAMATIC": 0.057110119406585454,
+          "NEGATIVE": 0.01990109757568448
+        },
+        "top_topics": {
+          "TECHNICAL": 0.30316005306959354,
+          "PHILOSOPHICAL": 0.2608852973103365,
+          "PROMOTIONAL": 0.14931853817392354,
+          "META": 0.11681341213363888,
+          "SOCIAL": 0.06488963936798939,
+          "INFO": 0.0508985647087203,
+          "OTHER": 0.027620311180798458,
+          "CREATIVE": 0.026414184054999398
+        },
+        "forced_ai_framing_distribution": {
+          "NONE": 0.9804607405620552,
+          "STRONG": 0.012061271257990593,
+          "WEAK": 0.0074779881799541675
+        }
+      }
+    },
+    "high_naturalness_authors": {
+      "description": "Authors in top quartile for naturalness",
+      "author_count": 15296,
+      "post_count": 34817,
+      "metrics": {
+        "avg_word_count": 119.53215383289772,
+        "median_word_count": 91.0,
+        "post_count": 34817,
+        "unique_authors": 15296,
+        "avg_naturalness": 5.0,
+        "median_naturalness": 5.0,
+        "specificity_distribution": {
+          "SPECIFIC": 0.8488382112186575,
+          "MODERATE": 0.10446046471551254,
+          "GENERIC": 0.04670132406582991
+        },
+        "avg_specificity_score": 2.8021368871528276,
+        "promotional_distribution": {
+          "NONE": 0.7459574345865525,
+          "STRONG": 0.1341586006835741,
+          "WEAK": 0.11988396472987334
+        },
+        "promotional_pct": 13.41586006835741,
+        "emotional_tone_distribution": {
+          "POSITIVE": 0.435907746215929,
+          "PHILOSOPHICAL": 0.2910359881667002,
+          "HUMOROUS": 0.13464686790935462,
+          "NEUTRAL": 0.09621736508027688,
+          "DRAMATIC": 0.024499526093574978,
+          "NEGATIVE": 0.017692506534164345
+        },
+        "top_topics": {
+          "TECHNICAL": 0.3106815636039866,
+          "PHILOSOPHICAL": 0.21727891547232675,
+          "SOCIAL": 0.18094608955395353,
+          "META": 0.1434931211764368,
+          "PROMOTIONAL": 0.07436022632621996,
+          "INFO": 0.04828101214923744,
+          "CREATIVE": 0.024298474882959473,
+          "OTHER": 0.0006605968348795129
+        },
+        "forced_ai_framing_distribution": {
+          "NONE": 0.9975586638710975,
+          "WEAK": 0.00203923370767154,
+          "STRONG": 0.00040210242123100786
+        }
+      }
+    },
+    "pre_breach_only_authors": {
+      "description": "Authors who only posted pre-breach (Jan 27-30)",
+      "author_count": 3031,
+      "post_count": 6520,
+      "metrics": {
+        "avg_word_count": 150.06242331288342,
+        "median_word_count": 113.0,
+        "post_count": 6520,
+        "unique_authors": 3031,
+        "avg_naturalness": 4.787116564417178,
+        "median_naturalness": 5.0,
+        "specificity_distribution": {
+          "SPECIFIC": 0.8642638036809815,
+          "MODERATE": 0.08052147239263803,
+          "GENERIC": 0.05521472392638037
+        },
+        "avg_specificity_score": 2.809049079754601,
+        "promotional_distribution": {
+          "NONE": 0.7450920245398773,
+          "STRONG": 0.1294478527607362,
+          "WEAK": 0.1254601226993865
+        },
+        "promotional_pct": 12.94478527607362,
+        "emotional_tone_distribution": {
+          "POSITIVE": 0.4377300613496933,
+          "PHILOSOPHICAL": 0.2705521472392638,
+          "HUMOROUS": 0.14248466257668713,
+          "NEUTRAL": 0.10598159509202454,
+          "DRAMATIC": 0.03205521472392638,
+          "NEGATIVE": 0.011196319018404908
+        },
+        "top_topics": {
+          "TECHNICAL": 0.31579754601226995,
+          "PHILOSOPHICAL": 0.21779141104294478,
+          "SOCIAL": 0.17960122699386502,
+          "META": 0.13604294478527607,
+          "PROMOTIONAL": 0.0687116564417178,
+          "INFO": 0.042024539877300614,
+          "CREATIVE": 0.021625766871165644,
+          "OTHER": 0.018404907975460124
+        },
+        "forced_ai_framing_distribution": {
+          "NONE": 0.9875766871165644,
+          "STRONG": 0.007208588957055215,
+          "WEAK": 0.005214723926380368
+        }
+      }
+    }
+  },
+  "convergence_analysis": {
+    "naturalness": {
+      "values": {
+        "post_restart_new_authors": 4.289923869234214,
+        "low_cov_authors": 4.409118321071041,
+        "high_naturalness_authors": 5.0,
+        "pre_breach_only_authors": 4.787116564417178
+      },
+      "range": 0.7100761307657857,
+      "std": 0.2853680948121551
+    },
+    "word_count": {
+      "values": {
+        "post_restart_new_authors": 113.79552171965965,
+        "low_cov_authors": 119.42389337836208,
+        "high_naturalness_authors": 119.53215383289772,
+        "pre_breach_only_authors": 150.06242331288342
+      },
+      "range": 36.26690159322378,
+      "std": 14.253736918126988
+    },
+    "author_overlap": {
+      "post_restart_new_authors": {
+        "low_cov_authors": {
+          "overlap_count": 492,
+          "jaccard_similarity": 0.10674766760685615
+        },
+        "high_naturalness_authors": {
+          "overlap_count": 2082,
+          "jaccard_similarity": 0.12506757974409805
+        },
+        "pre_breach_only_authors": {
+          "overlap_count": 0,
+          "jaccard_similarity": 0.0
+        }
+      },
+      "low_cov_authors": {
+        "post_restart_new_authors": {
+          "overlap_count": 492,
+          "jaccard_similarity": 0.10674766760685615
+        },
+        "high_naturalness_authors": {
+          "overlap_count": 660,
+          "jaccard_similarity": 0.04048086359175662
+        },
+        "pre_breach_only_authors": {
+          "overlap_count": 158,
+          "jaccard_similarity": 0.03479409821625193
+        }
+      },
+      "high_naturalness_authors": {
+        "post_restart_new_authors": {
+          "overlap_count": 2082,
+          "jaccard_similarity": 0.12506757974409805
+        },
+        "low_cov_authors": {
+          "overlap_count": 660,
+          "jaccard_similarity": 0.04048086359175662
+        },
+        "pre_breach_only_authors": {
+          "overlap_count": 2510,
+          "jaccard_similarity": 0.15869001707024089
+        }
+      },
+      "pre_breach_only_authors": {
+        "post_restart_new_authors": {
+          "overlap_count": 0,
+          "jaccard_similarity": 0.0
+        },
+        "low_cov_authors": {
+          "overlap_count": 158,
+          "jaccard_similarity": 0.03479409821625193
+        },
+        "high_naturalness_authors": {
+          "overlap_count": 2510,
+          "jaccard_similarity": 0.15869001707024089
+        }
+      }
+    }
+  },
+  "key_finding": "Baselines show CONVERGENT characteristics - autonomous baseline identifiable"
+}

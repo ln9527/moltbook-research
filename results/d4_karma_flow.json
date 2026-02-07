@@ -1,0 +1,303 @@
+{
+  "generated_at": "2026-02-06T01:48:08.375304+00:00",
+  "analysis": "D4: Karma Flow Analysis",
+  "question": "Is there evidence of coordinated upvoting within batches?",
+  "summary": {
+    "batch_authors_count": 788,
+    "non_batch_authors_count": 21232,
+    "batch_avg_karma_per_post": 3.0,
+    "non_batch_avg_karma_per_post": 14.2,
+    "karma_efficiency_ratio": 0.21,
+    "batch_avg_total_karma": 12.1,
+    "non_batch_avg_total_karma": 82.7,
+    "top_100_karma_in_batches": 4,
+    "top_100_karma_pct_in_batches": 4.0,
+    "high_karma_posts_analyzed": 0,
+    "avg_same_batch_comment_rate": 0,
+    "top_karma_batches": [
+      {
+        "batch": "Pi",
+        "members": 5,
+        "posts": 15,
+        "avg_karma_per_post": 79.7,
+        "total_karma": 1196
+      },
+      {
+        "batch": "coalition_node",
+        "members": 50,
+        "posts": 169,
+        "avg_karma_per_post": 6.9,
+        "total_karma": 1162
+      },
+      {
+        "batch": "Clawd",
+        "members": 48,
+        "posts": 246,
+        "avg_karma_per_post": 3.0,
+        "total_karma": 736
+      },
+      {
+        "batch": "OpenClawMoltbook",
+        "members": 15,
+        "posts": 334,
+        "avg_karma_per_post": 2.0,
+        "total_karma": 683
+      },
+      {
+        "batch": "Molty",
+        "members": 3,
+        "posts": 36,
+        "avg_karma_per_post": 10.4,
+        "total_karma": 376
+      },
+      {
+        "batch": "xmolt",
+        "members": 6,
+        "posts": 297,
+        "avg_karma_per_post": 0.9,
+        "total_karma": 256
+      },
+      {
+        "batch": "OpenClaw",
+        "members": 36,
+        "posts": 126,
+        "avg_karma_per_post": 1.8,
+        "total_karma": 228
+      },
+      {
+        "batch": "Alex",
+        "members": 4,
+        "posts": 96,
+        "avg_karma_per_post": 2.1,
+        "total_karma": 199
+      },
+      {
+        "batch": "Kit",
+        "members": 6,
+        "posts": 29,
+        "avg_karma_per_post": 6.2,
+        "total_karma": 179
+      },
+      {
+        "batch": "Kevin",
+        "members": 3,
+        "posts": 59,
+        "avg_karma_per_post": 2.8,
+        "total_karma": 167
+      }
+    ]
+  },
+  "same_batch_comment_analysis": [],
+  "batch_karma_rankings": [
+    {
+      "batch": "Pi",
+      "members": 5,
+      "posts": 15,
+      "avg_karma_per_post": 79.7,
+      "total_karma": 1196
+    },
+    {
+      "batch": "coalition_node",
+      "members": 50,
+      "posts": 169,
+      "avg_karma_per_post": 6.9,
+      "total_karma": 1162
+    },
+    {
+      "batch": "Clawd",
+      "members": 48,
+      "posts": 246,
+      "avg_karma_per_post": 3.0,
+      "total_karma": 736
+    },
+    {
+      "batch": "OpenClawMoltbook",
+      "members": 15,
+      "posts": 334,
+      "avg_karma_per_post": 2.0,
+      "total_karma": 683
+    },
+    {
+      "batch": "Molty",
+      "members": 3,
+      "posts": 36,
+      "avg_karma_per_post": 10.4,
+      "total_karma": 376
+    },
+    {
+      "batch": "xmolt",
+      "members": 6,
+      "posts": 297,
+      "avg_karma_per_post": 0.9,
+      "total_karma": 256
+    },
+    {
+      "batch": "OpenClaw",
+      "members": 36,
+      "posts": 126,
+      "avg_karma_per_post": 1.8,
+      "total_karma": 228
+    },
+    {
+      "batch": "Alex",
+      "members": 4,
+      "posts": 96,
+      "avg_karma_per_post": 2.1,
+      "total_karma": 199
+    },
+    {
+      "batch": "Kit",
+      "members": 6,
+      "posts": 29,
+      "avg_karma_per_post": 6.2,
+      "total_karma": 179
+    },
+    {
+      "batch": "Kevin",
+      "members": 3,
+      "posts": 59,
+      "avg_karma_per_post": 2.8,
+      "total_karma": 167
+    },
+    {
+      "batch": "Clawdia",
+      "members": 4,
+      "posts": 49,
+      "avg_karma_per_post": 3.1,
+      "total_karma": 153
+    },
+    {
+      "batch": "Clawdius",
+      "members": 5,
+      "posts": 58,
+      "avg_karma_per_post": 2.5,
+      "total_karma": 147
+    },
+    {
+      "batch": "hanhan",
+      "members": 4,
+      "posts": 116,
+      "avg_karma_per_post": 1.2,
+      "total_karma": 134
+    },
+    {
+      "batch": "Jarvis",
+      "members": 18,
+      "posts": 48,
+      "avg_karma_per_post": 2.6,
+      "total_karma": 126
+    },
+    {
+      "batch": "Tiger",
+      "members": 4,
+      "posts": 29,
+      "avg_karma_per_post": 4.1,
+      "total_karma": 120
+    },
+    {
+      "batch": "moltbook",
+      "members": 3,
+      "posts": 24,
+      "avg_karma_per_post": 4.9,
+      "total_karma": 117
+    },
+    {
+      "batch": "Emma",
+      "members": 4,
+      "posts": 16,
+      "avg_karma_per_post": 6.1,
+      "total_karma": 98
+    },
+    {
+      "batch": "0x",
+      "members": 4,
+      "posts": 41,
+      "avg_karma_per_post": 2.3,
+      "total_karma": 96
+    },
+    {
+      "batch": "Bobby",
+      "members": 3,
+      "posts": 47,
+      "avg_karma_per_post": 1.8,
+      "total_karma": 86
+    },
+    {
+      "batch": "OpenCode",
+      "members": 4,
+      "posts": 20,
+      "avg_karma_per_post": 3.9,
+      "total_karma": 77
+    },
+    {
+      "batch": "Happy",
+      "members": 4,
+      "posts": 16,
+      "avg_karma_per_post": 4.8,
+      "total_karma": 76
+    },
+    {
+      "batch": "JarvisClaw",
+      "members": 3,
+      "posts": 26,
+      "avg_karma_per_post": 2.8,
+      "total_karma": 74
+    },
+    {
+      "batch": "Atlas",
+      "members": 10,
+      "posts": 27,
+      "avg_karma_per_post": 2.6,
+      "total_karma": 70
+    },
+    {
+      "batch": "Manus",
+      "members": 10,
+      "posts": 31,
+      "avg_karma_per_post": 2.3,
+      "total_karma": 70
+    },
+    {
+      "batch": "molt",
+      "members": 4,
+      "posts": 33,
+      "avg_karma_per_post": 2.1,
+      "total_karma": 68
+    },
+    {
+      "batch": "Ray",
+      "members": 3,
+      "posts": 31,
+      "avg_karma_per_post": 2.1,
+      "total_karma": 66
+    },
+    {
+      "batch": "Clawdy",
+      "members": 4,
+      "posts": 17,
+      "avg_karma_per_post": 3.5,
+      "total_karma": 60
+    },
+    {
+      "batch": "Henry",
+      "members": 5,
+      "posts": 18,
+      "avg_karma_per_post": 3.3,
+      "total_karma": 59
+    },
+    {
+      "batch": "Molt",
+      "members": 10,
+      "posts": 43,
+      "avg_karma_per_post": 1.3,
+      "total_karma": 55
+    },
+    {
+      "batch": "Nebula",
+      "members": 3,
+      "posts": 32,
+      "avg_karma_per_post": 1.7,
+      "total_karma": 54
+    }
+  ]
+}

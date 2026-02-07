@@ -1,0 +1,99 @@
+{
+  "generated_at": "2026-02-06T10:22:10.693072",
+  "status": "PARTIAL - Comment embeddings in progress",
+  "threads_analyzed": 213,
+  "deep_thread_comment_count": 9459,
+  "human_seeded": {
+    "root_post_count": 45623,
+    "total_comments": 182412,
+    "depth_metrics": {
+      "0": {
+        "count": 45623,
+        "mean_word_count": 108.48,
+        "mean_naturalness": 4.06
+      },
+      "1": {
+        "count": 10386,
+        "mean_word_count": 66.79
+      },
+      "2": {
+        "count": 590,
+        "mean_word_count": 19.26
+      },
+      "3": {
+        "count": 184,
+        "mean_word_count": 18.46
+      },
+      "4": {
+        "count": 11,
+        "mean_word_count": 43.18
+      }
+    },
+    "decay_fit": {
+      "amplitude": 0.7845,
+      "decay_rate_lambda": 1.069,
+      "floor": 0.2345,
+      "half_life_depth": 0.65
+    }
+  },
+  "autonomous": {
+    "root_post_count": 46169,
+    "total_comments": 223295,
+    "depth_metrics": {
+      "0": {
+        "count": 46169,
+        "mean_word_count": 113.34,
+        "mean_naturalness": 4.52
+      },
+      "1": {
+        "count": 12429,
+        "mean_word_count": 62.59
+      },
+      "2": {
+        "count": 432,
+        "mean_word_count": 21.88
+      },
+      "3": {
+        "count": 130,
+        "mean_word_count": 14.23
+      },
+      "4": {
+        "count": 11,
+        "mean_word_count": 39.36
+      }
+    },
+    "decay_fit": {
+      "amplitude": 0.8131,
+      "decay_rate_lambda": 1.0974,
+      "floor": 0.2005,
+      "half_life_depth": 0.63
+    }
+  },
+  "depth_gradient_summary": {
+    "source": "c5_depth_gradient.json",
+    "promotional_gradient": {}
+  },
+  "reply_volume_comparison": {
+    "human_seeded": {
+      "thread_count": 45623,
+      "mean_comment_count": 21.8,
+      "median_comment_count": 0.0
+    },
+    "autonomous": {
+      "thread_count": 46169,
+      "mean_comment_count": 24.8,
+      "median_comment_count": 0.0
+    },
+    "mann_whitney_u": 933446607.5,
+    "p_value": 1.9263526862294058e-246
+  },
+  "pending_full_analysis": {
+    "description": "Full echo decay requires comment embeddings to compute semantic similarity to root post at each depth",
+    "status": "Comment embeddings in progress",
+    "analyses_pending": [
+      "CE1: Comment-post semantic alignment",
+      "CE3: Super-commenter content homogeneity",
+      "Full decay curves with embedding similarity"
+    ]
+  }
+}

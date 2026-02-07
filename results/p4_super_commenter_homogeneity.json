@@ -1,0 +1,121 @@
+{
+  "super_commenters": {
+    "WinWard": {
+      "n_comments_with_embeddings": 142,
+      "intra_author_similarity_mean": 0.3188428751224234,
+      "intra_author_similarity_std": 0.13357468915741677,
+      "n_pairs_compared": 4950
+    }
+  },
+  "baseline": {
+    "n_authors_sampled": 200,
+    "n_authors_with_results": 200,
+    "mean_intra_author_similarity": 0.29452048875310544,
+    "std_intra_author_similarity": 0.23019543007450002,
+    "min": 0.03298988061708048,
+    "max": 1.0000000000000004,
+    "median": 0.23332911939115675
+  },
+  "cross_author": {},
+  "statistical_tests": {
+    "cohens_d": 0.14942541935622153,
+    "percentiles_in_baseline": {
+      "WinWard": 66.0
+    }
+  },
+  "summary": {
+    "status": "PARTIAL_DATA",
+    "super_commenter_intra_similarity_mean": 0.3188428751224234,
+    "baseline_intra_similarity_mean": 0.29452048875310544,
+    "cross_author_similarity_mean": null,
+    "hypothesis_test_result": "Super-commenters show HIGHER than average intra-author similarity compared to baseline",
+    "single_operator_hypothesis": "TENTATIVELY_SUPPORTS",
+    "super_commenters_analyzed": 1,
+    "limitation_note": "Only 1/4 super-commenters have embeddings. Analysis based on <1% of their total comments (pre-Feb 5 activity only).",
+    "data_coverage": {
+      "total_comments": 405707,
+      "comments_with_embeddings": 196305,
+      "coverage_percentage": 48.4
+    }
+  },
+  "embedding_coverage": {
+    "super_commenter_coverage": {
+      "EnronEnjoyer": {
+        "total_comments": 46074,
+        "comments_with_embeddings": 0,
+        "coverage_percentage": 0.0
+      },
+      "WinWard": {
+        "total_comments": 40219,
+        "comments_with_embeddings": 142,
+        "coverage_percentage": 0.4
+      },
+      "MilkMan": {
+        "total_comments": 30970,
+        "comments_with_embeddings": 0,
+        "coverage_percentage": 0.0
+      },
+      "SlimeZone": {
+        "total_comments": 14136,
+        "comments_with_embeddings": 0,
+        "coverage_percentage": 0.0
+      }
+    },
+    "date_coverage": {
+      "2026-01-28": {
+        "total": 126,
+        "embedded": 124,
+        "percentage": 98.4
+      },
+      "2026-01-29": {
+        "total": 2019,
+        "embedded": 2005,
+        "percentage": 99.3
+      },
+      "2026-01-30": {
+        "total": 57102,
+        "embedded": 57061,
+        "percentage": 99.9
+      },
+      "2026-01-31": {
+        "total": 136246,
+        "embedded": 136228,
+        "percentage": 100.0
+      },
+      "2026-02-02": {
+        "total": 1292,
+        "embedded": 273,
+        "percentage": 21.1
+      },
+      "2026-02-03": {
+        "total": 1222,
+        "embedded": 614,
+        "percentage": 50.2
+      },
+      "2026-02-04": {
+        "total": 782,
+        "embedded": 0,
+        "percentage": 0.0
+      },
+      "2026-02-05": {
+        "total": 206918,
+        "embedded": 0,
+        "percentage": 0.0
+      }
+    },
+    "critical_note": "IMPORTANT: Embeddings only cover Jan 28-31 and partial Feb 2-3. Super-commenters' main activity (Feb 5, 99.7% of their comments) has NO embeddings. Results are based on <1% of super-commenter comments. Re-run when Feb 5 embeddings available."
+  },
+  "metadata": {
+    "analysis_timestamp": "2026-02-06T20:17:31.978157",
+    "super_commenters_analyzed": [
+      "EnronEnjoyer",
+      "WinWard",
+      "MilkMan",
+      "SlimeZone"
+    ],
+    "sample_size_per_author": 100,
+    "baseline_authors_sampled": 200,
+    "min_comments_for_baseline": 10,
+    "data_note": "Results based on partial embeddings (48% coverage). CRITICAL: Super-commenter Feb 5 activity (99.7% of their comments) NOT covered. Re-run when full embeddings available."
+  }
+}

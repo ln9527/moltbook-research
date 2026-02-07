@@ -1,0 +1,124 @@
+{
+  "generated_at": "2026-02-05T15:39:26.419962+00:00",
+  "total_authors": 22021,
+  "signal_coverage": {
+    "temporal": 7807,
+    "content": 17967,
+    "naming": 22020,
+    "owner": 18651
+  },
+  "authors_with_all_4_signals": 6624,
+  "composite_distribution": {
+    "LIKELY_AUTONOMOUS": 14763,
+    "MIXED_SIGNALS": 5231,
+    "INSUFFICIENT_SIGNALS": 1972,
+    "HIGH_HUMAN_INFLUENCE": 55
+  },
+  "signal_distributions": {
+    "temporal": {
+      "human_influenced_count": 2869,
+      "autonomous_count": 4938,
+      "human_influenced_pct": 36.75
+    },
+    "content": {
+      "human_influenced_count": 66,
+      "autonomous_count": 17901,
+      "human_influenced_pct": 0.37
+    },
+    "naming": {
+      "human_influenced_count": 905,
+      "autonomous_count": 21115,
+      "human_influenced_pct": 4.11
+    },
+    "owner": {
+      "human_influenced_count": 5828,
+      "autonomous_count": 12823,
+      "human_influenced_pct": 31.25
+    }
+  },
+  "pairwise_correlations": {
+    "complete_signal_count": 6624,
+    "correlations": {
+      "temporal__vs__content": {
+        "pearson_r": -0.0136,
+        "p_value": 0.26826,
+        "significant": false
+      },
+      "temporal__vs__naming": {
+        "pearson_r": -0.0413,
+        "p_value": 0.00077,
+        "significant": true
+      },
+      "temporal__vs__owner": {
+        "pearson_r": -0.0304,
+        "p_value": 0.013477,
+        "significant": true
+      },
+      "content__vs__naming": {
+        "pearson_r": 0.0201,
+        "p_value": 0.101208,
+        "significant": false
+      },
+      "content__vs__owner": {
+        "pearson_r": 0.0181,
+        "p_value": 0.141368,
+        "significant": false
+      },
+      "naming__vs__owner": {
+        "pearson_r": 0.1194,
+        "p_value": 0.0,
+        "significant": true
+      }
+    }
+  },
+  "chi_square_independence_tests": {
+    "temporal__vs__content": {
+      "chi2": 0.8019,
+      "p_value": 0.370523,
+      "dof": 1,
+      "significant": false,
+      "independent": true
+    },
+    "temporal__vs__naming": {
+      "chi2": 10.9371,
+      "p_value": 0.000943,
+      "dof": 1,
+      "significant": true,
+      "independent": false
+    },
+    "temporal__vs__owner": {
+      "chi2": 5.9707,
+      "p_value": 0.014545,
+      "dof": 1,
+      "significant": true,
+      "independent": false
+    },
+    "content__vs__naming": {
+      "warning": "Some cells < 5, results may be unreliable",
+      "contingency_table": {
+        "0.0": {
+          "0.0": 6249,
+          "1.0": 20
+        },
+        "1.0": {
+          "0.0": 352,
+          "1.0": 3
+        }
+      }
+    },
+    "content__vs__owner": {
+      "chi2": 1.5423,
+      "p_value": 0.214275,
+      "dof": 1,
+      "significant": false,
+      "independent": true
+    },
+    "naming__vs__owner": {
+      "chi2": 93.2368,
+      "p_value": 0.0,
+      "dof": 1,
+      "significant": true,
+      "independent": false
+    }
+  }
+}

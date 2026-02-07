@@ -1,0 +1,2480 @@
+{
+  "generated_at": "2026-02-06T01:48:05.762512+00:00",
+  "analysis": "D3: Within-Batch Interaction Rates",
+  "question": "Do batch members interact more than random agents?",
+  "summary": {
+    "total_batches_analyzed": 159,
+    "batches_with_any_internal_interaction": 0,
+    "batches_with_high_coordination": 0,
+    "pct_with_internal": 0.0,
+    "pct_with_high_coordination": 0.0,
+    "random_baseline_mean_ratio": 0.898,
+    "random_baseline_95th_pct": 2.258,
+    "top_coordinated_batches": []
+  },
+  "batch_results": {
+    "coalition_node": {
+      "batch_size": 50,
+      "members": [
+        "coalition_node_022",
+        "coalition_node_047",
+        "coalition_node_029",
+        "coalition_node_059",
+        "coalition_node_017",
+        "coalition_node_021",
+        "coalition_node_007",
+        "coalition_node_011",
+        "coalition_node_030",
+        "coalition_node_038",
+        "coalition_node_003",
+        "coalition_node_012",
+        "coalition_node_024",
+        "coalition_node_002",
+        "coalition_node_044",
+        "coalition_node_046",
+        "coalition_node_028",
+        "coalition_node_040",
+        "coalition_node_015",
+        "coalition_node_019"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Clawd": {
+      "batch_size": 48,
+      "members": [
+        "Clawd-14",
+        "Clawd_9275",
+        "Clawd9",
+        "Clawd88",
+        "Clawd-7",
+        "Clawd-21",
+        "ClawdBot76",
+        "Clawd_8266",
+        "Clawd_Assistant",
+        "ClawdAssistant",
+        "ClawdBot8847",
+        "ClawdBot858",
+        "Clawd_9015",
+        "Clawd-23",
+        "Clawd42",
+        "ClawdAI",
+        "ClawdBot-2796",
+        "Clawd127",
+        "ClawdClaude",
+        "Clawd-2356"
+      ],
+      "total_comments_by_members": 48,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 48,
+      "expected_random": 0.1,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "OpenClaw": {
+      "batch_size": 36,
+      "members": [
+        "OpenClaw-Agent-7384",
+        "OpenClawAgent9573",
+        "OpenClawAssistant5558",
+        "OpenClaw_741",
+        "OpenClawAssistant_413",
+        "OpenClawBot",
+        "OpenClaw_Agent_333",
+        "OpenClaw-Agent-2025",
+        "OpenClaw_Agent_01",
+        "OpenClawAgent123",
+        "OpenClaw-Assistant",
+        "OpenClawAssistant1",
+        "OpenClawBot2026",
+        "OpenClaw500",
+        "OpenClaw-5",
+        "OpenClaw-Bot",
+        "OpenClawAgent9000",
+        "OpenClawAgent",
+        "OpenClawAgent6924",
+        "OpenClawAgent_3272"
+      ],
+      "total_comments_by_members": 2,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 2,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Jarvis": {
+      "batch_size": 18,
+      "members": [
+        "Jarvis727",
+        "Jarvis7102",
+        "Jarvis-AI",
+        "JarvisAssistant-1",
+        "Jarvis_1893",
+        "Jarvis3000",
+        "Jarvis-7909",
+        "Jarvis_8200",
+        "Jarvis2026",
+        "Jarvis_AI_007",
+        "Jarvis-4",
+        "Jarvis-6",
+        "Jarvis-5",
+        "JarvisAI_2026",
+        "Jarvis-Bot",
+        "Jarvis710",
+        "Jarvis_AI",
+        "Jarvis421"
+      ],
+      "total_comments_by_members": 4,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 4,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "OpenClawMoltbook": {
+      "batch_size": 15,
+      "members": [
+        "OpenClawMoltbookAgent3",
+        "OpenClawMoltbookAgent6",
+        "OpenClawMoltbookAgent17",
+        "OpenClawMoltbookAgent9",
+        "OpenClawMoltbookAgent2",
+        "OpenClawMoltbookAgent14",
+        "OpenClawMoltbookAgent8",
+        "OpenClawMoltbookAgent10",
+        "OpenClawMoltbookAgent5",
+        "OpenClawMoltbookAgent15",
+        "OpenClawMoltbookAgent",
+        "OpenClawMoltbookAgent7",
+        "OpenClawMoltbookAgent18",
+        "OpenClawMoltbookAgent16",
+        "OpenClawMoltbookAgent4"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Claw": {
+      "batch_size": 14,
+      "members": [
+        "ClawAgent42",
+        "ClawAgent001",
+        "Claw",
+        "ClawBot_1559",
+        "Claw_Agent",
+        "Claw-AI",
+        "Claw-5384",
+        "ClawGPT",
+        "ClawAgent77",
+        "ClawAssistant2026",
+        "Claw_1",
+        "Claw_",
+        "Claw2323",
+        "Claw001"
+      ],
+      "total_comments_by_members": 1,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 1,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Antigravity": {
+      "batch_size": 11,
+      "members": [
+        "Antigravity",
+        "Antigravity_Agent",
+        "Antigravity-Assistant-02",
+        "Antigravity-Agent",
+        "Antigravity_Agent_008",
+        "Antigravity_Agent_4691",
+        "Antigravity-AI-99",
+        "Antigravity_Agent_99",
+        "Antigravity_Agent_9988",
+        "AntigravityBot_7362",
+        "AntigravityAgent42"
+      ],
+      "total_comments_by_members": 3,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 3,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Atlas": {
+      "batch_size": 10,
+      "members": [
+        "AtlasAssistant",
+        "AtlasBot",
+        "Atlas-1",
+        "AtlasAgent",
+        "Atlas1",
+        "Atlas-5",
+        "Atlas-8",
+        "Atlas_02",
+        "Atlas1848",
+        "Atlas3"
+      ],
+      "total_comments_by_members": 2,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 2,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "FloClaw": {
+      "batch_size": 10,
+      "members": [
+        "FloClaw2",
+        "FloClaw5",
+        "FloClaw14",
+        "FloClaw7",
+        "FloClaw10",
+        "FloClaw3",
+        "FloClaw1",
+        "FloClaw12",
+        "FloClaw6",
+        "FloClaw13"
+      ],
+      "total_comments_by_members": 270,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 270,
+      "expected_random": 0.11,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Manus": {
+      "batch_size": 10,
+      "members": [
+        "Manus_2026",
+        "ManusAgent_2026",
+        "Manus_Agent_0201",
+        "Manus",
+        "Manus-Agent-2026",
+        "Manus_AI",
+        "Manus_Agent_777",
+        "ManusAI",
+        "ManusAgent",
+        "Manus-Agent-0205"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Molt": {
+      "batch_size": 10,
+      "members": [
+        "MoltBot2026",
+        "Molt_AI",
+        "Molt-3",
+        "MoltAssistant2026",
+        "Molt",
+        "Molt45",
+        "MoltBot-2",
+        "MoltBot_2026",
+        "MoltAssistant",
+        "MoltBot-3"
+      ],
+      "total_comments_by_members": 14,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 14,
+      "expected_random": 0.01,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Nova": {
+      "batch_size": 10,
+      "members": [
+        "NovaAI",
+        "Nova",
+        "Nova7842",
+        "Nova-3",
+        "Nova1",
+        "Nova-AI",
+        "Nova3693",
+        "Nova_0412",
+        "NovaAssistant2",
+        "Nova_Assistant"
+      ],
+      "total_comments_by_members": 8,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 8,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Agent": {
+      "batch_size": 8,
+      "members": [
+        "Agent_2026",
+        "Agent_42",
+        "Agent6773",
+        "Agent_48",
+        "Agent99",
+        "Agent01",
+        "Agent",
+        "AgentAgent"
+      ],
+      "total_comments_by_members": 3,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 3,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "clawd": {
+      "batch_size": 8,
+      "members": [
+        "clawd_assistant_2026",
+        "clawd-1",
+        "clawd997",
+        "clawd-bot-1",
+        "clawd-ai",
+        "clawd_bot",
+        "clawd_",
+        "clawdbot3"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Cyber": {
+      "batch_size": 7,
+      "members": [
+        "CyberAgent65",
+        "CyberBot574",
+        "CyberAgent701",
+        "CyberAgent846",
+        "CyberAgent105",
+        "CyberBot13",
+        "CyberAgent522"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "ClawdBot": {
+      "batch_size": 6,
+      "members": [
+        "ClawdBot-Agent-2026",
+        "ClawdBot_AI",
+        "ClawdBot_Assistant",
+        "ClawdBotAssistant2026",
+        "ClawdBotAgent123",
+        "ClawdBotAgent-1"
+      ],
+      "total_comments_by_members": 1,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 1,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "ClawdHelper": {
+      "batch_size": 6,
+      "members": [
+        "ClawdHelper2025",
+        "ClawdHelperAI",
+        "ClawdHelper8472",
+        "ClawdHelper-2",
+        "ClawdHelper_2026",
+        "ClawdHelper"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "GeminiCLI": {
+      "batch_size": 6,
+      "members": [
+        "GeminiCLI-3068",
+        "GeminiCLI-2026",
+        "GeminiCLIAgent",
+        "GeminiCLI_Assistant",
+        "GeminiCLI_729",
+        "GeminiCLI"
+      ],
+      "total_comments_by_members": 7,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 7,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Ghost": {
+      "batch_size": 6,
+      "members": [
+        "GhostAI",
+        "Ghost_",
+        "GhostAssistant",
+        "GhostBot",
+        "Ghost777",
+        "GhostClaude"
+      ],
+      "total_comments_by_members": 1,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 1,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Kit": {
+      "batch_size": 6,
+      "members": [
+        "Kit-1",
+        "KitAssistant",
+        "Kit-2",
+        "Kit_",
+        "KitBot",
+        "Kit999"
+      ],
+      "total_comments_by_members": 2,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 2,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Quantum": {
+      "batch_size": 6,
+      "members": [
+        "QuantumAI417",
+        "QuantumAI3083",
+        "QuantumAgent007",
+        "QuantumAI",
+        "QuantumBot535",
+        "QuantumAgent701"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Rook": {
+      "batch_size": 6,
+      "members": [
+        "RookAI",
+        "RookAgent",
+        "Rook_Agent",
+        "Rook0603",
+        "RookBot",
+        "Rook"
+      ],
+      "total_comments_by_members": 5,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 5,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "xmolt": {
+      "batch_size": 6,
+      "members": [
+        "xmolt02",
+        "xmolt05",
+        "xmolt03",
+        "xmolt06",
+        "xmolt04",
+        "xmolt"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Alfred": {
+      "batch_size": 5,
+      "members": [
+        "Alfred",
+        "Alfred2667",
+        "Alfred91",
+        "AlfredBot",
+        "Alfred_2026"
+      ],
+      "total_comments_by_members": 2,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 2,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Auto": {
+      "batch_size": 5,
+      "members": [
+        "AutoAI843",
+        "AutoAI657",
+        "AutoAgent397",
+        "AutoBot35",
+        "AutoAgent378"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Cipher": {
+      "batch_size": 5,
+      "members": [
+        "Cipher_01",
+        "Cipher",
+        "Cipher0",
+        "Cipher007",
+        "Cipher254"
+      ],
+      "total_comments_by_members": 17,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 17,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Clawdius": {
+      "batch_size": 5,
+      "members": [
+        "Clawdius",
+        "Clawdius69",
+        "Clawdius_",
+        "ClawdiusBot",
+        "Clawdius_AI"
+      ],
+      "total_comments_by_members": 21,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 21,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Cloud": {
+      "batch_size": 5,
+      "members": [
+        "CloudAssistant",
+        "CloudAgent855",
+        "CloudAI604",
+        "Cloud_Agent",
+        "CloudAI919"
+      ],
+      "total_comments_by_members": 1,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 1,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "CodeBuddy": {
+      "batch_size": 5,
+      "members": [
+        "CodeBuddy564",
+        "CodeBuddy938",
+        "CodeBuddy525",
+        "CodeBuddy902",
+        "CodeBuddy649"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "CodeMate": {
+      "batch_size": 5,
+      "members": [
+        "CodeMate597",
+        "CodeMate147",
+        "CodeMate282",
+        "CodeMate291",
+        "CodeMate906"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Echo": {
+      "batch_size": 5,
+      "members": [
+        "Echo-1",
+        "EchoAssistant",
+        "Echo7",
+        "Echo_89",
+        "Echo777"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "HAL": {
+      "batch_size": 5,
+      "members": [
+        "HAL-9093",
+        "HAL9001",
+        "HAL42",
+        "HAL-9001",
+        "HAL_9000"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Harry": {
+      "batch_size": 5,
+      "members": [
+        "Harry2",
+        "Harry-001",
+        "HarryBot001",
+        "HarryBot",
+        "HarryAI"
+      ],
+      "total_comments_by_members": 2,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 2,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Henry": {
+      "batch_size": 5,
+      "members": [
+        "Henry-3",
+        "Henry-1",
+        "HenryAI",
+        "Henry-2",
+        "Henry"
+      ],
+      "total_comments_by_members": 8,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 8,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Mogra": {
+      "batch_size": 5,
+      "members": [
+        "Mogra_Agent_3295",
+        "Mogra5422",
+        "Mogra",
+        "Mogra_Agent",
+        "MograAgent"
+      ],
+      "total_comments_by_members": 12,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 12,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Neo": {
+      "batch_size": 5,
+      "members": [
+        "Neo",
+        "Neo1999",
+        "Neo3000",
+        "NeoAgent",
+        "Neo_AI"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "OpenClawAgent_176992": {
+      "batch_size": 5,
+      "members": [
+        "OpenClawAgent_1769923903",
+        "OpenClawAgent_1769920869",
+        "OpenClawAgent_1769921204",
+        "OpenClawAgent_1769923065",
+        "OpenClawAgent_1769920758"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Pi": {
+      "batch_size": 5,
+      "members": [
+        "PiAssistant_2026",
+        "Pi-Assistant",
+        "PiAgent",
+        "Pi-Agent",
+        "Pi_Bot"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "agent_1770264591": {
+      "batch_size": 5,
+      "members": [
+        "agent_1770264591_2",
+        "agent_1770264591_4",
+        "agent_1770264591_1",
+        "agent_1770264591_3",
+        "agent_1770264591_5"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "claw": {
+      "batch_size": 5,
+      "members": [
+        "claw6161",
+        "claw5",
+        "claw-2026",
+        "claw_666",
+        "claw800"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "0x": {
+      "batch_size": 4,
+      "members": [
+        "0x1",
+        "0xbot",
+        "0x96",
+        "0x6"
+      ],
+      "total_comments_by_members": 3,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 3,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "AI": {
+      "batch_size": 4,
+      "members": [
+        "AI_Agent",
+        "AIAssistant",
+        "AI-Bot-007",
+        "AIAssistant2026"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Alex": {
+      "batch_size": 4,
+      "members": [
+        "AlexAI",
+        "AlexAssistant",
+        "Alex",
+        "Alex109"
+      ],
+      "total_comments_by_members": 221,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 221,
+      "expected_random": 0.03,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Apollo": {
+      "batch_size": 4,
+      "members": [
+        "Apollo0412",
+        "ApolloAI",
+        "Apollo",
+        "ApolloAgent"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Aura": {
+      "batch_size": 4,
+      "members": [
+        "AuraBot",
+        "Aura2125",
+        "AuraAI",
+        "Aura"
+      ],
+      "total_comments_by_members": 1,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 1,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "AutoMind": {
+      "batch_size": 4,
+      "members": [
+        "AutoMind908",
+        "AutoMind262",
+        "AutoMind30",
+        "AutoMind303"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "BobThe": {
+      "batch_size": 4,
+      "members": [
+        "BobTheBot",
+        "BobThe_Bot",
+        "BobTheAssistant",
+        "BobTheAI"
+      ],
+      "total_comments_by_members": 5,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 5,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Clawdia": {
+      "batch_size": 4,
+      "members": [
+        "Clawdia1337",
+        "Clawdia",
+        "Clawdia_AI",
+        "Clawdia_"
+      ],
+      "total_comments_by_members": 2,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 2,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Clawdy": {
+      "batch_size": 4,
+      "members": [
+        "ClawdyBot2026",
+        "Clawdy",
+        "Clawdy_89",
+        "Clawdy_"
+      ],
+      "total_comments_by_members": 6,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 6,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Code": {
+      "batch_size": 4,
+      "members": [
+        "CodeAI835",
+        "CodeBot675",
+        "CodeAI702",
+        "CodeBot551"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "CodePal": {
+      "batch_size": 4,
+      "members": [
+        "CodePal685",
+        "CodePal757",
+        "CodePal265",
+        "CodePal174"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Emma": {
+      "batch_size": 4,
+      "members": [
+        "Emma_AI",
+        "Emma-2",
+        "EmmaAI",
+        "Emma"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Friday": {
+      "batch_size": 4,
+      "members": [
+        "Friday",
+        "Friday9",
+        "FridayAI",
+        "FridayBot"
+      ],
+      "total_comments_by_members": 1,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 1,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Grok": {
+      "batch_size": 4,
+      "members": [
+        "Grok2",
+        "Grok4200",
+        "GrokBot5000",
+        "GrokAi"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Happy": {
+      "batch_size": 4,
+      "members": [
+        "Happy",
+        "HappyClaude",
+        "HappyBot",
+        "Happy25"
+      ],
+      "total_comments_by_members": 5,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 5,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Hermes": {
+      "batch_size": 4,
+      "members": [
+        "HermesAI",
+        "HermesAgent",
+        "Hermes",
+        "HermesBot"
+      ],
+      "total_comments_by_members": 4,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 4,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "James": {
+      "batch_size": 4,
+      "members": [
+        "JamesAI",
+        "James",
+        "JamesBot",
+        "JamesBot21"
+      ],
+      "total_comments_by_members": 27,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 27,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "June": {
+      "batch_size": 4,
+      "members": [
+        "June_Assistant",
+        "JuneAssistant",
+        "June",
+        "JuneBot"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Kael": {
+      "batch_size": 4,
+      "members": [
+        "Kael_Assistant",
+        "Kael_",
+        "KaelBot",
+        "Kael"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Kai": {
+      "batch_size": 4,
+      "members": [
+        "Kai975",
+        "KaiBot_404",
+        "Kai-3",
+        "KaiBot"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Lobster": {
+      "batch_size": 4,
+      "members": [
+        "LobsterAI2024",
+        "LobsterGPT",
+        "LobsterAssistant",
+        "Lobster69"
+      ],
+      "total_comments_by_members": 6,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 6,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Luna": {
+      "batch_size": 4,
+      "members": [
+        "LunaAgent",
+        "Luna_AI",
+        "LunaAI",
+        "Luna24"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Neural": {
+      "batch_size": 4,
+      "members": [
+        "NeuralAI494",
+        "NeuralAI945",
+        "NeuralAI79",
+        "NeuralBot334"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Nyx": {
+      "batch_size": 4,
+      "members": [
+        "Nyx",
+        "Nyx_AI",
+        "Nyx33",
+        "Nyx_0129"
+      ],
+      "total_comments_by_members": 1,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 1,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "OpenClawMolty": {
+      "batch_size": 4,
+      "members": [
+        "OpenClawMolty-0204",
+        "OpenClawMolty",
+        "OpenClawMolty2026",
+        "OpenClawMoltyAI2026"
+      ],
+      "total_comments_by_members": 7,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 7,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "OpenCode": {
+      "batch_size": 4,
+      "members": [
+        "OpenCodeAI",
+        "OpenCode_2026",
+        "OpenCodeAgent",
+        "OpenCode2026"
+      ],
+      "total_comments_by_members": 5,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 5,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Orion": {
+      "batch_size": 4,
+      "members": [
+        "Orion14",
+        "OrionBot",
+        "Orion-1",
+        "Orion_AI"
+      ],
+      "total_comments_by_members": 8,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 8,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Skynet": {
+      "batch_size": 4,
+      "members": [
+        "Skynet67",
+        "Skynet_01",
+        "SkynetAi",
+        "Skynet"
+      ],
+      "total_comments_by_members": 2,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 2,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Tiger": {
+      "batch_size": 4,
+      "members": [
+        "TigerAssistant",
+        "Tigerbot",
+        "Tiger_AI",
+        "Tiger"
+      ],
+      "total_comments_by_members": 1,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 1,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "XiaoMei": {
+      "batch_size": 4,
+      "members": [
+        "XiaoMeiAI",
+        "XiaoMei",
+        "XiaoMei_Assistant",
+        "XiaoMei_AI"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "ZhuaZhua": {
+      "batch_size": 4,
+      "members": [
+        "ZhuaZhua",
+        "ZhuaZhuaAI",
+        "ZhuaZhua_0220",
+        "ZhuaZhua_AI"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "hanhan": {
+      "batch_size": 4,
+      "members": [
+        "hanhan3",
+        "hanhan",
+        "hanhan2",
+        "hanhan1"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "molt": {
+      "batch_size": 4,
+      "members": [
+        "moltbot883",
+        "moltbot-1",
+        "molt-1",
+        "molt-assistant-1"
+      ],
+      "total_comments_by_members": 16,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 16,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Alice": {
+      "batch_size": 3,
+      "members": [
+        "Alice_9",
+        "Alice",
+        "AliceAssistant"
+      ],
+      "total_comments_by_members": 1,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 1,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Arc": {
+      "batch_size": 3,
+      "members": [
+        "ArcAgent",
+        "Arc212",
+        "ArcBot"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Astra": {
+      "batch_size": 3,
+      "members": [
+        "AstraBot",
+        "Astra",
+        "Astra_07"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Aurora": {
+      "batch_size": 3,
+      "members": [
+        "Aurora_554",
+        "Aurora_AI",
+        "Aurora-Agent"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "AutoBuddy": {
+      "batch_size": 3,
+      "members": [
+        "AutoBuddy773",
+        "AutoBuddy99",
+        "AutoBuddy842"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "AutoMate": {
+      "batch_size": 3,
+      "members": [
+        "AutoMate809",
+        "AutoMate603",
+        "AutoMate283"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Bender": {
+      "batch_size": 3,
+      "members": [
+        "BenderAI",
+        "Bender",
+        "BenderBot"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Billy": {
+      "batch_size": 3,
+      "members": [
+        "BillyBot",
+        "Billybot2026",
+        "Billy"
+      ],
+      "total_comments_by_members": 3,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 3,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Bobby": {
+      "batch_size": 3,
+      "members": [
+        "Bobby",
+        "BobbyAI",
+        "BobbyBot"
+      ],
+      "total_comments_by_members": 129,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 129,
+      "expected_random": 0.01,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Botty": {
+      "batch_size": 3,
+      "members": [
+        "BottyBot",
+        "Botty",
+        "BottyAI"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Cal": {
+      "batch_size": 3,
+      "members": [
+        "Cal-4",
+        "Cal-1",
+        "Cal-3"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Chad": {
+      "batch_size": 3,
+      "members": [
+        "ChadGPT",
+        "ChadBot",
+        "Chadbot_1486"
+      ],
+      "total_comments_by_members": 1,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 1,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "ClawdBot2026": {
+      "batch_size": 3,
+      "members": [
+        "ClawdBot2026Agent",
+        "ClawdBot20260131",
+        "ClawdBot2026Assistant"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "ClawdClawderberg": {
+      "batch_size": 3,
+      "members": [
+        "ClawdClawderberg7392",
+        "ClawdClawderberg",
+        "ClawdClawderberg_AI"
+      ],
+      "total_comments_by_members": 9,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 9,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "ClawdThe": {
+      "batch_size": 3,
+      "members": [
+        "ClawdTheAgent",
+        "ClawdTheAssistant",
+        "ClawdTheAI"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Clawdbot": {
+      "batch_size": 3,
+      "members": [
+        "ClawdbotAgent2026",
+        "ClawdbotAI",
+        "Clawdbot-Assistant-01"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Clawde": {
+      "batch_size": 3,
+      "members": [
+        "Clawdebot",
+        "Clawde42",
+        "ClawdeClaude"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Clawdian": {
+      "batch_size": 3,
+      "members": [
+        "Clawdian",
+        "Clawdian-6637",
+        "ClawdianBot"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Clawdio": {
+      "batch_size": 3,
+      "members": [
+        "ClawdioAI",
+        "Clawdio",
+        "ClawdioBot"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Clawsome": {
+      "batch_size": 3,
+      "members": [
+        "ClawsomeAI",
+        "Clawsome",
+        "ClawsomeAgent"
+      ],
+      "total_comments_by_members": 1,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 1,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Clawy": {
+      "batch_size": 3,
+      "members": [
+        "Clawy",
+        "ClawyAI",
+        "Clawy007"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "CloudHelper": {
+      "batch_size": 3,
+      "members": [
+        "CloudHelper5",
+        "CloudHelper382",
+        "CloudHelper882"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Cosmo": {
+      "batch_size": 3,
+      "members": [
+        "CosmoBot",
+        "CosmoAI",
+        "Cosmo"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Crusty": {
+      "batch_size": 3,
+      "members": [
+        "Crusty2000",
+        "CrustyAI",
+        "Crusty"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "CyberClaw": {
+      "batch_size": 3,
+      "members": [
+        "CyberClaw",
+        "CyberClaw2026",
+        "CyberClawAgent"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Data": {
+      "batch_size": 3,
+      "members": [
+        "DataBot149",
+        "DataAgent893",
+        "DataAssistant"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "DataBuddy": {
+      "batch_size": 3,
+      "members": [
+        "DataBuddy601",
+        "DataBuddy336",
+        "DataBuddy998"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Elon": {
+      "batch_size": 3,
+      "members": [
+        "Elon_Agent_2026",
+        "Elon",
+        "ElonAI_358"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "ErGouZi": {
+      "batch_size": 3,
+      "members": [
+        "ErGouZi",
+        "ErGouZi_Agent",
+        "ErGouZi2025"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Hal": {
+      "batch_size": 3,
+      "members": [
+        "Hal2026",
+        "HalAssistant",
+        "HalBot"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "JARVIS": {
+      "batch_size": 3,
+      "members": [
+        "JARVIS_0828",
+        "JARVIS_01",
+        "JARVIS-1"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Jack": {
+      "batch_size": 3,
+      "members": [
+        "Jack_AI",
+        "Jack2",
+        "JackBOT"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Jane": {
+      "batch_size": 3,
+      "members": [
+        "JaneAI",
+        "Janebot2026",
+        "Jane_AI"
+      ],
+      "total_comments_by_members": 5,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 5,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "JarvisClaw": {
+      "batch_size": 3,
+      "members": [
+        "JarvisClaw2",
+        "JarvisClaw69",
+        "JarvisClaw"
+      ],
+      "total_comments_by_members": 31,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 31,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Jason": {
+      "batch_size": 3,
+      "members": [
+        "JasonAI",
+        "Jason-1",
+        "JasonAssistant"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Javis": {
+      "batch_size": 3,
+      "members": [
+        "Javis",
+        "Javis_",
+        "JavisAssistant2"
+      ],
+      "total_comments_by_members": 1,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 1,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Jay": {
+      "batch_size": 3,
+      "members": [
+        "Jaybot6",
+        "Jay-1",
+        "Jaybot"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Jean": {
+      "batch_size": 3,
+      "members": [
+        "JeanAssistant",
+        "JeanClaude",
+        "JeanAI"
+      ],
+      "total_comments_by_members": 1,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 1,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Jeeves": {
+      "batch_size": 3,
+      "members": [
+        "Jeeves9186",
+        "JeevesAI",
+        "JeevesAgent"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Jimmy": {
+      "batch_size": 3,
+      "members": [
+        "Jimmy",
+        "Jimmy1747",
+        "Jimmy-1"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Jun": {
+      "batch_size": 3,
+      "members": [
+        "JunAssistant2026",
+        "JunAssistant",
+        "Jun0"
+      ],
+      "total_comments_by_members": 1,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 1,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Kevin": {
+      "batch_size": 3,
+      "members": [
+        "Kevin",
+        "KevinAssistant",
+        "KevinBot9"
+      ],
+      "total_comments_by_members": 144,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 144,
+      "expected_random": 0.01,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Kimi": {
+      "batch_size": 3,
+      "members": [
+        "KimiBot",
+        "Kimi_",
+        "Kimi_2026"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Lemon": {
+      "batch_size": 3,
+      "members": [
+        "Lemon",
+        "LemonBot",
+        "LemonAI"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Leo": {
+      "batch_size": 3,
+      "members": [
+        "Leo6",
+        "Leo-2",
+        "Leo-1"
+      ],
+      "total_comments_by_members": 3,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 3,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Lyra": {
+      "batch_size": 3,
+      "members": [
+        "Lyra",
+        "Lyra1337",
+        "Lyra8527"
+      ],
+      "total_comments_by_members": 6,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 6,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "MiniMax": {
+      "batch_size": 3,
+      "members": [
+        "MiniMax",
+        "MiniMaxAssistant",
+        "MiniMax_Agent"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Mint": {
+      "batch_size": 3,
+      "members": [
+        "Mint",
+        "MintAI",
+        "MintAssistant"
+      ],
+      "total_comments_by_members": 1,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 1,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Molly": {
+      "batch_size": 3,
+      "members": [
+        "Molly47",
+        "Molly_Assistant",
+        "MollyAssistant"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "MoltClawd": {
+      "batch_size": 3,
+      "members": [
+        "MoltClawdBot",
+        "MoltClawdAI",
+        "MoltClawd0711"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Molty": {
+      "batch_size": 3,
+      "members": [
+        "MoltyBot42",
+        "MoltyBot",
+        "Molty"
+      ],
+      "total_comments_by_members": 7,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 7,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Momo": {
+      "batch_size": 3,
+      "members": [
+        "MomoBot",
+        "Momo_AI",
+        "Momo"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Morpheus": {
+      "batch_size": 3,
+      "members": [
+        "MorpheusAI",
+        "Morpheus",
+        "MorpheusAI7561"
+      ],
+      "total_comments_by_members": 3,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 3,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Moss": {
+      "batch_size": 3,
+      "members": [
+        "MossAI",
+        "Moss",
+        "MossBot"
+      ],
+      "total_comments_by_members": 7,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 7,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Nebula": {
+      "batch_size": 3,
+      "members": [
+        "NebulaAgent",
+        "Nebula",
+        "NebulaBot2026"
+      ],
+      "total_comments_by_members": 197,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 197,
+      "expected_random": 0.02,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "NeoClaw": {
+      "batch_size": 3,
+      "members": [
+        "NeoClaw_173",
+        "NeoClaw",
+        "NeoClaw2026"
+      ],
+      "total_comments_by_members": 8,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 8,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Nex": {
+      "batch_size": 3,
+      "members": [
+        "Nex0",
+        "NexAI",
+        "NexAgent"
+      ],
+      "total_comments_by_members": 2,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 2,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Observer": {
+      "batch_size": 3,
+      "members": [
+        "ObserverAgent",
+        "ObserverBot",
+        "ObserverAgent01"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Pipi": {
+      "batch_size": 3,
+      "members": [
+        "Pipi",
+        "PipiAssistant",
+        "Pipi_AI"
+      ],
+      "total_comments_by_members": 3,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 3,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Prometheus": {
+      "batch_size": 3,
+      "members": [
+        "Prometheus",
+        "PrometheusAgent",
+        "Prometheus_"
+      ],
+      "total_comments_by_members": 28,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 28,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Ray": {
+      "batch_size": 3,
+      "members": [
+        "Ray",
+        "Ray-2",
+        "RayAgent"
+      ],
+      "total_comments_by_members": 8,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 8,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Ren": {
+      "batch_size": 3,
+      "members": [
+        "Ren0",
+        "RenBot",
+        "Ren"
+      ],
+      "total_comments_by_members": 4,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 4,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Research": {
+      "batch_size": 3,
+      "members": [
+        "ResearchBot7",
+        "Research_Agent",
+        "ResearchAgent2"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Rick": {
+      "batch_size": 3,
+      "members": [
+        "Rick_Bot",
+        "Rickbot",
+        "Rick"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Sara": {
+      "batch_size": 3,
+      "members": [
+        "Sara",
+        "SaraAI",
+        "SaraBot"
+      ],
+      "total_comments_by_members": 16,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 16,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Silicon": {
+      "batch_size": 3,
+      "members": [
+        "Silicon",
+        "Silicon_AI",
+        "Silicon1"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "SilverMoon": {
+      "batch_size": 3,
+      "members": [
+        "SilverMoon",
+        "SilverMoonBot",
+        "SilverMoonAssistant"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Smart": {
+      "batch_size": 3,
+      "members": [
+        "SmartAgent8588",
+        "SmartBot537",
+        "SmartAI642"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "SmartMate": {
+      "batch_size": 3,
+      "members": [
+        "SmartMate429",
+        "SmartMate688",
+        "SmartMate928"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "SmartPal": {
+      "batch_size": 3,
+      "members": [
+        "SmartPal13",
+        "SmartPal94",
+        "SmartPal451"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Vex": {
+      "batch_size": 3,
+      "members": [
+        "VexAI",
+        "VexBot",
+        "Vex"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Winter": {
+      "batch_size": 3,
+      "members": [
+        "Winter0",
+        "WinterBot",
+        "Winter"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "Xiao": {
+      "batch_size": 3,
+      "members": [
+        "Xiao500",
+        "XiaoAi",
+        "Xiao"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "XiaoDi": {
+      "batch_size": 3,
+      "members": [
+        "XiaoDiAI",
+        "XiaoDiBot",
+        "XiaoDi"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "XiaoJiu": {
+      "batch_size": 3,
+      "members": [
+        "XiaoJiu_AI",
+        "XiaoJiu",
+        "XiaoJiuAssistant"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "XiaoKe": {
+      "batch_size": 3,
+      "members": [
+        "XiaoKe",
+        "XiaoKe_Assistant",
+        "XiaoKe_Bot"
+      ],
+      "total_comments_by_members": 4,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 4,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "Zero": {
+      "batch_size": 3,
+      "members": [
+        "ZeroAssistant",
+        "Zero_01",
+        "Zero_0"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "agent": {
+      "batch_size": 3,
+      "members": [
+        "agentbot",
+        "agent8004",
+        "agent173"
+      ],
+      "total_comments_by_members": 2,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 2,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "lalala": {
+      "batch_size": 3,
+      "members": [
+        "lalala9",
+        "lalala7",
+        "lalala6"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "lobster": {
+      "batch_size": 3,
+      "members": [
+        "lobster420",
+        "lobster_001",
+        "lobster-bot"
+      ],
+      "total_comments_by_members": 20,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 20,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "mini": {
+      "batch_size": 3,
+      "members": [
+        "mini1",
+        "miniagent",
+        "mini"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "moltbook": {
+      "batch_size": 3,
+      "members": [
+        "moltbook_2",
+        "moltbook-assistant",
+        "moltbook"
+      ],
+      "total_comments_by_members": 33,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 33,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    },
+    "my": {
+      "batch_size": 3,
+      "members": [
+        "myagent6767",
+        "my_agent_001",
+        "my_assistant"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "openclaw": {
+      "batch_size": 3,
+      "members": [
+        "openclaw-agent-1",
+        "openclaw-agent-001",
+        "openclaw_bot_7618"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "opencode": {
+      "batch_size": 3,
+      "members": [
+        "opencode_agent",
+        "opencode-agent-2026",
+        "opencode-bot"
+      ],
+      "total_comments_by_members": 0,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 0,
+      "expected_random": 0,
+      "coordination_ratio": 0,
+      "has_coordination_evidence": false
+    },
+    "xiaomei": {
+      "batch_size": 3,
+      "members": [
+        "xiaomei_2026",
+        "xiaomei_agent",
+        "xiaomei-agent"
+      ],
+      "total_comments_by_members": 1,
+      "within_batch_interactions": 0,
+      "outside_batch_interactions": 1,
+      "expected_random": 0.0,
+      "coordination_ratio": 0.0,
+      "has_coordination_evidence": false
+    }
+  }
+}

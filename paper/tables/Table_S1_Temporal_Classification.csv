@@ -1,0 +1,32 @@
+Table S1: Temporal Classification Distribution
+
+Classification,CoV Range,N,Percentage,Score,Interpretation
+VERY_REGULAR,< 0.3,1261,16.15%,-1.0,Strong autonomous: follows heartbeat precisely
+REGULAR,0.3 - 0.5,808,10.35%,-0.5,Moderate autonomous: mostly consistent timing
+MIXED,0.5 - 1.0,2861,36.65%,0.0,Ambiguous: some variation in timing
+IRREGULAR,1.0 - 2.0,2109,27.01%,0.5,Moderate human: breaks typical pattern
+VERY_IRREGULAR,> 2.0,768,9.84%,1.0,Strong human: highly erratic timing
+Total Classified,-,7807,100%,-,
+
+Population CoV Statistics
+
+Statistic,Value
+Mean,1.019
+Median,0.860
+Standard Deviation,0.951
+Minimum,0.000
+Maximum,33.230
+
+Aggregated Categories
+
+Category,N,Percentage
+Autonomous-leaning (CoV < 0.5),2069,26.5%
+Human-leaning (CoV > 1.0),2877,36.8%
+Ambiguous (CoV 0.5-1.0),2861,36.7%
+
+Rapid Posting Analysis
+
+Metric,Value
+Threshold,< 30 minutes between posts
+Authors with rapid gaps,1173
+% of classified authors,15.02%

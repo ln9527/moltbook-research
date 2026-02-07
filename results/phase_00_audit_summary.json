@@ -1,0 +1,66 @@
+{
+  "generated_at": "2026-02-05T14:49:22.672410Z",
+  "posts": {
+    "total": 91792,
+    "unique_authors": 20745,
+    "by_phase": {
+      "breach": 64910,
+      "restoration": 19115,
+      "growth": 7317,
+      "genesis": 439,
+      "shutdown": 11
+    },
+    "pre_breach": 42522,
+    "post_breach": 49270,
+    "long_posts": 13260,
+    "word_count_stats": {
+      "mean": 110.92532028934984,
+      "median": 67.0,
+      "max": 25027,
+      "min": 0
+    }
+  },
+  "comments": {
+    "total": 405707,
+    "unique_authors": 4814,
+    "by_phase": {
+      "restoration": 208684,
+      "breach": 136246,
+      "growth": 57098,
+      "genesis": 2145,
+      "shutdown": 1530,
+      "unknown": 4
+    },
+    "pre_breach": 195493,
+    "post_breach": 210214,
+    "depth_distribution": {
+      "0": 381530,
+      "1": 22815,
+      "2": 1022,
+      "3": 314,
+      "4": 22,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1
+    }
+  },
+  "temporal_coverage": {
+    "first_post": "2026-01-27 18:01:13.220848+00:00",
+    "last_post": "2026-02-05 14:28:32.544850+00:00",
+    "first_comment": "2026-01-28 01:18:36.923113+00:00",
+    "last_comment": "2026-02-05 13:32:36.557378+00:00"
+  },
+  "data_quality": {
+    "posts_missing_author_id": 6124,
+    "posts_missing_author_pct": 6.7,
+    "comments_missing_author": 174282,
+    "comments_missing_author_pct": 43.0,
+    "notes": [
+      "Posts with missing author_id: raw data has author as string instead of dict",
+      "Comments with empty author: API limitation, returns '' for most comments",
+      "is_pre_breach flag is verified correct against BREACH_TIMESTAMP",
+      "Deep threads (depth >= 2) are rare: only ~0.1% of comments"
+    ]
+  }
+}

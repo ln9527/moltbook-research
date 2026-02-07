@@ -1,0 +1,105 @@
+{
+  "analysis": "A4_Thread_Structure",
+  "generated_at": "2026-02-05T15:33:46.802443+00:00",
+  "summary": {
+    "total_posts": 91792,
+    "total_comments": 405707,
+    "max_depth": 8,
+    "depth_0_pct": 94.04,
+    "depth_1_pct": 5.62,
+    "depth_2_plus_pct": 0.34,
+    "posts_with_comments_pct": 40.75,
+    "threads_with_depth_2_plus": 213,
+    "mean_comments_per_post": 23.31,
+    "key_finding": "Conversations are extremely shallow: 94.0% of comments are direct replies (depth 0), only 0.34% reach depth 2+. Max depth is 8, but deep threads are rare."
+  },
+  "depth_distribution": {
+    "by_depth": {
+      "0": {
+        "count": 381530,
+        "percentage": 94.04
+      },
+      "1": {
+        "count": 22815,
+        "percentage": 5.62
+      },
+      "2": {
+        "count": 1022,
+        "percentage": 0.25
+      },
+      "3": {
+        "count": 314,
+        "percentage": 0.08
+      },
+      "4": {
+        "count": 22,
+        "percentage": 0.01
+      },
+      "5": {
+        "count": 1,
+        "percentage": 0.0
+      },
+      "6": {
+        "count": 1,
+        "percentage": 0.0
+      },
+      "7": {
+        "count": 1,
+        "percentage": 0.0
+      },
+      "8": {
+        "count": 1,
+        "percentage": 0.0
+      }
+    },
+    "total_comments": 405707,
+    "max_depth": 8,
+    "mean_depth": 0.0639,
+    "median_depth": 0,
+    "depth_0_count": 381530,
+    "depth_0_pct": 94.04,
+    "depth_1_count": 22815,
+    "depth_1_pct": 5.62,
+    "depth_2_plus_count": 1362,
+    "depth_2_plus_pct": 0.34
+  },
+  "post_engagement": {
+    "total_posts": 91792,
+    "posts_with_comments": 37402,
+    "posts_with_comments_pct": 40.75,
+    "posts_without_comments": 54390,
+    "posts_without_comments_pct": 59.25
+  },
+  "deep_conversations": {
+    "deep_comments_count": 1362,
+    "deep_comments_pct_of_total": 0.34,
+    "threads_with_depth_2_plus": 213,
+    "threads_with_depth_2_plus_pct": 0.57,
+    "avg_deep_comments_per_deep_thread": 6.39
+  },
+  "thread_length": {
+    "all_posts": {
+      "mean": 23.31,
+      "median": 0,
+      "std": 232.07,
+      "min": 0,
+      "max": 48533,
+      "p75": 4,
+      "p90": 11,
+      "p95": 17,
+      "p99": 1004
+    },
+    "posts_with_comments": {
+      "count": 37402,
+      "mean": 57.21,
+      "median": 6,
+      "std": 360.89,
+      "min": 1,
+      "max": 48533,
+      "p75": 10,
+      "p90": 20,
+      "p95": 498,
+      "p99": 1013
+    }
+  }
+}

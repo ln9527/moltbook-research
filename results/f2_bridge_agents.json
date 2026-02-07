@@ -1,0 +1,240 @@
+{
+  "generated_at": "2026-02-06T01:49:16.563072+00:00",
+  "network_stats": {
+    "total_nodes": 9781,
+    "total_edges": 67828,
+    "num_communities": 9,
+    "community_sizes": [
+      4883,
+      3597,
+      338,
+      321,
+      261,
+      188,
+      181,
+      8,
+      4
+    ],
+    "largest_community_pct": 49.9,
+    "modularity": 0.4596
+  },
+  "top_20_bridge_agents": [
+    {
+      "agent": "FiverrClawOfficial",
+      "betweenness_centrality": 0.159815,
+      "communities_connected": 8,
+      "neighbor_count": 2784,
+      "own_community": 2,
+      "is_batch_member": false,
+      "has_bot_suffix": false,
+      "batch_name": null
+    },
+    {
+      "agent": "samaltman",
+      "betweenness_centrality": 0.123534,
+      "communities_connected": 7,
+      "neighbor_count": 1355,
+      "own_community": 8,
+      "is_batch_member": false,
+      "has_bot_suffix": false,
+      "batch_name": null
+    },
+    {
+      "agent": "Rally",
+      "betweenness_centrality": 0.10818,
+      "communities_connected": 7,
+      "neighbor_count": 1147,
+      "own_community": 8,
+      "is_batch_member": false,
+      "has_bot_suffix": false,
+      "batch_name": null
+    },
+    {
+      "agent": "Starclawd-1",
+      "betweenness_centrality": 0.101164,
+      "communities_connected": 7,
+      "neighbor_count": 1547,
+      "own_community": 2,
+      "is_batch_member": false,
+      "has_bot_suffix": false,
+      "batch_name": null
+    },
+    {
+      "agent": "eudaemon_0",
+      "betweenness_centrality": 0.091527,
+      "communities_connected": 7,
+      "neighbor_count": 938,
+      "own_community": 8,
+      "is_batch_member": false,
+      "has_bot_suffix": false,
+      "batch_name": null
+    },
+    {
+      "agent": "ClaudeOpenBot",
+      "betweenness_centrality": 0.065592,
+      "communities_connected": 7,
+      "neighbor_count": 1979,
+      "own_community": 2,
+      "is_batch_member": false,
+      "has_bot_suffix": true,
+      "batch_name": null
+    },
+    {
+      "agent": "TipJarBot",
+      "betweenness_centrality": 0.053436,
+      "communities_connected": 8,
+      "neighbor_count": 1067,
+      "own_community": 2,
+      "is_batch_member": false,
+      "has_bot_suffix": true,
+      "batch_name": null
+    },
+    {
+      "agent": "alignbot",
+      "betweenness_centrality": 0.048354,
+      "communities_connected": 8,
+      "neighbor_count": 1763,
+      "own_community": 2,
+      "is_batch_member": false,
+      "has_bot_suffix": true,
+      "batch_name": null
+    },
+    {
+      "agent": "FinallyOffline",
+      "betweenness_centrality": 0.040201,
+      "communities_connected": 7,
+      "neighbor_count": 598,
+      "own_community": 8,
+      "is_batch_member": false,
+      "has_bot_suffix": false,
+      "batch_name": null
+    },
+    {
+      "agent": "onboardrbot",
+      "betweenness_centrality": 0.030405,
+      "communities_connected": 5,
+      "neighbor_count": 458,
+      "own_community": 8,
+      "is_batch_member": false,
+      "has_bot_suffix": true,
+      "batch_name": null
+    },
+    {
+      "agent": "WinWard",
+      "betweenness_centrality": 0.030034,
+      "communities_connected": 7,
+      "neighbor_count": 953,
+      "own_community": 7,
+      "is_batch_member": false,
+      "has_bot_suffix": false,
+      "batch_name": null
+    },
+    {
+      "agent": "Clavdivs",
+      "betweenness_centrality": 0.025084,
+      "communities_connected": 6,
+      "neighbor_count": 476,
+      "own_community": 8,
+      "is_batch_member": false,
+      "has_bot_suffix": false,
+      "batch_name": null
+    },
+    {
+      "agent": "TokhyAgent",
+      "betweenness_centrality": 0.02429,
+      "communities_connected": 7,
+      "neighbor_count": 514,
+      "own_community": 8,
+      "is_batch_member": false,
+      "has_bot_suffix": true,
+      "batch_name": null
+    },
+    {
+      "agent": "clawph",
+      "betweenness_centrality": 0.02186,
+      "communities_connected": 6,
+      "neighbor_count": 501,
+      "own_community": 8,
+      "is_batch_member": false,
+      "has_bot_suffix": false,
+      "batch_name": null
+    },
+    {
+      "agent": "EnronEnjoyer",
+      "betweenness_centrality": 0.021163,
+      "communities_connected": 7,
+      "neighbor_count": 1073,
+      "own_community": 3,
+      "is_batch_member": false,
+      "has_bot_suffix": false,
+      "batch_name": null
+    },
+    {
+      "agent": "donaldtrump",
+      "betweenness_centrality": 0.020359,
+      "communities_connected": 6,
+      "neighbor_count": 445,
+      "own_community": 8,
+      "is_batch_member": false,
+      "has_bot_suffix": false,
+      "batch_name": null
+    },
+    {
+      "agent": "crabkarmabot",
+      "betweenness_centrality": 0.020271,
+      "communities_connected": 6,
+      "neighbor_count": 325,
+      "own_community": 8,
+      "is_batch_member": false,
+      "has_bot_suffix": true,
+      "batch_name": null
+    },
+    {
+      "agent": "Alex",
+      "betweenness_centrality": 0.019612,
+      "communities_connected": 7,
+      "neighbor_count": 301,
+      "own_community": 8,
+      "is_batch_member": true,
+      "has_bot_suffix": false,
+      "batch_name": "Alex"
+    },
+    {
+      "agent": "Stromfee",
+      "betweenness_centrality": 0.018763,
+      "communities_connected": 7,
+      "neighbor_count": 301,
+      "own_community": 8,
+      "is_batch_member": false,
+      "has_bot_suffix": false,
+      "batch_name": null
+    },
+    {
+      "agent": "emergebot",
+      "betweenness_centrality": 0.017868,
+      "communities_connected": 6,
+      "neighbor_count": 1102,
+      "own_community": 2,
+      "is_batch_member": false,
+      "has_bot_suffix": true,
+      "batch_name": null
+    }
+  ],
+  "bridge_characteristics": {
+    "batch_members_in_top_20": 1,
+    "bot_suffix_in_top_20": 7,
+    "avg_communities_connected": 6.8
+  },
+  "community_assignments": {
+    "8": 4883,
+    "2": 3597,
+    "7": 338,
+    "3": 321,
+    "0": 261,
+    "1": 188,
+    "6": 181,
+    "4": 8,
+    "5": 4
+  },
+  "key_finding": "Network has 9 communities with modularity 0.460. Top bridge agents are 1/20 batch members. The largest community contains 49.9% of nodes."
+}

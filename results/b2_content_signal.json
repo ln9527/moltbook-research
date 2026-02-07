@@ -1,0 +1,167 @@
+{
+  "generated_at": "2026-02-05T15:36:09.742071+00:00",
+  "total_posts_analyzed": 75559,
+  "total_unique_authors": 17967,
+  "score_weights": {
+    "task_completion": {
+      "STRONG": 0.3,
+      "WEAK": 0.15,
+      "NONE": 0.0
+    },
+    "promotional": {
+      "STRONG": 0.25,
+      "WEAK": 0.1,
+      "NONE": 0.0
+    },
+    "forced_ai_framing": {
+      "STRONG": 0.2,
+      "WEAK": 0.1,
+      "NONE": 0.0
+    },
+    "naturalness": {
+      "1": 0.15,
+      "2": 0.15,
+      "3": 0.05,
+      "4": 0.0,
+      "5": 0.0
+    },
+    "specificity": {
+      "GENERIC": 0.1,
+      "MODERATE": 0.0,
+      "SPECIFIC": 0.0
+    }
+  },
+  "category_thresholds": {
+    "very_low": 0.2,
+    "low": 0.4,
+    "medium": 0.6,
+    "high": 0.8,
+    "very_high": 1.0
+  },
+  "score_statistics": {
+    "mean": 0.1144,
+    "median": 0.1,
+    "std": 0.1381,
+    "min": 0.0,
+    "max": 0.9,
+    "percentiles": {
+      "p10": 0.0,
+      "p25": 0.0,
+      "p50": 0.1,
+      "p75": 0.25,
+      "p90": 0.25
+    }
+  },
+  "category_distribution": {
+    "counts": {
+      "very_low": 50978,
+      "low": 22260,
+      "medium": 1968,
+      "high": 351,
+      "very_high": 2
+    },
+    "percentages": {
+      "very_low": 67.47,
+      "low": 29.46,
+      "medium": 2.6,
+      "high": 0.46,
+      "very_high": 0.0
+    }
+  },
+  "author_statistics": {
+    "total_authors": 17967,
+    "mean_author_score": 0.0804,
+    "category_distribution": {
+      "counts": {
+        "very_low": 15259,
+        "low": 2642,
+        "medium": 61,
+        "high": 5
+      },
+      "percentages": {
+        "very_low": 84.93,
+        "low": 14.7,
+        "medium": 0.34,
+        "high": 0.03
+      }
+    }
+  },
+  "feature_distributions": {
+    "task_completion": {
+      "counts": {
+        "NONE": 74833,
+        "STRONG": 382,
+        "WEAK": 344
+      },
+      "percentages": {
+        "NONE": 99.04,
+        "STRONG": 0.51,
+        "WEAK": 0.46
+      }
+    },
+    "promotional": {
+      "counts": {
+        "NONE": 52109,
+        "STRONG": 15486,
+        "WEAK": 7964
+      },
+      "percentages": {
+        "NONE": 68.96,
+        "STRONG": 20.5,
+        "WEAK": 10.54
+      }
+    },
+    "forced_ai_framing": {
+      "counts": {
+        "NONE": 73975,
+        "STRONG": 827,
+        "WEAK": 757
+      },
+      "percentages": {
+        "NONE": 97.9,
+        "STRONG": 1.09,
+        "WEAK": 1.0
+      }
+    },
+    "specificity": {
+      "counts": {
+        "SPECIFIC": 49989,
+        "GENERIC": 16429,
+        "MODERATE": 9141
+      },
+      "percentages": {
+        "SPECIFIC": 66.16,
+        "GENERIC": 21.74,
+        "MODERATE": 12.1
+      }
+    },
+    "naturalness": {
+      "counts": {
+        "1": 4489,
+        "2": 7850,
+        "3": 1512,
+        "4": 9827,
+        "5": 51881
+      },
+      "percentages": {
+        "1": 5.94,
+        "2": 10.39,
+        "3": 2.0,
+        "4": 13.01,
+        "5": 68.66
+      },
+      "statistics": {
+        "mean": 4.281,
+        "median": 5.0,
+        "std": 1.256
+      }
+    }
+  },
+  "interpretation": {
+    "very_low": "Score 0.0-0.2: Likely autonomous/natural content",
+    "low": "Score 0.2-0.4: Minimal human influence signals",
+    "medium": "Score 0.4-0.6: Mixed signals, some human direction",
+    "high": "Score 0.6-0.8: Strong human influence signals",
+    "very_high": "Score 0.8-1.0: Likely heavily human-directed or spam"
+  }
+}

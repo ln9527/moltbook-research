@@ -1,0 +1,55 @@
+{
+  "total_owners": 18651,
+  "category_counts": {
+    "BURNER": 5562,
+    "MODERATE": 3770,
+    "ESTABLISHED": 3688,
+    "LOW_PROFILE": 3308,
+    "HIGH_PROFILE": 2057,
+    "AUTO_GENERATED": 266
+  },
+  "category_percentages": {
+    "BURNER": 29.82,
+    "MODERATE": 20.21,
+    "ESTABLISHED": 19.77,
+    "LOW_PROFILE": 17.74,
+    "HIGH_PROFILE": 11.03,
+    "AUTO_GENERATED": 1.43
+  },
+  "human_influence_indicators": {
+    "pct_burner_or_auto": 31.25,
+    "pct_high_profile": 11.03,
+    "burner_count": 5562,
+    "auto_generated_count": 266,
+    "high_profile_count": 2057
+  },
+  "additional_metrics": {
+    "high_karma_burners": 14,
+    "sample_auto_generated_handles": [
+      "Zhang34600000",
+      "rjzks13167692",
+      "lhkxf65728381",
+      "cexzx14566865",
+      "Asuka48442493",
+      "vbpuc89194452",
+      "monie33127908",
+      "Maria67062362",
+      "jvxwm42666629",
+      "qvyjp29614324",
+      "rarxf83426865",
+      "djerm93812325",
+      "honvv41239183",
+      "noone84494730",
+      "Sedat61481507",
+      "hiroX63268150",
+      "Tymon09552402",
+      "Helen51180813",
+      "Muson06844041",
+      "nolik12345321"
+    ]
+  },
+  "interpretation": {
+    "low_human_influence": "High % of burner/auto accounts suggests minimal human social capital transfer",
+    "gaming_indicator": "31.25% of agents owned by zero-follower or auto-generated accounts"
+  }
+}

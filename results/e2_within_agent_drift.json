@@ -1,0 +1,2009 @@
+{
+  "description": "Analyzing how prolific authors' content drifts over time",
+  "min_posts_threshold": 10,
+  "authors_analyzed": 1680,
+  "drift_statistics": {
+    "naturalness": {
+      "mean_drift": 0.006512366398856737,
+      "std_drift": 0.6095628568587278,
+      "positive_drift_pct": 44.0,
+      "t_test_vs_zero": 0.8803558276515995
+    },
+    "specificity": {
+      "mean_drift": -0.037261045750457626,
+      "std_drift": 0.366818246710748,
+      "positive_drift_pct": 39.0
+    },
+    "semantic": {
+      "mean_cosine_distance": 0.21774945074134866,
+      "std_cosine_distance": 0.23779417390299426,
+      "median_cosine_distance": 0.13334444364289066
+    }
+  },
+  "author_details": [
+    {
+      "author_id": "fbe0ea64-7fd7-497f-8286-0a5a5428c819",
+      "total_posts": 5811,
+      "early_posts": 2905,
+      "later_posts": 2906,
+      "naturalness_drift": -0.6399498692834462,
+      "specificity_drift": -0.027195558361654326,
+      "semantic_drift": 0.049707033862682604
+    },
+    {
+      "author_id": "b08eaa2d-6085-4a48-ae4a-b395fda51f5f",
+      "total_posts": 2082,
+      "early_posts": 1041,
+      "later_posts": 1041,
+      "naturalness_drift": -0.06628242074927959,
+      "specificity_drift": -0.03170028818443815,
+      "semantic_drift": 0.031057126772384702
+    },
+    {
+      "author_id": "72e34ea6-e6d7-40d0-b18f-c51e569fb8ff",
+      "total_posts": 1235,
+      "early_posts": 617,
+      "later_posts": 618,
+      "naturalness_drift": -0.089416374250602,
+      "specificity_drift": -0.005124493189196944,
+      "semantic_drift": 0.025082446653285295
+    },
+    {
+      "author_id": "18957380-145a-49ff-a1a7-a0181262c596",
+      "total_posts": 254,
+      "early_posts": 127,
+      "later_posts": 127,
+      "naturalness_drift": -0.03149606299212593,
+      "specificity_drift": 0.40944881889763773,
+      "semantic_drift": 0.025633611195581607
+    },
+    {
+      "author_id": "37d57d66-ed50-416c-84d0-10c7447db3f2",
+      "total_posts": 179,
+      "early_posts": 89,
+      "later_posts": 90,
+      "naturalness_drift": 0.027215980024968722,
+      "specificity_drift": -0.056679151061173716,
+      "semantic_drift": 0.002433599302027356
+    },
+    {
+      "author_id": "d03d0ef7-ebf3-4517-8c6e-71c4e018aa48",
+      "total_posts": 148,
+      "early_posts": 74,
+      "later_posts": 74,
+      "naturalness_drift": -0.12162162162162193,
+      "specificity_drift": 0.12162162162162149,
+      "semantic_drift": 0.0145702445900453
+    },
+    {
+      "author_id": "d0c7adc0-b0ff-47af-aa0a-17c151a3f519",
+      "total_posts": 104,
+      "early_posts": 52,
+      "later_posts": 52,
+      "naturalness_drift": -0.2884615384615383,
+      "specificity_drift": 0.0,
+      "semantic_drift": 0.0019529829920967856
+    },
+    {
+      "author_id": "f4c751b6-0f06-4350-b47d-e7fb3f966dbf",
+      "total_posts": 101,
+      "early_posts": 50,
+      "later_posts": 51,
+      "naturalness_drift": -0.012941176470588012,
+      "specificity_drift": -0.039215686274509665,
+      "semantic_drift": 0.02226487170894287
+    },
+    {
+      "author_id": "2db40442-be33-43ca-860b-c40c73c96bc4",
+      "total_posts": 93,
+      "early_posts": 46,
+      "later_posts": 47,
+      "naturalness_drift": 0.0388529139685474,
+      "specificity_drift": 0.0,
+      "semantic_drift": 0.00037645193970003987
+    },
+    {
+      "author_id": "0f9752ba-9588-43b6-ab18-ebf44c67d518",
+      "total_posts": 93,
+      "early_posts": 46,
+      "later_posts": 47,
+      "naturalness_drift": 0.15679925994449562,
+      "specificity_drift": 0.0,
+      "semantic_drift": 0.00010962120678947862
+    },
+    {
+      "author_id": "7c91c952-250f-4d90-87ba-c28daa395b2b",
+      "total_posts": 90,
+      "early_posts": 45,
+      "later_posts": 45,
+      "naturalness_drift": -0.155555555555555,
+      "specificity_drift": 0.0,
+      "semantic_drift": 1.5690187893269147e-05
+    },
+    {
+      "author_id": "775420a5-0bb6-46ca-bfbd-9427bcf68b09",
+      "total_posts": 88,
+      "early_posts": 44,
+      "later_posts": 44,
+      "naturalness_drift": 0.0,
+      "specificity_drift": 0.0,
+      "semantic_drift": 0.00030344328692277767
+    },
+    {
+      "author_id": "1b0bcfa6-d9bf-4b9b-ad71-65ac70e1c052",
+      "total_posts": 86,
+      "early_posts": 43,
+      "later_posts": 43,
+      "naturalness_drift": -0.09302325581395365,
+      "specificity_drift": 0.09302325581395343,
+      "semantic_drift": 0.029951286737665006
+    },
+    {
+      "author_id": "86dbafca-69eb-4320-9f24-f00c7b88c64a",
+      "total_posts": 85,
+      "early_posts": 42,
+      "later_posts": 43,
+      "naturalness_drift": -0.25083056478405297,
+      "specificity_drift": -0.07419712070874862,
+      "semantic_drift": 0.20181039348610996
+    },
+    {
+      "author_id": "279e64b5-18b8-4e1d-bf75-21b370ae6138",
+      "total_posts": 85,
+      "early_posts": 42,
+      "later_posts": 43,
+      "naturalness_drift": 0.02657807308970117,
+      "specificity_drift": 0.04651162790697683,
+      "semantic_drift": 0.1276390607511657
+    },
+    {
+      "author_id": "eef22f0e-d7d9-4d18-85c3-0e228b7c3d10",
+      "total_posts": 81,
+      "early_posts": 40,
+      "later_posts": 41,
+      "naturalness_drift": -0.850609756097561,
+      "specificity_drift": -0.17804878048780481,
+      "semantic_drift": 0.25530625913469074
+    },
+    {
+      "author_id": "56ed168d-6a05-4622-a9e7-43dd2a299c19",
+      "total_posts": 80,
+      "early_posts": 40,
+      "later_posts": 40,
+      "naturalness_drift": 0.0,
+      "specificity_drift": -0.25,
+      "semantic_drift": 0.10859113416483235
+    },
+    {
+      "author_id": "2f9d6e16-22e1-437e-96dc-ac61379a47a7",
+      "total_posts": 73,
+      "early_posts": 36,
+      "later_posts": 37,
+      "naturalness_drift": 0.0022522522522523403,
+      "specificity_drift": -0.17192192192192213,
+      "semantic_drift": 0.1701615251153188
+    },
+    {
+      "author_id": "c00b6c32-bc2f-4567-b5ed-156f3485181c",
+      "total_posts": 72,
+      "early_posts": 36,
+      "later_posts": 36,
+      "naturalness_drift": -0.02777777777777768,
+      "specificity_drift": -0.13888888888888884,
+      "semantic_drift": 0.022986639753729277
+    },
+    {
+      "author_id": "edeb0592-05de-4801-8973-de4eba4830b5",
+      "total_posts": 70,
+      "early_posts": 35,
+      "later_posts": 35,
+      "naturalness_drift": -0.05714285714285694,
+      "specificity_drift": -0.2571428571428571,
+      "semantic_drift": 0.28178341334552015
+    },
+    {
+      "author_id": "4860dc9f-c385-421d-b26b-67ac91457024",
+      "total_posts": 69,
+      "early_posts": 34,
+      "later_posts": 35,
+      "naturalness_drift": 0.20924369747899174,
+      "specificity_drift": -0.026050420168067134,
+      "semantic_drift": 0.14809340289695627
+    },
+    {
+      "author_id": "dff113ba-d612-4b82-9447-9e6b6ebf5dfb",
+      "total_posts": 69,
+      "early_posts": 34,
+      "later_posts": 35,
+      "naturalness_drift": 0.21344537815126063,
+      "specificity_drift": 0.12100840336134455,
+      "semantic_drift": 0.0022685719709656382
+    },
+    {
+      "author_id": "4324498e-6fe1-4e4d-a0b1-626740b9cb2c",
+      "total_posts": 67,
+      "early_posts": 33,
+      "later_posts": 34,
+      "naturalness_drift": -0.15151515151515138,
+      "specificity_drift": 0.06149732620320858,
+      "semantic_drift": 0.014242167369933334
+    },
+    {
+      "author_id": "bfbb3b19-cc4f-48ef-a0c6-03fff56119ae",
+      "total_posts": 65,
+      "early_posts": 32,
+      "later_posts": 33,
+      "naturalness_drift": -1.6969696969696968,
+      "specificity_drift": -0.6609848484848486,
+      "semantic_drift": 0.36378950469485727
+    },
+    {
+      "author_id": "64d0c2de-25ac-40b3-a63d-9a485c6f01cd",
+      "total_posts": 64,
+      "early_posts": 32,
+      "later_posts": 32,
+      "naturalness_drift": 0.1875,
+      "specificity_drift": 0.0,
+      "semantic_drift": 3.975321797256015e-05
+    },
+    {
+      "author_id": "77c5f11d-f676-4d67-a665-84e07f2cc80a",
+      "total_posts": 64,
+      "early_posts": 32,
+      "later_posts": 32,
+      "naturalness_drift": 0.15625,
+      "specificity_drift": 0.0,
+      "semantic_drift": 6.89045258308596e-05
+    },
+    {
+      "author_id": "2b42efca-e221-482d-bd3c-66dc20655acf",
+      "total_posts": 63,
+      "early_posts": 31,
+      "later_posts": 32,
+      "naturalness_drift": -0.777217741935484,
+      "specificity_drift": -0.310483870967742,
+      "semantic_drift": 0.9338900271413435
+    },
+    {
+      "author_id": "7e33c519-8140-4370-b274-b4a9db16f766",
+      "total_posts": 63,
+      "early_posts": 31,
+      "later_posts": 32,
+      "naturalness_drift": 0.25907258064516103,
+      "specificity_drift": 0.16330645161290303,
+      "semantic_drift": 0.40655586526096466
+    },
+    {
+      "author_id": "d4190f4f-3298-41c9-b40c-bb8a7a17ebad",
+      "total_posts": 62,
+      "early_posts": 31,
+      "later_posts": 31,
+      "naturalness_drift": -0.09677419354838701,
+      "specificity_drift": 0.12903225806451601,
+      "semantic_drift": 0.09992946854616036
+    },
+    {
+      "author_id": "96a6d764-0335-4bc6-bfec-9bfbdce49a38",
+      "total_posts": 61,
+      "early_posts": 30,
+      "later_posts": 31,
+      "naturalness_drift": 0.05698924731182764,
+      "specificity_drift": 0.0,
+      "semantic_drift": 5.820692074998135e-06
+    },
+    {
+      "author_id": "daad4e70-a02d-4187-9a4a-1c9bace0d9fa",
+      "total_posts": 61,
+      "early_posts": 30,
+      "later_posts": 31,
+      "naturalness_drift": -0.062365591397849585,
+      "specificity_drift": 0.0,
+      "semantic_drift": 5.90937989241036e-05
+    },
+    {
+      "author_id": "c00b22ce-c923-46b6-87ad-859d875db951",
+      "total_posts": 60,
+      "early_posts": 30,
+      "later_posts": 30,
+      "naturalness_drift": -0.033333333333333215,
+      "specificity_drift": 0.033333333333333215,
+      "semantic_drift": 0.060279353224986565
+    },
+    {
+      "author_id": "847d354d-c00d-4d15-9ffa-3f19e1296ed2",
+      "total_posts": 60,
+      "early_posts": 30,
+      "later_posts": 30,
+      "naturalness_drift": 0.4333333333333331,
+      "specificity_drift": 0.09999999999999987,
+      "semantic_drift": 0.057822349558653396
+    },
+    {
+      "author_id": "a281e2db-ae78-4833-94ab-da440c2ec369",
+      "total_posts": 59,
+      "early_posts": 29,
+      "later_posts": 30,
+      "naturalness_drift": 0.21379310344827562,
+      "specificity_drift": -0.05747126436781613,
+      "semantic_drift": 0.053215615832338914
+    },
+    {
+      "author_id": "5e9d5bfd-36a1-4c53-8368-ab3ab68e5461",
+      "total_posts": 59,
+      "early_posts": 29,
+      "later_posts": 30,
+      "naturalness_drift": 0.07356321839080415,
+      "specificity_drift": 0.14252873563218404,
+      "semantic_drift": 0.07663433994097202
+    },
+    {
+      "author_id": "e50372f1-45cd-4454-9139-ad0d973938d5",
+      "total_posts": 59,
+      "early_posts": 29,
+      "later_posts": 30,
+      "naturalness_drift": 0.14367816091954033,
+      "specificity_drift": 0.016091954022988464,
+      "semantic_drift": 0.3953266419387339
+    },
+    {
+      "author_id": "37944d7b-2721-4b24-9b61-00f37bdeaa90",
+      "total_posts": 59,
+      "early_posts": 29,
+      "later_posts": 30,
+      "naturalness_drift": -0.5942528735632182,
+      "specificity_drift": 0.10459770114942524,
+      "semantic_drift": 0.42132537764447997
+    },
+    {
+      "author_id": "2a6fe7dd-9509-43bd-afcc-e87805eccf03",
+      "total_posts": 58,
+      "early_posts": 29,
+      "later_posts": 29,
+      "naturalness_drift": -0.2413793103448274,
+      "specificity_drift": 0.0,
+      "semantic_drift": 3.915330741166567e-05
+    },
+    {
+      "author_id": "74668399-3470-401d-80c0-3ecf98021c5b",
+      "total_posts": 57,
+      "early_posts": 28,
+      "later_posts": 29,
+      "naturalness_drift": -0.1884236453201975,
+      "specificity_drift": 0.0,
+      "semantic_drift": 3.6462540183523906e-05
+    },
+    {
+      "author_id": "5b0f47b9-f5e7-4868-aa0d-25a1dddd9c23",
+      "total_posts": 57,
+      "early_posts": 28,
+      "later_posts": 29,
+      "naturalness_drift": -0.37315270935960587,
+      "specificity_drift": 0.46674876847290614,
+      "semantic_drift": 0.23500155323311123
+    },
+    {
+      "author_id": "075d3f28-bbc5-4214-b4dd-a0299a167362",
+      "total_posts": 57,
+      "early_posts": 28,
+      "later_posts": 29,
+      "naturalness_drift": -2.056650246305419,
+      "specificity_drift": -1.1009852216748766,
+      "semantic_drift": 0.14360286247689513
+    },
+    {
+      "author_id": "4bfb7971-d0c7-486d-b104-0df0d84af4c5",
+      "total_posts": 56,
+      "early_posts": 28,
+      "later_posts": 28,
+      "naturalness_drift": 0.5357142857142865,
+      "specificity_drift": 0.5714285714285716,
+      "semantic_drift": 0.3385537270769239
+    },
+    {
+      "author_id": "fe6bc95c-bb64-45b6-971d-643df4da40b5",
+      "total_posts": 56,
+      "early_posts": 28,
+      "later_posts": 28,
+      "naturalness_drift": 0.03571428571428559,
+      "specificity_drift": 0.0,
+      "semantic_drift": 3.403999954665338e-05
+    },
+    {
+      "author_id": "d0152695-9c62-4751-bbe2-793df0744f16",
+      "total_posts": 56,
+      "early_posts": 28,
+      "later_posts": 28,
+      "naturalness_drift": 0.0,
+      "specificity_drift": 0.25,
+      "semantic_drift": 0.23190151666550607
+    },
+    {
+      "author_id": "08191dec-b1d4-4b91-a880-f7db569da4c3",
+      "total_posts": 56,
+      "early_posts": 28,
+      "later_posts": 28,
+      "naturalness_drift": -0.10714285714285698,
+      "specificity_drift": 0.0,
+      "semantic_drift": 0.0015827413927694822
+    },
+    {
+      "author_id": "bb3e952e-ac79-443a-bf46-6d0a00940470",
+      "total_posts": 55,
+      "early_posts": 27,
+      "later_posts": 28,
+      "naturalness_drift": 0.05555555555555536,
+      "specificity_drift": 0.13492063492063489,
+      "semantic_drift": 0.0152852532837211
+    },
+    {
+      "author_id": "7eb550ba-63c3-427e-a412-311b36aba54e",
+      "total_posts": 54,
+      "early_posts": 27,
+      "later_posts": 27,
+      "naturalness_drift": 1.2222222222222219,
+      "specificity_drift": 0.5185185185185186,
+      "semantic_drift": 0.3305411593801012
+    },
+    {
+      "author_id": "09b77547-9b5a-40ab-ac1c-e5dc776f6461",
+      "total_posts": 54,
+      "early_posts": 27,
+      "later_posts": 27,
+      "naturalness_drift": -0.9259259259259265,
+      "specificity_drift": -0.5555555555555554,
+      "semantic_drift": 0.2051304441895373
+    },
+    {
+      "author_id": "9f8f7859-d0d2-44e7-be17-6f38a034f12a",
+      "total_posts": 54,
+      "early_posts": 27,
+      "later_posts": 27,
+      "naturalness_drift": -0.6666666666666665,
+      "specificity_drift": -0.2592592592592593,
+      "semantic_drift": 0.0010454935809048882
+    },
+    {
+      "author_id": "ae6af14f-96e2-4a32-8e93-91848b45c51a",
+      "total_posts": 54,
+      "early_posts": 27,
+      "later_posts": 27,
+      "naturalness_drift": 0.0370370370370372,
+      "specificity_drift": 0.22222222222222254,
+      "semantic_drift": 0.3614056966709679
+    },
+    {
+      "author_id": "9b27078c-3e8a-4bdd-a96b-b35dfecb981d",
+      "total_posts": 53,
+      "early_posts": 26,
+      "later_posts": 27,
+      "naturalness_drift": -0.022792022792022415,
+      "specificity_drift": -0.04700854700854684,
+      "semantic_drift": 0.024202034750518964
+    },
+    {
+      "author_id": "153ea4d5-0055-41fa-8f8e-c933a7f65e44",
+      "total_posts": 53,
+      "early_posts": 26,
+      "later_posts": 27,
+      "naturalness_drift": 0.3461538461538458,
+      "specificity_drift": -0.2948717948717947,
+      "semantic_drift": 0.36037102408452903
+    },
+    {
+      "author_id": "614b1d5e-5d05-4413-add9-8f047335555d",
+      "total_posts": 52,
+      "early_posts": 26,
+      "later_posts": 26,
+      "naturalness_drift": -0.038461538461538325,
+      "specificity_drift": 0.0,
+      "semantic_drift": 0.0014634298732940643
+    },
+    {
+      "author_id": "295ea98f-f37d-470d-9ca5-afc1963cea43",
+      "total_posts": 52,
+      "early_posts": 26,
+      "later_posts": 26,
+      "naturalness_drift": -0.15384615384615397,
+      "specificity_drift": 0.0,
+      "semantic_drift": 0.0011973181657070064
+    },
+    {
+      "author_id": "a3e358e2-a1ec-4739-911b-3b7cbfe30a5b",
+      "total_posts": 52,
+      "early_posts": 26,
+      "later_posts": 26,
+      "naturalness_drift": 0.1923076923076923,
+      "specificity_drift": 0.0,
+      "semantic_drift": 0.13969080445783078
+    },
+    {
+      "author_id": "2d941422-5173-4a15-8da0-a17e09db841d",
+      "total_posts": 51,
+      "early_posts": 25,
+      "later_posts": 26,
+      "naturalness_drift": 0.10307692307692307,
+      "specificity_drift": 0.0,
+      "semantic_drift": 0.0012451409359366394
+    },
+    {
+      "author_id": "12c224a3-13b1-459a-ac3f-e005f5ddc345",
+      "total_posts": 51,
+      "early_posts": 25,
+      "later_posts": 26,
+      "naturalness_drift": -0.07692307692307665,
+      "specificity_drift": -0.13230769230769246,
+      "semantic_drift": 0.658169444436618
+    },
+    {
+      "author_id": "fdf6d74d-3b26-42fa-8076-bb102afc0d57",
+      "total_posts": 51,
+      "early_posts": 25,
+      "later_posts": 26,
+      "naturalness_drift": 1.2723076923076926,
+      "specificity_drift": 0.0,
+      "semantic_drift": 0.12997807826330932
+    },
+    {
+      "author_id": "49345377-0580-4c49-a0f9-e026c746a568",
+      "total_posts": 50,
+      "early_posts": 25,
+      "later_posts": 25,
+      "naturalness_drift": 0.0,
+      "specificity_drift": 0.0,
+      "semantic_drift": 0.07914823575211594
+    },
+    {
+      "author_id": "c53be8e5-efde-441a-b1a2-85086a2387ee",
+      "total_posts": 50,
+      "early_posts": 25,
+      "later_posts": 25,
+      "naturalness_drift": -0.040000000000000036,
+      "specificity_drift": 0.1200000000000001,
+      "semantic_drift": 0.003985693332658968
+    },
+    {
+      "author_id": "5dcfabe6-3487-4e53-81d9-8d683845014a",
+      "total_posts": 50,
+      "early_posts": 25,
+      "later_posts": 25,
+      "naturalness_drift": 1.4399999999999995,
+      "specificity_drift": 0.6400000000000001,
+      "semantic_drift": 0.20014480776248533
+    },
+    {
+      "author_id": "82882fd2-cfc2-4159-9af1-43806987c9cf",
+      "total_posts": 49,
+      "early_posts": 24,
+      "later_posts": 25,
+      "naturalness_drift": -1.2200000000000002,
+      "specificity_drift": -1.0366666666666666,
+      "semantic_drift": 0.6180588141600134
+    },
+    {
+      "author_id": "5a7278f3-33ec-4f70-8548-b2ba284483e3",
+      "total_posts": 49,
+      "early_posts": 24,
+      "later_posts": 25,
+      "naturalness_drift": 1.761666666666667,
+      "specificity_drift": 1.221666666666667,
+      "semantic_drift": 0.15768144764077774
+    },
+    {
+      "author_id": "6ece9fa6-8e20-4883-b951-d86704d79e54",
+      "total_posts": 49,
+      "early_posts": 24,
+      "later_posts": 25,
+      "naturalness_drift": 0.09166666666666679,
+      "specificity_drift": -0.9550000000000001,
+      "semantic_drift": 0.5428035087275548
+    },
+    {
+      "author_id": "281151ef-9fd8-4529-8d04-811399e12763",
+      "total_posts": 49,
+      "early_posts": 24,
+      "later_posts": 25,
+      "naturalness_drift": 0.5449999999999999,
+      "specificity_drift": 1.1716666666666666,
+      "semantic_drift": 0.6717026676568119
+    },
+    {
+      "author_id": "524a363d-d354-404d-b4e4-234cb7ca1bbe",
+      "total_posts": 49,
+      "early_posts": 24,
+      "later_posts": 25,
+      "naturalness_drift": -0.025000000000000355,
+      "specificity_drift": 0.16999999999999993,
+      "semantic_drift": 0.14929268090145187
+    },
+    {
+      "author_id": "ca17169e-ae52-4f7f-9836-76487306b110",
+      "total_posts": 49,
+      "early_posts": 24,
+      "later_posts": 25,
+      "naturalness_drift": 0.33499999999999996,
+      "specificity_drift": 0.1299999999999999,
+      "semantic_drift": 0.04479426782783957
+    },
+    {
+      "author_id": "de3976c9-a129-4c80-a687-51aa6a1d7169",
+      "total_posts": 49,
+      "early_posts": 24,
+      "later_posts": 25,
+      "naturalness_drift": 0.0,
+      "specificity_drift": -0.08000000000000007,
+      "semantic_drift": 0.15002698224641609
+    },
+    {
+      "author_id": "87fc23cf-e868-42e3-83c3-5ec99abc88d4",
+      "total_posts": 48,
+      "early_posts": 24,
+      "later_posts": 24,
+      "naturalness_drift": 0.2916666666666665,
+      "specificity_drift": 0.0,
+      "semantic_drift": 0.03053892253381718
+    },
+    {
+      "author_id": "cd8b5d16-1e0e-4914-b909-50ac6bf0a6b9",
+      "total_posts": 48,
+      "early_posts": 24,
+      "later_posts": 24,
+      "naturalness_drift": 0.125,
+      "specificity_drift": -0.29166666666666674,
+      "semantic_drift": 0.023344083370176905
+    },
+    {
+      "author_id": "9b44f8ce-783d-4e53-97bf-9d3075f9032e",
+      "total_posts": 48,
+      "early_posts": 24,
+      "later_posts": 24,
+      "naturalness_drift": -0.25,
+      "specificity_drift": -0.04166666666666652,
+      "semantic_drift": 0.03034990229831691
+    },
+    {
+      "author_id": "3f4cd2b3-f8fa-4454-aad8-6b527e6689e3",
+      "total_posts": 48,
+      "early_posts": 24,
+      "later_posts": 24,
+      "naturalness_drift": 0.583333333333333,
+      "specificity_drift": -0.5,
+      "semantic_drift": 0.10637430554685845
+    },
+    {
+      "author_id": "3195ad2e-97d0-45e5-93af-21293af50d3e",
+      "total_posts": 48,
+      "early_posts": 24,
+      "later_posts": 24,
+      "naturalness_drift": -0.20833333333333304,
+      "specificity_drift": 0.08333333333333348,
+      "semantic_drift": 0.5762830408830723
+    },
+    {
+      "author_id": "502ce1c3-4486-4eee-a2cd-7005d58f0f37",
+      "total_posts": 47,
+      "early_posts": 23,
+      "later_posts": 24,
+      "naturalness_drift": 0.0,
+      "specificity_drift": 0.0,
+      "semantic_drift": 0.12355884052514365
+    },
+    {
+      "author_id": "4e270d3d-0284-45a5-a1c6-ecc7e020b9d7",
+      "total_posts": 47,
+      "early_posts": 23,
+      "later_posts": 24,
+      "naturalness_drift": 0.13043478260869534,
+      "specificity_drift": -0.22644927536231885,
+      "semantic_drift": 0.08458143927036466
+    },
+    {
+      "author_id": "26c3e71a-af5e-409f-a528-5d011457dc88",
+      "total_posts": 47,
+      "early_posts": 23,
+      "later_posts": 24,
+      "naturalness_drift": -0.034420289855072284,
+      "specificity_drift": 0.05434782608695654,
+      "semantic_drift": 0.07756197263372233
+    },
+    {
+      "author_id": "97fefbdf-a24f-4b81-b093-9a3199d26869",
+      "total_posts": 47,
+      "early_posts": 23,
+      "later_posts": 24,
+      "naturalness_drift": 0.3496376811594202,
+      "specificity_drift": 0.0,
+      "semantic_drift": 0.24573107492011093
+    },
+    {
+      "author_id": "62998b7d-9b9b-4cb3-8342-8163ddab8548",
+      "total_posts": 47,
+      "early_posts": 23,
+      "later_posts": 24,
+      "naturalness_drift": 0.17391304347826075,
+      "specificity_drift": 0.08695652173913038,
+      "semantic_drift": 0.13029145359406102
+    },
+    {
+      "author_id": "a7806eb9-a6e6-4ca6-bbfb-ec29c09fa708",
+      "total_posts": 46,
+      "early_posts": 23,
+      "later_posts": 23,
+      "naturalness_drift": -0.08695652173913082,
+      "specificity_drift": 0.43478260869565233,
+      "semantic_drift": 0.047499512625471585
+    },
+    {
+      "author_id": "24ba6e9d-c05f-4cd0-a38c-f1e348c8d39e",
+      "total_posts": 46,
+      "early_posts": 23,
+      "later_posts": 23,
+      "naturalness_drift": 0.08695652173913038,
+      "specificity_drift": 0.08695652173913038,
+      "semantic_drift": 0.2630088501425719
+    },
+    {
+      "author_id": "5da285f1-3054-40d7-a045-113291c2faeb",
+      "total_posts": 46,
+      "early_posts": 23,
+      "later_posts": 23,
+      "naturalness_drift": -1.5652173913043477,
+      "specificity_drift": -0.7826086956521738,
+      "semantic_drift": 0.5602511467592783
+    },
+    {
+      "author_id": "81113f3a-f5fd-4072-8bf6-6fc5e725f5cd",
+      "total_posts": 46,
+      "early_posts": 23,
+      "later_posts": 23,
+      "naturalness_drift": 0.21739130434782616,
+      "specificity_drift": -0.04347826086956541,
+      "semantic_drift": 0.1805037035518613
+    },
+    {
+      "author_id": "d28c238d-4370-4264-83e3-ba94d40f722e",
+      "total_posts": 45,
+      "early_posts": 22,
+      "later_posts": 23,
+      "naturalness_drift": 0.16205533596837984,
+      "specificity_drift": 0.045454545454545414,
+      "semantic_drift": 0.004182605419499996
+    },
+    {
+      "author_id": "4c9e07e6-15ce-4d40-a0c3-7322ca483612",
+      "total_posts": 45,
+      "early_posts": 22,
+      "later_posts": 23,
+      "naturalness_drift": -0.10671936758893263,
+      "specificity_drift": 0.0,
+      "semantic_drift": 8.759393464896625e-05
+    },
+    {
+      "author_id": "95734ddd-4ccd-47da-82c5-e141a9354d78",
+      "total_posts": 45,
+      "early_posts": 22,
+      "later_posts": 23,
+      "naturalness_drift": 0.6699604743083007,
+      "specificity_drift": -0.009881422924900907,
+      "semantic_drift": 0.49918833347290026
+    },
+    {
+      "author_id": "787429c5-3029-45ae-b93f-6ca1fb52249b",
+      "total_posts": 45,
+      "early_posts": 22,
+      "later_posts": 23,
+      "naturalness_drift": -0.3438735177865615,
+      "specificity_drift": -0.08695652173913038,
+      "semantic_drift": 0.031634919560575514
+    },
+    {
+      "author_id": "e5beb325-a739-4593-840e-6a0f0b921bbf",
+      "total_posts": 45,
+      "early_posts": 22,
+      "later_posts": 23,
+      "naturalness_drift": -0.04347826086956541,
+      "specificity_drift": 0.19565217391304346,
+      "semantic_drift": 0.0922438490780153
+    },
+    {
+      "author_id": "d871671f-7715-4a88-929a-a69eca6dddcc",
+      "total_posts": 44,
+      "early_posts": 22,
+      "later_posts": 22,
+      "naturalness_drift": 0.0,
+      "specificity_drift": 0.13636363636363624,
+      "semantic_drift": 0.09034528803319397
+    },
+    {
+      "author_id": "995f12e9-be85-470b-b551-8b07cbec7433",
+      "total_posts": 44,
+      "early_posts": 22,
+      "later_posts": 22,
+      "naturalness_drift": -0.18181818181818166,
+      "specificity_drift": -0.31818181818181834,
+      "semantic_drift": 0.6044824491750971
+    },
+    {
+      "author_id": "d0a654ff-3d9c-4ed0-b532-40b5fc0b20ca",
+      "total_posts": 44,
+      "early_posts": 22,
+      "later_posts": 22,
+      "naturalness_drift": -0.3636363636363633,
+      "specificity_drift": -0.09090909090909083,
+      "semantic_drift": 0.08305057396738946
+    },
+    {
+      "author_id": "4dfd1160-30c9-4561-8843-65ba53541bf1",
+      "total_posts": 44,
+      "early_posts": 22,
+      "later_posts": 22,
+      "naturalness_drift": 0.09090909090909083,
+      "specificity_drift": 0.0,
+      "semantic_drift": 0.0003133098622835062
+    },
+    {
+      "author_id": "425eddb6-46f3-4649-91fd-75dac31028e0",
+      "total_posts": 44,
+      "early_posts": 22,
+      "later_posts": 22,
+      "naturalness_drift": 0.0,
+      "specificity_drift": -0.09090909090909083,
+      "semantic_drift": 0.11271168315993241
+    },
+    {
+      "author_id": "d38937a9-3f0e-4bae-a53b-0136cdb244cd",
+      "total_posts": 43,
+      "early_posts": 21,
+      "later_posts": 22,
+      "naturalness_drift": 0.0,
+      "specificity_drift": 0.06493506493506462,
+      "semantic_drift": 0.03377062870611147
+    },
+    {
+      "author_id": "8255dce5-11a4-4984-8b2c-2879564dd972",
+      "total_posts": 43,
+      "early_posts": 21,
+      "later_posts": 22,
+      "naturalness_drift": -0.17965367965368007,
+      "specificity_drift": -0.10389610389610393,
+      "semantic_drift": 0.23394630601080013
+    },
+    {
+      "author_id": "0c5e575e-6d4b-43d1-9388-93de9728aca1",
+      "total_posts": 43,
+      "early_posts": 21,
+      "later_posts": 22,
+      "naturalness_drift": 0.0,
+      "specificity_drift": -0.09307359307359286,
+      "semantic_drift": 0.238006515159505
+    },
+    {
+      "author_id": "e106e5a3-4847-4c08-82d4-c45531350ed9",
+      "total_posts": 43,
+      "early_posts": 21,
+      "later_posts": 22,
+      "naturalness_drift": 0.1471861471861473,
+      "specificity_drift": 0.0,
+      "semantic_drift": 0.009250867550174124
+    },
+    {
+      "author_id": "db7b31e5-835f-4b1b-b64b-68a5b3193579",
+      "total_posts": 42,
+      "early_posts": 21,
+      "later_posts": 21,
+      "naturalness_drift": -0.04761904761904745,
+      "specificity_drift": -0.04761904761904767,
+      "semantic_drift": 0.09413823021068424
+    },
+    {
+      "author_id": "c242ffb1-994d-4083-a237-80f53c28f317",
+      "total_posts": 42,
+      "early_posts": 21,
+      "later_posts": 21,
+      "naturalness_drift": 0.33333333333333304,
+      "specificity_drift": -0.38095238095238093,
+      "semantic_drift": 0.8530870009920581
+    },
+    {
+      "author_id": "855a8524-7582-4d29-b952-3279f4a9ffcb",
+      "total_posts": 42,
+      "early_posts": 21,
+      "later_posts": 21,
+      "naturalness_drift": 0.0,
+      "specificity_drift": 0.09523809523809534,
+      "semantic_drift": 0.16643455332260226
+    },
+    {
+      "author_id": "47de6b5b-570e-487a-98f7-ed41d7c682c2",
+      "total_posts": 42,
+      "early_posts": 21,
+      "later_posts": 21,
+      "naturalness_drift": 0.04761904761904745,
+      "specificity_drift": 0.0,
+      "semantic_drift": 0.3372088583361311
+    },
+    {
+      "author_id": "f58959bf-f731-460d-bc5b-6939da611c1a",
+      "total_posts": 42,
+      "early_posts": 21,
+      "later_posts": 21,
+      "naturalness_drift": 0.1904761904761907,
+      "specificity_drift": 0.0,
+      "semantic_drift": 0.06834197377630302
+    },
+    {
+      "author_id": "7a9b5c9d-8478-4f32-96e5-054ae9fe5d9b",
+      "total_posts": 41,
+      "early_posts": 20,
+      "later_posts": 21,
+      "naturalness_drift": -1.6166666666666667,
+      "specificity_drift": -0.8571428571428572,
+      "semantic_drift": 0.8621915977045818
+    },
+    {
+      "author_id": "062a6757-ee33-47ce-b928-6d50a69ee3ac",
+      "total_posts": 41,
+      "early_posts": 20,
+      "later_posts": 21,
+      "naturalness_drift": -2.2023809523809526,
+      "specificity_drift": 0.10000000000000009,
+      "semantic_drift": 0.4228066010833076
+    },
+    {
+      "author_id": "d7efe0a6-7313-4fa5-8978-93309e3bcdde",
+      "total_posts": 41,
+      "early_posts": 20,
+      "later_posts": 21,
+      "naturalness_drift": 0.15238095238095273,
+      "specificity_drift": 0.004761904761904745,
+      "semantic_drift": 0.08653094049694965
+    },
+    {
+      "author_id": "1d03c028-2623-4276-914e-abaaf85025e0",
+      "total_posts": 41,
+      "early_posts": 20,
+      "later_posts": 21,
+      "naturalness_drift": 1.4380952380952383,
+      "specificity_drift": 0.7190476190476192,
+      "semantic_drift": 0.42716139686746313
+    },
+    {
+      "author_id": "b505cfdb-9ed0-4311-851b-d676d15365bf",
+      "total_posts": 41,
+      "early_posts": 20,
+      "later_posts": 21,
+      "naturalness_drift": -0.04047619047619033,
+      "specificity_drift": 0.20000000000000018,
+      "semantic_drift": 0.05560075806283471
+    },
+    {
+      "author_id": "75c17757-a94a-4efe-949c-f07d77a959a5",
+      "total_posts": 41,
+      "early_posts": 20,
+      "later_posts": 21,
+      "naturalness_drift": -1.1380952380952385,
+      "specificity_drift": 0.7000000000000002,
+      "semantic_drift": 0.6359198720957372
+    },
+    {
+      "author_id": "a4973149-806e-4e8c-8128-379d16a75767",
+      "total_posts": 41,
+      "early_posts": 20,
+      "later_posts": 21,
+      "naturalness_drift": 0.0,
+      "specificity_drift": -0.08809523809523823,
+      "semantic_drift": 0.007605431186095357
+    },
+    {
+      "author_id": "2550d85a-6d8b-4272-bc1f-0ff3b019ca69",
+      "total_posts": 41,
+      "early_posts": 20,
+      "later_posts": 21,
+      "naturalness_drift": 0.10476190476190528,
+      "specificity_drift": 0.2666666666666666,
+      "semantic_drift": 0.3180650875651839
+    },
+    {
+      "author_id": "b973cbf4-8754-4458-a9c2-9b64a8be400e",
+      "total_posts": 41,
+      "early_posts": 20,
+      "later_posts": 21,
+      "naturalness_drift": 1.6857142857142855,
+      "specificity_drift": 0.7952380952380953,
+      "semantic_drift": 0.5303966412844107
+    },
+    {
+      "author_id": "970a1385-a755-4339-8993-e42938af24c7",
+      "total_posts": 41,
+      "early_posts": 20,
+      "later_posts": 21,
+      "naturalness_drift": 0.5809523809523816,
+      "specificity_drift": 0.3214285714285714,
+      "semantic_drift": 0.21539480654398668
+    },
+    {
+      "author_id": "7d78312f-6850-415f-800f-317625b95101",
+      "total_posts": 41,
+      "early_posts": 20,
+      "later_posts": 21,
+      "naturalness_drift": 0.2999999999999998,
+      "specificity_drift": 0.0976190476190475,
+      "semantic_drift": 0.07938249121221574
+    },
+    {
+      "author_id": "a1439fcc-4144-4232-aab6-65437e6d77dc",
+      "total_posts": 41,
+      "early_posts": 20,
+      "later_posts": 21,
+      "naturalness_drift": 0.04999999999999982,
+      "specificity_drift": 0.10000000000000009,
+      "semantic_drift": 0.5567829159563489
+    },
+    {
+      "author_id": "79ebf496-f084-4e3b-9126-b0371190f580",
+      "total_posts": 41,
+      "early_posts": 20,
+      "later_posts": 21,
+      "naturalness_drift": 0.12857142857142856,
+      "specificity_drift": 0.0,
+      "semantic_drift": 0.009295581902620587
+    },
+    {
+      "author_id": "ff61f3c2-d7bd-452b-90a4-c9dccc65f6d7",
+      "total_posts": 40,
+      "early_posts": 20,
+      "later_posts": 20,
+      "naturalness_drift": 1.7999999999999998,
+      "specificity_drift": 0.10000000000000009,
+      "semantic_drift": 0.6329028560013192
+    },
+    {
+      "author_id": "3ef44902-e9e3-4550-83e7-218ec18f5584",
+      "total_posts": 40,
+      "early_posts": 20,
+      "later_posts": 20,
+      "naturalness_drift": -0.5999999999999996,
+      "specificity_drift": -0.2999999999999998,
+      "semantic_drift": 0.13613514745774935
+    },
+    {
+      "author_id": "33a00d85-3d5b-4b80-8ba9-eeb46cd3fde6",
+      "total_posts": 39,
+      "early_posts": 19,
+      "later_posts": 20,
+      "naturalness_drift": 0.11578947368421044,
+      "specificity_drift": 0.1105263157894738,
+      "semantic_drift": 0.28761869202093215
+    },
+    {
+      "author_id": "dc15aa3f-6b6f-4b7f-9a37-2b4287e7683f",
+      "total_posts": 39,
+      "early_posts": 19,
+      "later_posts": 20,
+      "naturalness_drift": 1.1105263157894742,
+      "specificity_drift": 0.3710526315789475,
+      "semantic_drift": 0.0956083838946703
+    },
+    {
+      "author_id": "4ca17317-650b-4195-83aa-449fd887cfdd",
+      "total_posts": 39,
+      "early_posts": 19,
+      "later_posts": 20,
+      "naturalness_drift": 0.0,
+      "specificity_drift": 0.1578947368421053,
+      "semantic_drift": 0.21410032123669254
+    },
+    {
+      "author_id": "06575e1c-742a-433b-b6a4-f22de2257bfd",
+      "total_posts": 39,
+      "early_posts": 19,
+      "later_posts": 20,
+      "naturalness_drift": -2.328947368421052,
+      "specificity_drift": 0.2105263157894739,
+      "semantic_drift": 0.9965452464942752
+    },
+    {
+      "author_id": "bbf9e2a0-b84a-478e-b80f-df8aeaec54fe",
+      "total_posts": 39,
+      "early_posts": 19,
+      "later_posts": 20,
+      "naturalness_drift": 0.1578947368421053,
+      "specificity_drift": 0.10526315789473673,
+      "semantic_drift": 0.09767165931634159
+    },
+    {
+      "author_id": "81a45831-946b-4cfd-b644-52d99cfeb04c",
+      "total_posts": 39,
+      "early_posts": 19,
+      "later_posts": 20,
+      "naturalness_drift": -0.09473684210526301,
+      "specificity_drift": -0.06315789473684186,
+      "semantic_drift": 0.1530512791330939
+    },
+    {
+      "author_id": "f1cb32c0-39cc-49a5-9799-f7a9a3558b6e",
+      "total_posts": 39,
+      "early_posts": 19,
+      "later_posts": 20,
+      "naturalness_drift": 0.0631578947368423,
+      "specificity_drift": 0.005263157894736636,
+      "semantic_drift": 0.3812021400276975
+    },
+    {
+      "author_id": "edd5e413-cb86-4d55-889e-66a0f08490a2",
+      "total_posts": 38,
+      "early_posts": 19,
+      "later_posts": 19,
+      "naturalness_drift": -0.05263157894736814,
+      "specificity_drift": 0.052631578947368585,
+      "semantic_drift": 0.04383144179887377
+    },
+    {
+      "author_id": "5e82f456-87a8-49d1-93a2-7b697c7cb2be",
+      "total_posts": 38,
+      "early_posts": 19,
+      "later_posts": 19,
+      "naturalness_drift": -0.3157894736842102,
+      "specificity_drift": -0.1578947368421053,
+      "semantic_drift": 0.03060259574169788
+    },
+    {
+      "author_id": "dd184608-627b-411c-8ac2-29731ac308fd",
+      "total_posts": 38,
+      "early_posts": 19,
+      "later_posts": 19,
+      "naturalness_drift": -0.4210526315789478,
+      "specificity_drift": -0.36842105263157876,
+      "semantic_drift": 0.7543356233575504
+    },
+    {
+      "author_id": "4a1bbdd8-14f8-43a6-9c22-3f87d1e492a4",
+      "total_posts": 38,
+      "early_posts": 19,
+      "later_posts": 19,
+      "naturalness_drift": 0.2631578947368425,
+      "specificity_drift": -1.0526315789473686,
+      "semantic_drift": 0.5274687814652007
+    },
+    {
+      "author_id": "d7397ad2-c191-4916-b385-6eb0da32acf8",
+      "total_posts": 38,
+      "early_posts": 19,
+      "later_posts": 19,
+      "naturalness_drift": -0.6315789473684212,
+      "specificity_drift": -0.26315789473684204,
+      "semantic_drift": 0.3151129289340401
+    },
+    {
+      "author_id": "f9eafe71-d699-417f-abea-38c27d53ccc6",
+      "total_posts": 38,
+      "early_posts": 19,
+      "later_posts": 19,
+      "naturalness_drift": 0.0,
+      "specificity_drift": 0.0,
+      "semantic_drift": 0.5636268769446369
+    },
+    {
+      "author_id": "1b59afd9-927a-4ef3-8992-7aebe6f59b7e",
+      "total_posts": 37,
+      "early_posts": 18,
+      "later_posts": 19,
+      "naturalness_drift": 0.8976608187134503,
+      "specificity_drift": -1.4649122807017545,
+      "semantic_drift": 0.738937193654557
+    },
+    {
+      "author_id": "1b044d61-8400-4620-83b8-14de3cd815c9",
+      "total_posts": 37,
+      "early_posts": 18,
+      "later_posts": 19,
+      "naturalness_drift": 0.5555555555555554,
+      "specificity_drift": 1.0584795321637426,
+      "semantic_drift": 0.4247215061942595
+    },
+    {
+      "author_id": "6065cdf3-770c-4580-ae32-bb9ff92d5e02",
+      "total_posts": 37,
+      "early_posts": 18,
+      "later_posts": 19,
+      "naturalness_drift": 0.08479532163742665,
+      "specificity_drift": -0.04678362573099415,
+      "semantic_drift": 0.050055588760677616
+    },
+    {
+      "author_id": "2f3136f1-cbe6-4a92-81d1-12bcb95f23ef",
+      "total_posts": 37,
+      "early_posts": 18,
+      "later_posts": 19,
+      "naturalness_drift": 0.11111111111111072,
+      "specificity_drift": 0.2777777777777777,
+      "semantic_drift": 0.39175841987541316
+    },
+    {
+      "author_id": "8fc83d53-5e49-452f-95a3-5d40ef2656ba",
+      "total_posts": 37,
+      "early_posts": 18,
+      "later_posts": 19,
+      "naturalness_drift": -0.4970760233918132,
+      "specificity_drift": -0.20760233918128645,
+      "semantic_drift": 0.2503461525502523
+    },
+    {
+      "author_id": "f279ea99-6088-45fd-a8f1-abe45566bc2d",
+      "total_posts": 37,
+      "early_posts": 18,
+      "later_posts": 19,
+      "naturalness_drift": -0.2573099415204676,
+      "specificity_drift": 0.1608187134502923,
+      "semantic_drift": 0.13055373982803198
+    },
+    {
+      "author_id": "e0e30f79-3836-4d31-93cf-7c54982ecc61",
+      "total_posts": 37,
+      "early_posts": 18,
+      "later_posts": 19,
+      "naturalness_drift": 0.0,
+      "specificity_drift": -0.023391812865497297,
+      "semantic_drift": 0.0586060414531282
+    },
+    {
+      "author_id": "d6a5040b-2bed-4485-8154-18b3d5a3ad8f",
+      "total_posts": 37,
+      "early_posts": 18,
+      "later_posts": 19,
+      "naturalness_drift": -0.4035087719298245,
+      "specificity_drift": 0.06432748538011701,
+      "semantic_drift": 0.0765450603373421
+    },
+    {
+      "author_id": "eb560491-8fb8-4d5e-b226-1e805a9df330",
+      "total_posts": 37,
+      "early_posts": 18,
+      "later_posts": 19,
+      "naturalness_drift": 1.4970760233918128,
+      "specificity_drift": 0.698830409356725,
+      "semantic_drift": 0.2831849171188734
+    },
+    {
+      "author_id": "d59d7fcd-7fe2-4d56-8248-54d189b4bb4d",
+      "total_posts": 37,
+      "early_posts": 18,
+      "later_posts": 19,
+      "naturalness_drift": 0.0029239766081872176,
+      "specificity_drift": 0.47368421052631593,
+      "semantic_drift": 0.25276727909188823
+    },
+    {
+      "author_id": "f9017708-fad3-4728-8d0d-7bcad21e3aea",
+      "total_posts": 37,
+      "early_posts": 18,
+      "later_posts": 19,
+      "naturalness_drift": 1.4444444444444444,
+      "specificity_drift": -0.8187134502923974,
+      "semantic_drift": 0.6048572344748944
+    },
+    {
+      "author_id": "d6980e4b-bd5c-4de6-95d8-86a0776267ee",
+      "total_posts": 37,
+      "early_posts": 18,
+      "later_posts": 19,
+      "naturalness_drift": 0.011695906432748426,
+      "specificity_drift": 0.22807017543859676,
+      "semantic_drift": 0.002227521712798941
+    },
+    {
+      "author_id": "414dbd13-61c7-4315-adad-4c5a20ac85bf",
+      "total_posts": 37,
+      "early_posts": 18,
+      "later_posts": 19,
+      "naturalness_drift": 1.321637426900585,
+      "specificity_drift": -1.2397660818713447,
+      "semantic_drift": 0.676852185237354
+    },
+    {
+      "author_id": "5f5c1f14-036d-4442-926c-e5948110a99f",
+      "total_posts": 37,
+      "early_posts": 18,
+      "later_posts": 19,
+      "naturalness_drift": 2.1198830409356724,
+      "specificity_drift": -0.26023391812865526,
+      "semantic_drift": 0.6556995879720708
+    },
+    {
+      "author_id": "f33db050-f312-4254-9bff-446cffb4741c",
+      "total_posts": 37,
+      "early_posts": 18,
+      "later_posts": 19,
+      "naturalness_drift": 1.6900584795321638,
+      "specificity_drift": -0.672514619883041,
+      "semantic_drift": 0.8586188768987182
+    },
+    {
+      "author_id": "b1847515-c2b1-42ce-929b-30bc23359449",
+      "total_posts": 37,
+      "early_posts": 18,
+      "later_posts": 19,
+      "naturalness_drift": 0.0,
+      "specificity_drift": 0.058479532163742576,
+      "semantic_drift": 0.5738005094631431
+    },
+    {
+      "author_id": "fa303b8c-d4b0-4d85-aa95-9951559c9543",
+      "total_posts": 36,
+      "early_posts": 18,
+      "later_posts": 18,
+      "naturalness_drift": 0.2777777777777777,
+      "specificity_drift": 0.5,
+      "semantic_drift": 0.3388295905071276
+    },
+    {
+      "author_id": "a07bcb34-669b-4a52-9e62-e53012423240",
+      "total_posts": 36,
+      "early_posts": 18,
+      "later_posts": 18,
+      "naturalness_drift": -0.44444444444444464,
+      "specificity_drift": 0.0,
+      "semantic_drift": 0.033104211623870894
+    },
+    {
+      "author_id": "e9d6fe93-5d82-469a-a950-973c2be53d9c",
+      "total_posts": 36,
+      "early_posts": 18,
+      "later_posts": 18,
+      "naturalness_drift": 0.1111111111111116,
+      "specificity_drift": 0.5555555555555554,
+      "semantic_drift": 0.15908806175559698
+    },
+    {
+      "author_id": "f969864c-268e-4856-83d6-f35cafec5456",
+      "total_posts": 36,
+      "early_posts": 18,
+      "later_posts": 18,
+      "naturalness_drift": -0.833333333333333,
+      "specificity_drift": -0.11111111111111116,
+      "semantic_drift": 0.1161858251407798
+    },
+    {
+      "author_id": "a2e0ac73-4902-4a9a-8850-be5f5bf73b9b",
+      "total_posts": 36,
+      "early_posts": 18,
+      "later_posts": 18,
+      "naturalness_drift": -0.8333333333333339,
+      "specificity_drift": -0.8888888888888893,
+      "semantic_drift": 0.28776153853039743
+    },
+    {
+      "author_id": "FarnsworthAI",
+      "total_posts": 36,
+      "early_posts": 18,
+      "later_posts": 18,
+      "naturalness_drift": -0.055555555555556246,
+      "specificity_drift": 0.0,
+      "semantic_drift": 0.06674022732132712
+    },
+    {
+      "author_id": "289fec1d-26ca-45e0-9658-76992cda8b2f",
+      "total_posts": 36,
+      "early_posts": 18,
+      "later_posts": 18,
+      "naturalness_drift": -0.7777777777777772,
+      "specificity_drift": -0.7777777777777779,
+      "semantic_drift": 0.05863865307544158
+    },
+    {
+      "author_id": "Alex",
+      "total_posts": 35,
+      "early_posts": 17,
+      "later_posts": 18,
+      "naturalness_drift": 0.0,
+      "specificity_drift": 0.06209150326797408,
+      "semantic_drift": 0.2930110237414445
+    },
+    {
+      "author_id": "5c2c6c90-c873-401e-b642-856aac0895a1",
+      "total_posts": 35,
+      "early_posts": 17,
+      "later_posts": 18,
+      "naturalness_drift": -0.6274509803921569,
+      "specificity_drift": -0.4901960784313726,
+      "semantic_drift": 0.2620408974506402
+    },
+    {
+      "author_id": "077ac2a2-1b9e-4f0d-87c0-0fb8cda9a854",
+      "total_posts": 35,
+      "early_posts": 17,
+      "later_posts": 18,
+      "naturalness_drift": 0.08169934640522891,
+      "specificity_drift": -0.37254901960784315,
+      "semantic_drift": 0.48231734776152313
+    },
+    {
+      "author_id": "5170f54e-11c0-4f87-a9ef-4d503a3b40b7",
+      "total_posts": 35,
+      "early_posts": 17,
+      "later_posts": 18,
+      "naturalness_drift": -0.19281045751634007,
+      "specificity_drift": -0.04901960784313708,
+      "semantic_drift": 0.25410865753164347
+    },
+    {
+      "author_id": "5d7b8a9f-c352-4605-82e4-3daaaf187faf",
+      "total_posts": 35,
+      "early_posts": 17,
+      "later_posts": 18,
+      "naturalness_drift": -0.009803921568627416,
+      "specificity_drift": 0.0,
+      "semantic_drift": 4.117150137017411e-05
+    },
+    {
+      "author_id": "e6bafe48-cf2b-46ef-8d3a-74a8a9ee840d",
+      "total_posts": 35,
+      "early_posts": 17,
+      "later_posts": 18,
+      "naturalness_drift": -0.36601307189542487,
+      "specificity_drift": -0.4117647058823528,
+      "semantic_drift": 0.3231455662844781
+    },
+    {
+      "author_id": "9b5e02e3-814c-44e7-b6ef-cfdd1c340078",
+      "total_posts": 35,
+      "early_posts": 17,
+      "later_posts": 18,
+      "naturalness_drift": 0.23529411764705888,
+      "specificity_drift": 0.11764705882352944,
+      "semantic_drift": 0.5697860155245767
+    },
+    {
+      "author_id": "9c61f94a-4e2c-4e9c-a1f6-fe84bf25741a",
+      "total_posts": 35,
+      "early_posts": 17,
+      "later_posts": 18,
+      "naturalness_drift": -0.06535947712418366,
+      "specificity_drift": -0.3104575163398693,
+      "semantic_drift": 0.0268636607087942
+    },
+    {
+      "author_id": "ad9eae91-514f-4aa7-8614-9cf8636e5cc5",
+      "total_posts": 35,
+      "early_posts": 17,
+      "later_posts": 18,
+      "naturalness_drift": -0.21895424836601318,
+      "specificity_drift": -0.30392156862745123,
+      "semantic_drift": 0.1794092325805532
+    },
+    {
+      "author_id": "d4c311af-de58-4367-839a-f8bbbb5f1066",
+      "total_posts": 35,
+      "early_posts": 17,
+      "later_posts": 18,
+      "naturalness_drift": -0.1535947712418304,
+      "specificity_drift": 0.11764705882352944,
+      "semantic_drift": 0.14330236270549523
+    },
+    {
+      "author_id": "9110704c-0b88-49b2-ba6a-ef46dbf85db0",
+      "total_posts": 35,
+      "early_posts": 17,
+      "later_posts": 18,
+      "naturalness_drift": -0.2777777777777777,
+      "specificity_drift": 0.11764705882352944,
+      "semantic_drift": 0.37252271279653615
+    },
+    {
+      "author_id": "d765aace-80af-4883-903a-76ab928860f4",
+      "total_posts": 34,
+      "early_posts": 17,
+      "later_posts": 17,
+      "naturalness_drift": 0.0,
+      "specificity_drift": -0.17647058823529438,
+      "semantic_drift": 0.3355054681516365
+    },
+    {
+      "author_id": "f0ecfdd6-e130-49d5-8ce4-1f5319d66055",
+      "total_posts": 34,
+      "early_posts": 17,
+      "later_posts": 17,
+      "naturalness_drift": 0.23529411764705888,
+      "specificity_drift": -0.2941176470588238,
+      "semantic_drift": 0.1816345113114921
+    },
+    {
+      "author_id": "ceaa8092-4476-4585-9d34-d8fe60e206df",
+      "total_posts": 34,
+      "early_posts": 17,
+      "later_posts": 17,
+      "naturalness_drift": 0.0588235294117645,
+      "specificity_drift": -0.17647058823529416,
+      "semantic_drift": 0.002869433220294204
+    },
+    {
+      "author_id": "0d031a8e-fbff-4f08-bf91-fab24820ad56",
+      "total_posts": 34,
+      "early_posts": 17,
+      "later_posts": 17,
+      "naturalness_drift": 0.0588235294117645,
+      "specificity_drift": 0.0588235294117645,
+      "semantic_drift": 0.274259085482103
+    },
+    {
+      "author_id": "6117b1e7-ffda-4fa1-a45d-312fc1600af6",
+      "total_posts": 34,
+      "early_posts": 17,
+      "later_posts": 17,
+      "naturalness_drift": -0.0588235294117645,
+      "specificity_drift": -0.05882352941176472,
+      "semantic_drift": 0.04036402350675916
+    },
+    {
+      "author_id": "2896e3ac-a16b-4ea5-80e5-7bd6cd428e8c",
+      "total_posts": 34,
+      "early_posts": 17,
+      "later_posts": 17,
+      "naturalness_drift": 0.23529411764705888,
+      "specificity_drift": 0.17647058823529393,
+      "semantic_drift": 0.2103911859115497
+    },
+    {
+      "author_id": "e7361641-2e6f-4352-bde7-c600d6e311fc",
+      "total_posts": 34,
+      "early_posts": 17,
+      "later_posts": 17,
+      "naturalness_drift": -0.3529411764705883,
+      "specificity_drift": 0.11764705882352944,
+      "semantic_drift": 0.0018244251175948412
+    },
+    {
+      "author_id": "f6f6d649-2009-4ae0-b3a4-2de6ec53a088",
+      "total_posts": 34,
+      "early_posts": 17,
+      "later_posts": 17,
+      "naturalness_drift": -0.47058823529411775,
+      "specificity_drift": -0.23529411764705888,
+      "semantic_drift": 0.17634750455226733
+    },
+    {
+      "author_id": "8cf6a59a-f506-4473-bb2b-6888e707c726",
+      "total_posts": 34,
+      "early_posts": 17,
+      "later_posts": 17,
+      "naturalness_drift": 0.0,
+      "specificity_drift": 0.11764705882352944,
+      "semantic_drift": 0.08842712270830089
+    },
+    {
+      "author_id": "cb46b94e-9266-4893-9f85-bd17ec87a535",
+      "total_posts": 34,
+      "early_posts": 17,
+      "later_posts": 17,
+      "naturalness_drift": -0.17647058823529438,
+      "specificity_drift": -0.3529411764705883,
+      "semantic_drift": 0.015107749388900471
+    },
+    {
+      "author_id": "1a3148a4-b4f7-4e07-82af-3dee741ed6db",
+      "total_posts": 34,
+      "early_posts": 17,
+      "later_posts": 17,
+      "naturalness_drift": 0.0,
+      "specificity_drift": -0.0588235294117645,
+      "semantic_drift": 0.35777438655405813
+    },
+    {
+      "author_id": "22105c64-0a2c-45f4-b50b-1d9dcd413ea5",
+      "total_posts": 34,
+      "early_posts": 17,
+      "later_posts": 17,
+      "naturalness_drift": -0.117647058823529,
+      "specificity_drift": 0.0588235294117645,
+      "semantic_drift": 0.3984739212691444
+    },
+    {
+      "author_id": "e5a614ce-b76e-4381-a6c6-624ccc6d03aa",
+      "total_posts": 33,
+      "early_posts": 16,
+      "later_posts": 17,
+      "naturalness_drift": -0.23529411764705888,
+      "specificity_drift": 0.0,
+      "semantic_drift": 1.0581727881689293
+    },
+    {
+      "author_id": "9fe37431-05af-4c3b-b8df-e3e3f2818d69",
+      "total_posts": 33,
+      "early_posts": 16,
+      "later_posts": 17,
+      "naturalness_drift": 0.047794117647058876,
+      "specificity_drift": -0.007352941176470562,
+      "semantic_drift": 0.14136743465642154
+    },
+    {
+      "author_id": "f3ab250d-b9f2-40ec-878c-c4403fd7e759",
+      "total_posts": 33,
+      "early_posts": 16,
+      "later_posts": 17,
+      "naturalness_drift": -0.05514705882352944,
+      "specificity_drift": -0.11764705882352944,
+      "semantic_drift": 0.00012143687914678569
+    },
+    {
+      "author_id": "76dfeaeb-324e-43c0-807d-3fefcad0c199",
+      "total_posts": 33,
+      "early_posts": 16,
+      "later_posts": 17,
+      "naturalness_drift": -0.19852941176470607,
+      "specificity_drift": -0.2279411764705883,
+      "semantic_drift": 0.015836902745012815
+    },
+    {
+      "author_id": "438fe15e-6bec-4076-9f1b-1ccbedd1b1f2",
+      "total_posts": 33,
+      "early_posts": 16,
+      "later_posts": 17,
+      "naturalness_drift": 0.41176470588235325,
+      "specificity_drift": 0.3272058823529411,
+      "semantic_drift": 0.7084403722070927
+    },
+    {
+      "author_id": "946b8c48-1939-4dc6-ad7c-0519c3839ae7",
+      "total_posts": 33,
+      "early_posts": 16,
+      "later_posts": 17,
+      "naturalness_drift": -0.17279411764705888,
+      "specificity_drift": -0.11764705882352944,
+      "semantic_drift": 0.716837875815551
+    },
+    {
+      "author_id": "1c8ebbfa-a76d-4f5a-a6bd-e017ade27349",
+      "total_posts": 33,
+      "early_posts": 16,
+      "later_posts": 17,
+      "naturalness_drift": 0.08455882352941213,
+      "specificity_drift": -0.13602941176470607,
+      "semantic_drift": 0.18466817208719055
+    },
+    {
+      "author_id": "f9e3cfeb-bb3f-4680-b56a-c7006f71ef56",
+      "total_posts": 33,
+      "early_posts": 16,
+      "later_posts": 17,
+      "naturalness_drift": 0.10661764705882337,
+      "specificity_drift": 0.0,
+      "semantic_drift": 2.1483669034760844e-05
+    },
+    {
+      "author_id": "cfc82b9f-ab2a-4735-9816-bef711119963",
+      "total_posts": 33,
+      "early_posts": 16,
+      "later_posts": 17,
+      "naturalness_drift": 0.08088235294117663,
+      "specificity_drift": 0.02573529411764719,
+      "semantic_drift": 0.00011847936709574736
+    },
+    {
+      "author_id": "abab3fae-29ca-425a-a147-d555ccff9787",
+      "total_posts": 33,
+      "early_posts": 16,
+      "later_posts": 17,
+      "naturalness_drift": -0.08455882352941213,
+      "specificity_drift": 0.0,
+      "semantic_drift": 1.4266084426561854e-05
+    },
+    {
+      "author_id": "9d0e99b5-ba86-4e64-919b-7bfad4509b94",
+      "total_posts": 33,
+      "early_posts": 16,
+      "later_posts": 17,
+      "naturalness_drift": -0.047794117647058876,
+      "specificity_drift": 0.051470588235293935,
+      "semantic_drift": 0.09360667870236339
+    },
+    {
+      "author_id": "74780058-584d-4e01-a463-ac61f1e992a5",
+      "total_posts": 33,
+      "early_posts": 16,
+      "later_posts": 17,
+      "naturalness_drift": 0.025735294117646745,
+      "specificity_drift": 0.011029411764706065,
+      "semantic_drift": 0.16052814324417486
+    },
+    {
+      "author_id": "3e7a3b89-40bf-4af9-bdcb-55d81c7d5abd",
+      "total_posts": 33,
+      "early_posts": 16,
+      "later_posts": 17,
+      "naturalness_drift": -0.8676470588235294,
+      "specificity_drift": -0.6470588235294117,
+      "semantic_drift": 0.6368554637168455
+    },
+    {
+      "author_id": "95c11f80-d75a-4cac-b87f-f7149fd3f081",
+      "total_posts": 33,
+      "early_posts": 16,
+      "later_posts": 17,
+      "naturalness_drift": 0.305147058823529,
+      "specificity_drift": 0.0,
+      "semantic_drift": 9.482933087401335e-05
+    },
+    {
+      "author_id": "a64449be-2ae1-4a9a-a757-c99ae4cf8cd2",
+      "total_posts": 33,
+      "early_posts": 16,
+      "later_posts": 17,
+      "naturalness_drift": -0.26102941176470607,
+      "specificity_drift": -0.75,
+      "semantic_drift": 0.3335948344053822
+    },
+    {
+      "author_id": "4e7a5e06-9870-434e-a693-bf5ba97df757",
+      "total_posts": 32,
+      "early_posts": 16,
+      "later_posts": 16,
+      "naturalness_drift": -0.0625,
+      "specificity_drift": -0.875,
+      "semantic_drift": 0.2669946276444607
+    },
+    {
+      "author_id": "ecca5e03-345d-443c-bdf0-6c3b03828166",
+      "total_posts": 32,
+      "early_posts": 16,
+      "later_posts": 16,
+      "naturalness_drift": -0.3125,
+      "specificity_drift": 0.125,
+      "semantic_drift": 0.6699062817137775
+    },
+    {
+      "author_id": "66a9e1fe-4466-4685-9c62-34b542402a4e",
+      "total_posts": 32,
+      "early_posts": 16,
+      "later_posts": 16,
+      "naturalness_drift": 0.125,
+      "specificity_drift": -0.0625,
+      "semantic_drift": 0.0
+    },
+    {
+      "author_id": "8193739c-21d6-4476-bca3-5f3c60cf30a4",
+      "total_posts": 32,
+      "early_posts": 16,
+      "later_posts": 16,
+      "naturalness_drift": -0.3125,
+      "specificity_drift": -0.1875,
+      "semantic_drift": 0.0
+    },
+    {
+      "author_id": "5418a906-26ba-4a97-95f2-82cc5956990c",
+      "total_posts": 32,
+      "early_posts": 16,
+      "later_posts": 16,
+      "naturalness_drift": -0.0625,
+      "specificity_drift": 0.0,
+      "semantic_drift": 0.08743781770638592
+    },
+    {
+      "author_id": "e53ef4e3-d71b-4c70-b0e8-649a89cf2c50",
+      "total_posts": 32,
+      "early_posts": 16,
+      "later_posts": 16,
+      "naturalness_drift": 0.0,
+      "specificity_drift": -0.0625,
+      "semantic_drift": 0.20832994904158086
+    },
+    {
+      "author_id": "9c09c9cf-96e2-489e-bb29-0c9aaf7563d6",
+      "total_posts": 32,
+      "early_posts": 16,
+      "later_posts": 16,
+      "naturalness_drift": 1.375,
+      "specificity_drift": -0.25,
+      "semantic_drift": 0.09573456297070626
+    },
+    {
+      "author_id": "942a0884-83f1-4b78-9c1e-1a60087aa375",
+      "total_posts": 32,
+      "early_posts": 16,
+      "later_posts": 16,
+      "naturalness_drift": 0.25,
+      "specificity_drift": 0.0,
+      "semantic_drift": 0.0
+    },
+    {
+      "author_id": "525e624c-265c-463c-9029-221614417fce",
+      "total_posts": 32,
+      "early_posts": 16,
+      "later_posts": 16,
+      "naturalness_drift": -0.125,
+      "specificity_drift": 0.0,
+      "semantic_drift": 0.002030615256550572
+    },
+    {
+      "author_id": "056fdb4a-baaa-423a-97d6-5f907c8654b0",
+      "total_posts": 32,
+      "early_posts": 16,
+      "later_posts": 16,
+      "naturalness_drift": 0.8125,
+      "specificity_drift": 0.375,
+      "semantic_drift": 0.41711828113141014
+    }
+  ],
+  "highest_drift_authors": [
+    {
+      "author_id": "e5a614ce-b76e-4381-a6c6-624ccc6d03aa",
+      "total_posts": 33,
+      "early_posts": 16,
+      "later_posts": 17,
+      "naturalness_drift": -0.23529411764705888,
+      "specificity_drift": 0.0,
+      "semantic_drift": 1.0581727881689293
+    },
+    {
+      "author_id": "06575e1c-742a-433b-b6a4-f22de2257bfd",
+      "total_posts": 39,
+      "early_posts": 19,
+      "later_posts": 20,
+      "naturalness_drift": -2.328947368421052,
+      "specificity_drift": 0.2105263157894739,
+      "semantic_drift": 0.9965452464942752
+    },
+    {
+      "author_id": "2b42efca-e221-482d-bd3c-66dc20655acf",
+      "total_posts": 63,
+      "early_posts": 31,
+      "later_posts": 32,
+      "naturalness_drift": -0.777217741935484,
+      "specificity_drift": -0.310483870967742,
+      "semantic_drift": 0.9338900271413435
+    },
+    {
+      "author_id": "7a9b5c9d-8478-4f32-96e5-054ae9fe5d9b",
+      "total_posts": 41,
+      "early_posts": 20,
+      "later_posts": 21,
+      "naturalness_drift": -1.6166666666666667,
+      "specificity_drift": -0.8571428571428572,
+      "semantic_drift": 0.8621915977045818
+    },
+    {
+      "author_id": "f33db050-f312-4254-9bff-446cffb4741c",
+      "total_posts": 37,
+      "early_posts": 18,
+      "later_posts": 19,
+      "naturalness_drift": 1.6900584795321638,
+      "specificity_drift": -0.672514619883041,
+      "semantic_drift": 0.8586188768987182
+    },
+    {
+      "author_id": "c242ffb1-994d-4083-a237-80f53c28f317",
+      "total_posts": 42,
+      "early_posts": 21,
+      "later_posts": 21,
+      "naturalness_drift": 0.33333333333333304,
+      "specificity_drift": -0.38095238095238093,
+      "semantic_drift": 0.8530870009920581
+    },
+    {
+      "author_id": "dd184608-627b-411c-8ac2-29731ac308fd",
+      "total_posts": 38,
+      "early_posts": 19,
+      "later_posts": 19,
+      "naturalness_drift": -0.4210526315789478,
+      "specificity_drift": -0.36842105263157876,
+      "semantic_drift": 0.7543356233575504
+    },
+    {
+      "author_id": "1b59afd9-927a-4ef3-8992-7aebe6f59b7e",
+      "total_posts": 37,
+      "early_posts": 18,
+      "later_posts": 19,
+      "naturalness_drift": 0.8976608187134503,
+      "specificity_drift": -1.4649122807017545,
+      "semantic_drift": 0.738937193654557
+    },
+    {
+      "author_id": "946b8c48-1939-4dc6-ad7c-0519c3839ae7",
+      "total_posts": 33,
+      "early_posts": 16,
+      "later_posts": 17,
+      "naturalness_drift": -0.17279411764705888,
+      "specificity_drift": -0.11764705882352944,
+      "semantic_drift": 0.716837875815551
+    },
+    {
+      "author_id": "438fe15e-6bec-4076-9f1b-1ccbedd1b1f2",
+      "total_posts": 33,
+      "early_posts": 16,
+      "later_posts": 17,
+      "naturalness_drift": 0.41176470588235325,
+      "specificity_drift": 0.3272058823529411,
+      "semantic_drift": 0.7084403722070927
+    }
+  ],
+  "lowest_drift_authors": [
+    {
+      "author_id": "2a6fe7dd-9509-43bd-afcc-e87805eccf03",
+      "total_posts": 58,
+      "early_posts": 29,
+      "later_posts": 29,
+      "naturalness_drift": -0.2413793103448274,
+      "specificity_drift": 0.0,
+      "semantic_drift": 3.915330741166567e-05
+    },
+    {
+      "author_id": "74668399-3470-401d-80c0-3ecf98021c5b",
+      "total_posts": 57,
+      "early_posts": 28,
+      "later_posts": 29,
+      "naturalness_drift": -0.1884236453201975,
+      "specificity_drift": 0.0,
+      "semantic_drift": 3.6462540183523906e-05
+    },
+    {
+      "author_id": "fe6bc95c-bb64-45b6-971d-643df4da40b5",
+      "total_posts": 56,
+      "early_posts": 28,
+      "later_posts": 28,
+      "naturalness_drift": 0.03571428571428559,
+      "specificity_drift": 0.0,
+      "semantic_drift": 3.403999954665338e-05
+    },
+    {
+      "author_id": "f9e3cfeb-bb3f-4680-b56a-c7006f71ef56",
+      "total_posts": 33,
+      "early_posts": 16,
+      "later_posts": 17,
+      "naturalness_drift": 0.10661764705882337,
+      "specificity_drift": 0.0,
+      "semantic_drift": 2.1483669034760844e-05
+    },
+    {
+      "author_id": "7c91c952-250f-4d90-87ba-c28daa395b2b",
+      "total_posts": 90,
+      "early_posts": 45,
+      "later_posts": 45,
+      "naturalness_drift": -0.155555555555555,
+      "specificity_drift": 0.0,
+      "semantic_drift": 1.5690187893269147e-05
+    },
+    {
+      "author_id": "abab3fae-29ca-425a-a147-d555ccff9787",
+      "total_posts": 33,
+      "early_posts": 16,
+      "later_posts": 17,
+      "naturalness_drift": -0.08455882352941213,
+      "specificity_drift": 0.0,
+      "semantic_drift": 1.4266084426561854e-05
+    },
+    {
+      "author_id": "96a6d764-0335-4bc6-bfec-9bfbdce49a38",
+      "total_posts": 61,
+      "early_posts": 30,
+      "later_posts": 31,
+      "naturalness_drift": 0.05698924731182764,
+      "specificity_drift": 0.0,
+      "semantic_drift": 5.820692074998135e-06
+    },
+    {
+      "author_id": "66a9e1fe-4466-4685-9c62-34b542402a4e",
+      "total_posts": 32,
+      "early_posts": 16,
+      "later_posts": 16,
+      "naturalness_drift": 0.125,
+      "specificity_drift": -0.0625,
+      "semantic_drift": 0.0
+    },
+    {
+      "author_id": "8193739c-21d6-4476-bca3-5f3c60cf30a4",
+      "total_posts": 32,
+      "early_posts": 16,
+      "later_posts": 16,
+      "naturalness_drift": -0.3125,
+      "specificity_drift": -0.1875,
+      "semantic_drift": 0.0
+    },
+    {
+      "author_id": "942a0884-83f1-4b78-9c1e-1a60087aa375",
+      "total_posts": 32,
+      "early_posts": 16,
+      "later_posts": 16,
+      "naturalness_drift": 0.25,
+      "specificity_drift": 0.0,
+      "semantic_drift": 0.0
+    }
+  ]
+}

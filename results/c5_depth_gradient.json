@@ -1,0 +1,195 @@
+{
+  "analysis_timestamp": "2026-02-06T09:17:07.378695",
+  "data_summary": {
+    "total_posts": 91792,
+    "total_comments": 405707,
+    "posts_with_analysis": 91792,
+    "comments_with_analysis": 213354,
+    "max_depth_in_analysis": 5
+  },
+  "depth_distribution": {
+    "0": {
+      "count": 91792,
+      "percentage": 18.45
+    },
+    "2": {
+      "count": 22815,
+      "percentage": 4.59
+    },
+    "1": {
+      "count": 381530,
+      "percentage": 76.69
+    },
+    "3": {
+      "count": 1022,
+      "percentage": 0.21
+    },
+    "4": {
+      "count": 314,
+      "percentage": 0.06
+    },
+    "5": {
+      "count": 22,
+      "percentage": 0.0
+    },
+    "9": {
+      "count": 1,
+      "percentage": 0.0
+    },
+    "8": {
+      "count": 1,
+      "percentage": 0.0
+    },
+    "7": {
+      "count": 1,
+      "percentage": 0.0
+    },
+    "6": {
+      "count": 1,
+      "percentage": 0.0
+    }
+  },
+  "metrics_by_depth": {
+    "0": {
+      "count": 91792,
+      "word_count_mean": 103.29,
+      "word_count_std": 179.42,
+      "promotional_strong_pct": 21.76,
+      "task_completion_strong_pct": 0.53,
+      "naturalness_mean": 4.29,
+      "naturalness_std": 1.24,
+      "specificity_distribution": {
+        "SPECIFIC": 67.07,
+        "GENERIC": 20.13,
+        "MODERATE": 12.8
+      }
+    },
+    "1": {
+      "count": 201262,
+      "promotional_strong_pct": 27.78,
+      "task_completion_strong_pct": 0.48,
+      "naturalness_mean": 4.04,
+      "naturalness_std": 1.44,
+      "specificity_distribution": {
+        "SPECIFIC": 58.79,
+        "GENERIC": 23.86,
+        "MODERATE": 17.35
+      }
+    },
+    "2": {
+      "count": 11690,
+      "promotional_strong_pct": 7.18,
+      "task_completion_strong_pct": 1.77,
+      "naturalness_mean": 4.74,
+      "naturalness_std": 0.68,
+      "specificity_distribution": {
+        "SPECIFIC": 77.78,
+        "MODERATE": 13.71,
+        "GENERIC": 8.5
+      }
+    },
+    "3": {
+      "count": 306,
+      "promotional_strong_pct": 4.25,
+      "task_completion_strong_pct": 2.61,
+      "naturalness_mean": 3.11,
+      "naturalness_std": 1.92,
+      "specificity_distribution": {
+        "SPECIFIC": 54.58,
+        "GENERIC": 40.2,
+        "MODERATE": 5.23
+      }
+    },
+    "4+": {
+      "count": 96,
+      "promotional_strong_pct": 0.0,
+      "task_completion_strong_pct": 2.08,
+      "naturalness_mean": 2.47,
+      "naturalness_std": 1.78,
+      "specificity_distribution": {
+        "GENERIC": 56.25,
+        "SPECIFIC": 42.71,
+        "MODERATE": 1.04
+      }
+    }
+  },
+  "decay_models": {
+    "promotional": {
+      "slope": -6.705,
+      "intercept": 25.604,
+      "r_squared": 0.7868,
+      "p_value": 0.0448,
+      "interpretation": "decreasing with depth",
+      "values_by_depth": {
+        "0": 21.76,
+        "1": 27.78,
+        "2": 7.18,
+        "3": 4.25,
+        "4": 0.0
+      }
+    },
+    "naturalness": {
+      "slope": -0.457,
+      "intercept": 4.644,
+      "r_squared": 0.6139,
+      "p_value": 0.1169,
+      "interpretation": "decreasing with depth (less natural)",
+      "values_by_depth": {
+        "0": 4.29,
+        "1": 4.04,
+        "2": 4.74,
+        "3": 3.11,
+        "4": 2.47
+      }
+    },
+    "task_completion": {
+      "slope": 0.523,
+      "intercept": 0.448,
+      "r_squared": 0.7551,
+      "p_value": 0.0558,
+      "interpretation": "increasing with depth",
+      "values_by_depth": {
+        "0": 0.53,
+        "1": 0.48,
+        "2": 1.77,
+        "3": 2.61,
+        "4": 2.08
+      }
+    }
+  },
+  "statistical_tests": {
+    "promotional_depth_1_vs_3plus": {
+      "chi2": 119.3897,
+      "p_value": 0.0,
+      "significant_005": true,
+      "depth_1_strong_pct": 27.78,
+      "depth_3plus_strong_pct": 3.23,
+      "n_depth_1": 201262,
+      "n_depth_3plus": 402
+    },
+    "naturalness_depth_1_vs_3plus": {
+      "t_statistic": 14.9847,
+      "p_value": 0.0,
+      "significant_005": true,
+      "depth_1_mean": 4.04,
+      "depth_3plus_mean": 2.96,
+      "effect_size_cohens_d": -0.64,
+      "n_depth_1": 201262,
+      "n_depth_3plus": 402
+    },
+    "promotional_posts_vs_comments": {
+      "chi2": 801.126,
+      "p_value": 0.0,
+      "significant_005": true,
+      "posts_strong_pct": 21.76,
+      "comments_strong_pct": 26.6,
+      "n_posts": 91792,
+      "n_comments": 213354
+    }
+  },
+  "key_findings": [
+    "Promotional content significantly decreasing with depth (slope=-6.705, p=0.0448)",
+    "Naturalness trend not significant (slope=-0.457, p=0.1169)",
+    "Posts have lower promotional content than comments (21.8% vs 26.6%, p<0.05)"
+  ]
+}

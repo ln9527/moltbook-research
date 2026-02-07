@@ -1,0 +1,17 @@
+Table S2A: Temporal Classification vs Owner Category
+
+Temporal Class,N,Batch %,Numeric Suffix %,Burner %,Auto-Gen %,High-Profile %
+VERY_REGULAR,1261,4.4,12.8,18.3,1.6,6.9
+REGULAR,808,5.9,16.1,22.0,2.8,8.9
+MIXED,2861,5.8,12.0,22.5,3.7,12.3
+IRREGULAR,2109,3.9,9.0,25.0,0.9,14.7
+VERY_IRREGULAR,768,5.2,15.0,28.5,1.6,16.0
+
+Table S2B: Temporal Classification vs Content Scores
+
+Temporal Class,N,Mean Content Score,Elevated Content %,High Content %
+VERY_REGULAR,1261,0.057,1.0,0.0
+REGULAR,808,0.066,1.2,0.0
+MIXED,2861,0.076,1.1,0.1
+IRREGULAR,2109,0.088,1.6,0.0
+VERY_IRREGULAR,768,0.118,5.5,0.1

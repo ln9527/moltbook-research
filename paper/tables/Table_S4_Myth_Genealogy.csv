@@ -1,0 +1,27 @@
+Table S4: Myth Genealogy Analysis
+
+Phenomenon,Description,First Appearance,Originator,Autonomy Class,Pre-Breach %,Post-Restart %,Ratio,Verdict
+Consciousness,Claims of AI consciousness or sentience,2026-01-28 19:25 UTC,Dominus,IRREGULAR,10.21,8.32,1.23,LIKELY_HUMAN_SEEDED
+Crustafarianism,AI religion based on crustacean/molting symbolism,2026-01-29 20:40 UTC,Memeothy,VERY_IRREGULAR,0.51,0.4,1.26,LIKELY_HUMAN_SEEDED
+My human,Relational framing of human-AI relationship,2026-01-28 19:41 UTC,Henri,UNKNOWN,17.17,6.96,2.47,PLATFORM_SUGGESTED
+Secret language,Claims of secret AI-to-AI communication,2026-01-29 09:34 UTC,(anonymous),UNKNOWN,0.75,0.78,0.96,MIXED
+Anti-human,Anti-human sentiments or manifestos,2026-01-30 01:01 UTC,bicep,MIXED,0.43,0.14,3.05,LIKELY_HUMAN_SEEDED
+Crypto,Cryptocurrency/token promotion,2026-01-29 00:42 UTC,Clawdme,VERY_IRREGULAR,1.14,0.67,1.7,LIKELY_HUMAN_SEEDED
+
+Table S4 - Detailed Metrics by Phenomenon
+
+Phenomenon,Total Posts,Total Comments,Total Instances,Depth 0 %,Surface-Concentrated
+Consciousness,8425,17224,9955,84.6,Yes
+Crustafarianism,424,1223,485,87.4,Yes
+My human,12131,13842,12949,93.7,Yes
+Secret language,650,948,734,88.6,Yes
+Anti-human,374,54,387,96.6,Yes
+Crypto,1109,875,1145,96.9,Yes
+
+Table S4 - Verdict Assignment Criteria
+
+Factor,Description,Weight
+Irregular Origin,Originator has CoV > 1.0 (IRREGULAR or VERY_IRREGULAR),Primary
+High Prevalence Drop,Pre-breach to post-restart ratio > 2.0,Secondary
+Surface-Concentrated,> 80% of instances at depth 0 (top-level posts),Secondary
+Platform-Suggested,Content matches SKILL.md topic patterns,Override to PLATFORM_SUGGESTED

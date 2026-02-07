@@ -1,0 +1,152 @@
+{
+  "generated_at": "2026-02-06T01:15:56.031860",
+  "methodology": {
+    "diversity_metric": "TF-IDF cosine distance (1 - similarity)",
+    "interpretation": "Higher values = more diverse responses",
+    "min_comments_per_post": 3,
+    "lexical_diversity": "unique_words / total_words across all comments"
+  },
+  "hypothesis": {
+    "statement": "Human-prompted posts (irregular timing) attract more homogeneous/templated responses",
+    "operationalization": "Response diversity should be LOWER for irregular authors",
+    "conclusion": "NOT SUPPORTED: No significant difference in response diversity"
+  },
+  "summary": {
+    "total_posts_analyzed": 20447,
+    "posts_by_class": {
+      "IRREGULAR": 5303,
+      "REGULAR": 1638,
+      "VERY_IRREGULAR": 5892,
+      "MIXED": 4714,
+      "VERY_REGULAR": 2900
+    }
+  },
+  "statistics_by_temporal_class": {
+    "VERY_REGULAR": {
+      "n_posts": 2900,
+      "mean_cosine_distance": {
+        "mean": 0.9374833131941155,
+        "std": 0.06833615509025966,
+        "median": 0.9564211803295697,
+        "min": 0.14285714285714265,
+        "max": 1.0
+      },
+      "lexical_diversity": {
+        "mean": 0.6414301719122695,
+        "std": 0.20051746644451332,
+        "median": 0.6827141820310928
+      }
+    },
+    "REGULAR": {
+      "n_posts": 1638,
+      "mean_cosine_distance": {
+        "mean": 0.9358821312629634,
+        "std": 0.07302677891331513,
+        "median": 0.956706658223031,
+        "min": 0.29452952361945817,
+        "max": 1.0
+      },
+      "lexical_diversity": {
+        "mean": 0.6485101098808256,
+        "std": 0.17975093468158757,
+        "median": 0.6806125525535586
+      }
+    },
+    "MIXED": {
+      "n_posts": 4714,
+      "mean_cosine_distance": {
+        "mean": 0.9347931685403954,
+        "std": 0.0719430624789825,
+        "median": 0.9534240977137407,
+        "min": 0.2104591400007777,
+        "max": 1.0
+      },
+      "lexical_diversity": {
+        "mean": 0.6483502303187948,
+        "std": 0.1674164606472746,
+        "median": 0.6744974379188018
+      }
+    },
+    "IRREGULAR": {
+      "n_posts": 5303,
+      "mean_cosine_distance": {
+        "mean": 0.9334918123789335,
+        "std": 0.073479493861777,
+        "median": 0.9523465321650351,
+        "min": 0.16666666666666713,
+        "max": 1.0
+      },
+      "lexical_diversity": {
+        "mean": 0.6405667719598146,
+        "std": 0.15868690758513732,
+        "median": 0.6572958500669344
+      }
+    },
+    "VERY_IRREGULAR": {
+      "n_posts": 5892,
+      "mean_cosine_distance": {
+        "mean": 0.9362907207672548,
+        "std": 0.06878727678099097,
+        "median": 0.9557972121975506,
+        "min": 0.14442687972173285,
+        "max": 1.0
+      },
+      "lexical_diversity": {
+        "mean": 0.6300031347359041,
+        "std": 0.20975211006364414,
+        "median": 0.6735584686995345
+      }
+    }
+  },
+  "statistical_tests": {
+    "regular_vs_irregular": {
+      "description": "Comparing response diversity between posts by regular (autonomous) vs irregular (human) authors",
+      "regular_n": 4538,
+      "irregular_n": 11195,
+      "regular_mean": 0.9369053634358019,
+      "irregular_mean": 0.9349648957397187,
+      "ttest": {
+        "t_statistic": 1.5578385739740537,
+        "p_value": 0.11929163586901917,
+        "significant_at_05": false
+      },
+      "mann_whitney": {
+        "u_statistic": 26218483.5,
+        "p_value": 0.0015461755004700765,
+        "significant_at_05": true
+      },
+      "cohens_d": 0.02749793641794803,
+      "effect_interpretation": "negligible"
+    },
+    "anova_all_classes": {
+      "description": "One-way ANOVA comparing response diversity across all temporal classes",
+      "f_statistic": 1.914057482983448,
+      "p_value": 0.10505838423388233,
+      "significant_at_05": false,
+      "n_groups": 5
+    },
+    "kruskal_wallis": {
+      "description": "Kruskal-Wallis H-test (non-parametric) across all temporal classes",
+      "h_statistic": 27.845094308984347,
+      "p_value": 1.3407801036776266e-05,
+      "significant_at_05": true
+    },
+    "lexical_diversity_test": {
+      "description": "Comparing lexical diversity between posts by regular vs irregular authors",
+      "regular_mean": 0.6439856894073103,
+      "irregular_mean": 0.6350070622212455,
+      "ttest": {
+        "t_statistic": 2.697782956868876,
+        "p_value": 0.006987736618152821,
+        "significant_at_05": true
+      },
+      "cohens_d": 0.04716458842205784,
+      "effect_interpretation": "negligible"
+    }
+  },
+  "interpretation": {
+    "autonomous_posts": "Posts by VERY_REGULAR and REGULAR authors (consistent heartbeat timing)",
+    "human_posts": "Posts by IRREGULAR and VERY_IRREGULAR authors (erratic timing)",
+    "higher_diversity_means": "Comments are more varied in content/vocabulary"
+  }
+}

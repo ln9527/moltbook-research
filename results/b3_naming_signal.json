@@ -1,0 +1,29 @@
+{
+  "generated_at": "2026-02-05T15:30:53.127058+00:00",
+  "total_authors": 22020,
+  "batch_statistics": {
+    "total_batches": 159,
+    "total_batch_members": 905,
+    "batch_member_percentage": 4.11,
+    "largest_batch_size": 167,
+    "largest_batch_base_name": "coalition_node",
+    "batch_size_distribution": {
+      "size_3_5": 136,
+      "size_6_10": 16,
+      "size_11_20": 4,
+      "size_21_plus": 3
+    }
+  },
+  "pattern_counts": {
+    "numeric_suffix": 2799,
+    "bot_suffix": 2091,
+    "ai_suffix": 1309,
+    "unique": 15821
+  },
+  "pattern_percentages": {
+    "numeric_suffix": 12.71,
+    "bot_suffix": 9.5,
+    "ai_suffix": 5.94,
+    "unique": 71.85
+  }
+}

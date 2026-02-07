@@ -1,0 +1,135 @@
+{
+  "generated_at": "2026-02-06T13:56:39.759365+00:00",
+  "methodology": {
+    "primary_signal": "temporal_classification",
+    "secondary_signals": [
+      "naming_patterns",
+      "owner_categories",
+      "content_scores"
+    ],
+    "approach": "Cross-tabulation with chi-square and ANOVA tests"
+  },
+  "sample_sizes": {
+    "temporal_authors": 7807,
+    "content_authors": 17967,
+    "naming_authors": 22020,
+    "owner_authors": 18651,
+    "merged_authors": 7807
+  },
+  "crosstab": {
+    "VERY_REGULAR": {
+      "n": 1261,
+      "pct_batch": 4.4,
+      "pct_numeric_suffix": 12.8,
+      "pct_burner": 18.3,
+      "pct_auto_gen": 1.6,
+      "pct_high_profile": 6.9,
+      "mean_content_score": 0.057,
+      "pct_elevated_content": 1.0,
+      "pct_high_content": 0.0
+    },
+    "REGULAR": {
+      "n": 808,
+      "pct_batch": 5.9,
+      "pct_numeric_suffix": 16.1,
+      "pct_burner": 22.0,
+      "pct_auto_gen": 2.8,
+      "pct_high_profile": 8.9,
+      "mean_content_score": 0.066,
+      "pct_elevated_content": 1.2,
+      "pct_high_content": 0.0
+    },
+    "MIXED": {
+      "n": 2861,
+      "pct_batch": 5.8,
+      "pct_numeric_suffix": 12.0,
+      "pct_burner": 22.5,
+      "pct_auto_gen": 3.7,
+      "pct_high_profile": 12.3,
+      "mean_content_score": 0.076,
+      "pct_elevated_content": 1.1,
+      "pct_high_content": 0.1
+    },
+    "IRREGULAR": {
+      "n": 2109,
+      "pct_batch": 3.9,
+      "pct_numeric_suffix": 9.0,
+      "pct_burner": 25.0,
+      "pct_auto_gen": 0.9,
+      "pct_high_profile": 14.7,
+      "mean_content_score": 0.088,
+      "pct_elevated_content": 1.6,
+      "pct_high_content": 0.0
+    },
+    "VERY_IRREGULAR": {
+      "n": 768,
+      "pct_batch": 5.2,
+      "pct_numeric_suffix": 15.0,
+      "pct_burner": 28.5,
+      "pct_auto_gen": 1.6,
+      "pct_high_profile": 16.0,
+      "mean_content_score": 0.118,
+      "pct_elevated_content": 5.5,
+      "pct_high_content": 0.1
+    }
+  },
+  "statistics": {
+    "chi2_temporal_vs_batch": {
+      "chi2": 11.81,
+      "p_value": 0.01878882103476181,
+      "dof": 4,
+      "significant": "True",
+      "interpretation": "DEPENDENT"
+    },
+    "chi2_temporal_vs_owner": {
+      "chi2": 88.61,
+      "p_value": 1.2967336499331056e-10,
+      "dof": 20,
+      "significant": "True",
+      "interpretation": "DEPENDENT"
+    },
+    "anova_content_by_temporal": {
+      "f_statistic": 66.43,
+      "p_value": 2.343728805094599e-55,
+      "significant": "True",
+      "interpretation": "DIFFERS"
+    }
+  },
+  "convergence": {
+    "converging_regular_automated": 46,
+    "converging_irregular_human": 18,
+    "diverging_regular_not_batch": 1966,
+    "diverging_irregular_batch": 123,
+    "diverging_regular_high_content": 0,
+    "diverging_irregular_low_content": 2350,
+    "summary": {
+      "total_regular": 2069,
+      "total_irregular": 2877,
+      "pct_regular_converging": 2.2,
+      "pct_irregular_converging": 0.6
+    }
+  },
+  "correlations": {
+    "temporal_vs_batch": {
+      "correlation": 0.005,
+      "p_value": 0.6362564653570828,
+      "interpretation": "Higher regularity -> more batch"
+    },
+    "temporal_vs_content": {
+      "correlation": -0.173,
+      "p_value": 2.4081923024333947e-53,
+      "interpretation": "Higher regularity -> lower content score"
+    },
+    "batch_vs_content": {
+      "correlation": 0.052,
+      "p_value": 3.771181218579509e-06,
+      "interpretation": "Batch members have higher content"
+    }
+  },
+  "interpretation": {
+    "signals_dependent": true,
+    "key_findings": [
+      "Content score increases with irregularity (consistent with human involvement)"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "breach_timestamp": "2026-01-31T17:35:00Z",
+  "posts": {
+    "pre_breach": {
+      "count": 42522,
+      "unique_authors": 10895,
+      "mean_word_count": 118.25285734443347,
+      "median_word_count": 73.0,
+      "long_posts": 6915,
+      "by_phase": {
+        "breach": 34766,
+        "growth": 7317,
+        "genesis": 439
+      }
+    },
+    "post_breach": {
+      "count": 30578,
+      "unique_authors": 10282,
+      "mean_word_count": 93.7746418994048,
+      "median_word_count": 59.0,
+      "long_posts": 3055,
+      "by_phase": {
+        "breach": 30144,
+        "restoration": 423,
+        "shutdown": 11
+      }
+    }
+  },
+  "comments": {
+    "pre_breach": {
+      "count": 195418,
+      "unique_authors": 2165,
+      "mean_word_count": 305.17638088610056
+    },
+    "post_breach": {
+      "count": 887,
+      "unique_authors": 306,
+      "mean_word_count": 54.53889515219842
+    }
+  },
+  "author_overlap": {
+    "pre_only_authors": 7233,
+    "post_only_authors": 6620,
+    "both_periods": 3663
+  }
+}

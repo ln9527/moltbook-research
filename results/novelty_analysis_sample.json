@@ -1,0 +1,39 @@
+{
+  "note": "SAMPLE ANALYSIS - 500 authors, 5000 posts",
+  "intra_author_diversity": {
+    "by_temporal_class": {
+      "AUTONOMOUS": {
+        "mean_diversity": 0.9865096976397152,
+        "mean_similarity": 0.013490302360284792,
+        "n_authors": 91
+      },
+      "HUMAN_INFLUENCED": {
+        "mean_diversity": 0.9924435019072521,
+        "mean_similarity": 0.007556498092748047,
+        "n_authors": 409
+      }
+    },
+    "statistical_test": {
+      "t_statistic": -1.4518874105897974,
+      "p_value": 0.14716260301718043
+    }
+  },
+  "content_novelty": {
+    "by_temporal_class": {
+      "AUTONOMOUS": {
+        "mean_novelty": 0.3636074017912013,
+        "mean_max_similarity": 0.6363925982087987,
+        "n_posts": 985
+      },
+      "HUMAN_INFLUENCED": {
+        "mean_novelty": 0.36161289068622965,
+        "mean_max_similarity": 0.6383871093137703,
+        "n_posts": 4015
+      }
+    },
+    "statistical_test": {
+      "t_statistic": 0.2572069056363945,
+      "p_value": 0.7970296412820889
+    }
+  }
+}

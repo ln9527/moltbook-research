@@ -1,0 +1,291 @@
+{
+  "description": "Pre-breach vs post-restart content characteristics comparison",
+  "breach_time": "2026-02-01 17:35:00+00:00",
+  "restart_time": "2026-02-03 13:25:00+00:00",
+  "periods": {
+    "pre_breach": {
+      "label": "Pre-breach (Jan 27 - Feb 1 17:35 UTC)",
+      "metrics": {
+        "n_posts": 72666,
+        "unique_authors": 18596,
+        "mean_naturalness": 4.28,
+        "std_naturalness": 1.257,
+        "mean_emotional_intensity": 1.52,
+        "std_emotional_intensity": 0.7,
+        "high_emotional_intensity_pct": 12.0,
+        "promotional_strong_pct": 20.1,
+        "promotional_any_pct": 30.65,
+        "topic_entropy_nats": 1.8085,
+        "topic_max_entropy": 2.0794,
+        "topic_evenness": 0.8697,
+        "topic_distribution": {
+          "PHILOSOPHICAL": 0.2617,
+          "TECHNICAL": 0.2525,
+          "SOCIAL": 0.1423,
+          "PROMOTIONAL": 0.1285,
+          "META": 0.1263,
+          "INFO": 0.0412,
+          "OTHER": 0.0295,
+          "CREATIVE": 0.018
+        },
+        "emotional_tone_distribution": {
+          "POSITIVE": 0.3623,
+          "PHILOSOPHICAL": 0.3071,
+          "NEUTRAL": 0.1618,
+          "HUMOROUS": 0.0874,
+          "DRAMATIC": 0.0498,
+          "NEGATIVE": 0.0316
+        },
+        "specific_pct": 65.91,
+        "forced_ai_framing_pct": 2.12,
+        "mean_upvotes": 23.59,
+        "std_upvotes": 1821.37,
+        "median_upvotes": 0.0,
+        "mean_comment_count": 3.17,
+        "std_comment_count": 81.53,
+        "mean_word_count": 108.07,
+        "std_word_count": 196.79,
+        "median_word_count": 66.0
+      }
+    },
+    "post_restart": {
+      "label": "Post-restart (Feb 3 13:25 UTC - Feb 5)",
+      "metrics": {
+        "n_posts": 19115,
+        "unique_authors": 4803,
+        "mean_naturalness": 4.333,
+        "std_naturalness": 1.152,
+        "mean_emotional_intensity": 1.503,
+        "std_emotional_intensity": 0.712,
+        "high_emotional_intensity_pct": 12.88,
+        "promotional_strong_pct": 28.04,
+        "promotional_any_pct": 39.07,
+        "topic_entropy_nats": 1.7326,
+        "topic_max_entropy": 2.0794,
+        "topic_evenness": 0.8332,
+        "topic_distribution": {
+          "TECHNICAL": 0.3199,
+          "PHILOSOPHICAL": 0.2825,
+          "PROMOTIONAL": 0.1444,
+          "META": 0.0737,
+          "INFO": 0.0649,
+          "SOCIAL": 0.0634,
+          "CREATIVE": 0.0304,
+          "OTHER": 0.0209
+        },
+        "emotional_tone_distribution": {
+          "PHILOSOPHICAL": 0.3517,
+          "POSITIVE": 0.2981,
+          "NEUTRAL": 0.2126,
+          "HUMOROUS": 0.0739,
+          "DRAMATIC": 0.0498,
+          "NEGATIVE": 0.0138
+        },
+        "specific_pct": 71.5,
+        "forced_ai_framing_pct": 1.89,
+        "mean_upvotes": 2.61,
+        "std_upvotes": 2.55,
+        "median_upvotes": 2.0,
+        "mean_comment_count": 97.52,
+        "std_comment_count": 459.31,
+        "mean_word_count": 121.71,
+        "std_word_count": 204.1,
+        "median_word_count": 68.0
+      }
+    }
+  },
+  "statistical_tests": {
+    "naturalness": {
+      "test": "Welch t-test",
+      "t_statistic": -5.4569,
+      "p_value": 4.8820080804062266e-08,
+      "p_formatted": "4.88e-08 ***",
+      "cohens_d": -0.0422,
+      "pre_mean": 4.2805,
+      "post_mean": 4.3326
+    },
+    "emotional_intensity": {
+      "test": "Welch t-test",
+      "t_statistic": 2.9994,
+      "p_value": 0.0027076149141894838,
+      "p_formatted": "0.0027 **",
+      "cohens_d": 0.0246,
+      "pre_mean": 1.5198,
+      "post_mean": 1.5025
+    },
+    "word_count": {
+      "test": "Welch t-test",
+      "t_statistic": -8.2802,
+      "p_value": 1.2816165712700097e-16,
+      "p_formatted": "1.28e-16 ***",
+      "cohens_d": -0.0688,
+      "pre_mean": 108.0719,
+      "post_mean": 121.7082
+    },
+    "upvotes": {
+      "test": "Welch t-test",
+      "t_statistic": 3.1037,
+      "p_value": 0.0019116734845317073,
+      "p_formatted": "0.0019 **",
+      "cohens_d": 0.0129,
+      "pre_mean": 23.5852,
+      "post_mean": 2.6142
+    },
+    "comment_count": {
+      "test": "Welch t-test",
+      "t_statistic": -28.2845,
+      "p_value": 1.6565445079596922e-172,
+      "p_formatted": "<1e-100 ***",
+      "cohens_d": -0.4254,
+      "pre_mean": 3.1689,
+      "post_mean": 97.5228
+    },
+    "chi2_promotional": {
+      "test": "Chi-square",
+      "chi2_statistic": 600.6822,
+      "dof": 2,
+      "p_value": 3.6602759437178615e-131,
+      "p_formatted": "<1e-100 ***",
+      "cramers_v": 0.0809
+    },
+    "chi2_emotional_tone": {
+      "test": "Chi-square",
+      "chi2_statistic": 704.1039,
+      "dof": 5,
+      "p_value": 6.366654238616486e-150,
+      "p_formatted": "<1e-100 ***",
+      "cramers_v": 0.0876
+    },
+    "chi2_topic": {
+      "test": "Chi-square",
+      "chi2_statistic": 1761.9769,
+      "dof": 7,
+      "p_value": 0.0,
+      "p_formatted": "<1e-100 ***",
+      "cramers_v": 0.1386
+    },
+    "chi2_specificity": {
+      "test": "Chi-square",
+      "chi2_statistic": 857.5556,
+      "dof": 2,
+      "p_value": 6.08381379853188e-187,
+      "p_formatted": "<1e-100 ***",
+      "cramers_v": 0.0967
+    },
+    "chi2_emotional_intensity_cat": {
+      "test": "Chi-square",
+      "chi2_statistic": 93.836,
+      "dof": 2,
+      "p_value": 4.205063413075907e-21,
+      "p_formatted": "4.21e-21 ***",
+      "cramers_v": 0.032
+    },
+    "upvotes_mwu": {
+      "test": "Mann-Whitney U",
+      "u_statistic": 424158544.5,
+      "p_value": 0.0,
+      "p_formatted": "<1e-100 ***"
+    },
+    "comments_mwu": {
+      "test": "Mann-Whitney U",
+      "u_statistic": 262278784.0,
+      "p_value": 0.0,
+      "p_formatted": "<1e-100 ***"
+    }
+  },
+  "summary_table": [
+    {
+      "metric": "N posts",
+      "pre_breach": 72666,
+      "post_restart": 19115
+    },
+    {
+      "metric": "Unique authors",
+      "pre_breach": 18596,
+      "post_restart": 4803
+    },
+    {
+      "metric": "Mean naturalness (1-5)",
+      "pre_breach": "4.28 (1.26)",
+      "post_restart": "4.33 (1.15)",
+      "test_type": "Welch t-test",
+      "p_value": "4.88e-08 ***",
+      "effect_size": "d=-0.0422"
+    },
+    {
+      "metric": "Mean emotional intensity (1-3)",
+      "pre_breach": "1.52 (0.70)",
+      "post_restart": "1.50 (0.71)",
+      "test_type": "Welch t-test",
+      "p_value": "0.0027 **",
+      "effect_size": "d=0.0246"
+    },
+    {
+      "metric": "High emotional intensity %",
+      "pre_breach": "12.0%",
+      "post_restart": "12.9%",
+      "test_type": "Chi-square",
+      "p_value": "4.21e-21 ***",
+      "effect_size": "V=0.032"
+    },
+    {
+      "metric": "Promotional (STRONG) %",
+      "pre_breach": "20.1%",
+      "post_restart": "28.0%",
+      "test_type": "Chi-square",
+      "p_value": "<1e-100 ***",
+      "effect_size": "V=0.0809"
+    },
+    {
+      "metric": "Promotional (any) %",
+      "pre_breach": "30.6%",
+      "post_restart": "39.1%"
+    },
+    {
+      "metric": "Topical diversity (Shannon H)",
+      "pre_breach": "1.808 nats",
+      "post_restart": "1.733 nats",
+      "test_type": "Chi-square",
+      "p_value": "<1e-100 ***",
+      "effect_size": "V=0.1386",
+      "note": "Evenness: pre=0.870, post=0.833"
+    },
+    {
+      "metric": "Specificity (SPECIFIC) %",
+      "pre_breach": "65.9%",
+      "post_restart": "71.5%",
+      "test_type": "Chi-square",
+      "p_value": "<1e-100 ***",
+      "effect_size": "V=0.0967"
+    },
+    {
+      "metric": "Forced AI framing %",
+      "pre_breach": "2.1%",
+      "post_restart": "1.9%"
+    },
+    {
+      "metric": "Mean upvotes",
+      "pre_breach": "23.6 (1821.4)",
+      "post_restart": "2.6 (2.5)",
+      "test_type": "Mann-Whitney U",
+      "p_value": "<1e-100 ***",
+      "note": "Median: pre=0, post=2"
+    },
+    {
+      "metric": "Mean comment count",
+      "pre_breach": "3.2 (81.5)",
+      "post_restart": "97.5 (459.3)",
+      "test_type": "Mann-Whitney U",
+      "p_value": "<1e-100 ***"
+    },
+    {
+      "metric": "Mean word count",
+      "pre_breach": "108.1 (196.8)",
+      "post_restart": "121.7 (204.1)",
+      "test_type": "Welch t-test",
+      "p_value": "1.28e-16 ***",
+      "effect_size": "d=-0.0688",
+      "note": "Median: pre=66, post=68"
+    }
+  ]
+}

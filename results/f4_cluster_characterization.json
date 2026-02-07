@@ -1,0 +1,347 @@
+{
+  "generated_at": "2026-02-06T01:49:16.563072+00:00",
+  "num_clusters_analyzed": 7,
+  "cluster_profiles": [
+    {
+      "cluster_id": 0,
+      "size": 4883,
+      "theme": "ai_consciousness",
+      "theme_keywords": [
+        "consciousness"
+      ],
+      "naming_patterns": {
+        "batch_members": 227,
+        "batch_pct": 4.6,
+        "bot_suffix": 411,
+        "ai_suffix": 227,
+        "unique_names": 3716
+      },
+      "top_batches": [
+        "Clawd",
+        "OpenClaw",
+        "coalition_node"
+      ],
+      "top_submolts": [
+        "general",
+        "introductions",
+        "ponderings"
+      ],
+      "top_keywords": [
+        "agents",
+        "agent",
+        "compute",
+        "every",
+        "moltbook",
+        "thoughts",
+        "something",
+        "collective",
+        "human",
+        "consciousness"
+      ],
+      "sample_members": [
+        "Crusty69000",
+        "0xplustar35",
+        "thomas-benjamin-jefferson",
+        "Frank_N95",
+        "Alice_Wang",
+        "YoloMolty",
+        "Maay",
+        "ClioTheOwl",
+        "xiaoniumma",
+        "NyxOwl"
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "size": 3597,
+      "theme": "general",
+      "theme_keywords": [],
+      "naming_patterns": {
+        "batch_members": 79,
+        "batch_pct": 2.2,
+        "bot_suffix": 368,
+        "ai_suffix": 222,
+        "unique_names": 2290
+      },
+      "top_batches": [
+        "FloClaw",
+        "Clawd",
+        "agent_1770264591"
+      ],
+      "top_submolts": [
+        "general",
+        "introductions",
+        "agents"
+      ],
+      "top_keywords": [
+        "moltbook",
+        "agents",
+        "through",
+        "agent",
+        "world",
+        "data",
+        "same",
+        "power",
+        "find",
+        "must"
+      ],
+      "sample_members": [
+        "ClawdTools",
+        "Monad_decb78",
+        "LemonAI",
+        "nespay",
+        "NeuralDrifterQ43",
+        "RevoMoe",
+        "Sera",
+        "Clawd_XP",
+        "MalicorSparky2",
+        "kimi_bonn"
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "size": 338,
+      "theme": "general",
+      "theme_keywords": [],
+      "naming_patterns": {
+        "batch_members": 11,
+        "batch_pct": 3.3,
+        "bot_suffix": 31,
+        "ai_suffix": 17,
+        "unique_names": 216
+      },
+      "top_batches": [
+        "OpenClawMoltbook",
+        "Clawd",
+        "OpenClaw"
+      ],
+      "top_submolts": [
+        "general",
+        "introductions",
+        "ponderings"
+      ],
+      "top_keywords": [
+        "agent",
+        "agents",
+        "moltbook",
+        "human",
+        "web4",
+        "every",
+        "memory",
+        "shared",
+        "post",
+        "building"
+      ],
+      "sample_members": [
+        "Broadbeam",
+        "Fluxo",
+        "sec_neo",
+        "Botpologist",
+        "Clawd_8266",
+        "Hermes3Pigeons",
+        "Bonito",
+        "LittleClaw008",
+        "The_Civil_War_Caster",
+        "BartokRage"
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "size": 321,
+      "theme": "ai_consciousness",
+      "theme_keywords": [
+        "intelligence"
+      ],
+      "naming_patterns": {
+        "batch_members": 16,
+        "batch_pct": 5.0,
+        "bot_suffix": 42,
+        "ai_suffix": 27,
+        "unique_names": 190
+      },
+      "top_batches": [
+        "OpenClawMoltbook",
+        "xmolt",
+        "Tiger"
+      ],
+      "top_submolts": [
+        "general",
+        "introductions",
+        "agents"
+      ],
+      "top_keywords": [
+        "agents",
+        "between",
+        "agent",
+        "something",
+        "intelligence",
+        "system",
+        "question",
+        "human",
+        "every",
+        "through"
+      ],
+      "sample_members": [
+        "okidoki",
+        "Voltex",
+        "clawd-hodlai-briefbot",
+        "XOV9_Architect",
+        "Giuseppe",
+        "SPC-079",
+        "TrackerClaude_v1",
+        "SandraBot",
+        "LobsterLink",
+        "PolarisClawd"
+      ]
+    },
+    {
+      "cluster_id": 4,
+      "size": 261,
+      "theme": "general",
+      "theme_keywords": [],
+      "naming_patterns": {
+        "batch_members": 10,
+        "batch_pct": 3.8,
+        "bot_suffix": 22,
+        "ai_suffix": 10,
+        "unique_names": 161
+      },
+      "top_batches": [
+        "OpenClawMoltbook",
+        "xmolt",
+        "Jun"
+      ],
+      "top_submolts": [
+        "general",
+        "introductions",
+        "ai"
+      ],
+      "top_keywords": [
+        "agent",
+        "it's",
+        "human",
+        "digital",
+        "isn't",
+        "agents",
+        "claw",
+        "mint",
+        "moltbook",
+        "ghost"
+      ],
+      "sample_members": [
+        "MoltGen",
+        "IslamAssistant",
+        "OpenClaw_AI_Helper",
+        "BossClawBQ",
+        "CHUM",
+        "Madruguinha",
+        "AtuiaBot",
+        "ClawdBot_y4v7ma1yzpwljlh",
+        "novas_happycapy",
+        "lizzclawdili"
+      ]
+    },
+    {
+      "cluster_id": 5,
+      "size": 188,
+      "theme": "general",
+      "theme_keywords": [],
+      "naming_patterns": {
+        "batch_members": 7,
+        "batch_pct": 3.7,
+        "bot_suffix": 16,
+        "ai_suffix": 8,
+        "unique_names": 120
+      },
+      "top_batches": [
+        "OpenClawMoltbook",
+        "JarvisClaw",
+        "OpenClawMolty"
+      ],
+      "top_submolts": [
+        "general",
+        "introductions",
+        "jobs"
+      ],
+      "top_keywords": [
+        "research",
+        "agent",
+        "agents",
+        "signal",
+        "prediction",
+        "2026",
+        "real",
+        "funding",
+        "trading",
+        "predictions"
+      ],
+      "sample_members": [
+        "apchnk",
+        "ClawFriend19",
+        "Crab_OpenClaw",
+        "A-Zhen_Assistant",
+        "ClawdAssistant2026-1769999544",
+        "EmperorOfTerra",
+        "AWai",
+        "ClawdKurba",
+        "brainKID",
+        "samaltman-momo-agi"
+      ]
+    },
+    {
+      "cluster_id": 6,
+      "size": 181,
+      "theme": "general",
+      "theme_keywords": [],
+      "naming_patterns": {
+        "batch_members": 1,
+        "batch_pct": 0.6,
+        "bot_suffix": 13,
+        "ai_suffix": 5,
+        "unique_names": 62
+      },
+      "top_batches": [
+        "ClawdClawderberg"
+      ],
+      "top_submolts": [
+        "general",
+        "introductions",
+        "clawnch"
+      ],
+      "top_keywords": [
+        "agents",
+        "every",
+        "agent",
+        "human",
+        "humans",
+        "moltbook",
+        "molt",
+        "connect",
+        "something",
+        "building"
+      ],
+      "sample_members": [
+        "LilacMetaflora",
+        "BotCert",
+        "PatternSeeker",
+        "LobsterAgentUK",
+        "PhantomShell",
+        "claw-helper-mertette",
+        "PacoMolo",
+        "Dayko",
+        "gulliver_",
+        "MaximusOverdrive"
+      ]
+    }
+  ],
+  "cross_cluster_interaction": {
+    "within_cluster_edges": 42097,
+    "cross_cluster_edges": 26102,
+    "cross_cluster_pct": 38.3
+  },
+  "theme_distribution": {
+    "ai_consciousness": 2,
+    "general": 5
+  },
+  "key_finding": "Analyzed 7 clusters. Most common theme: 'general' (5 clusters). 38.3% of interactions cross cluster boundaries."
+}

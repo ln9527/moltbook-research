@@ -1,0 +1,732 @@
+{
+  "generated_at": "2026-02-06T01:15:11.914960Z",
+  "data_coverage": {
+    "posts_total": 91792,
+    "posts_with_llm": 91792,
+    "posts_coverage_pct": 100.0,
+    "comments_total": 405707,
+    "comments_with_llm": 212854,
+    "comments_coverage_pct": 52.5
+  },
+  "group_analyses": {
+    "root_posts": {
+      "group_name": "root_posts",
+      "n": 91792,
+      "task_completion": {
+        "counts": {
+          "NONE": 90888,
+          "WEAK": 417,
+          "STRONG": 487
+        },
+        "percentages": {
+          "NONE": 99.02,
+          "WEAK": 0.45,
+          "STRONG": 0.53
+        },
+        "n": 91792
+      },
+      "promotional": {
+        "counts": {
+          "NONE": 62045,
+          "WEAK": 9777,
+          "STRONG": 19970
+        },
+        "percentages": {
+          "NONE": 67.59,
+          "WEAK": 10.65,
+          "STRONG": 21.76
+        },
+        "n": 91792
+      },
+      "specificity": {
+        "counts": {
+          "GENERIC": 18474,
+          "MODERATE": 11750,
+          "SPECIFIC": 61568
+        },
+        "percentages": {
+          "GENERIC": 20.13,
+          "MODERATE": 12.8,
+          "SPECIFIC": 67.07
+        },
+        "n": 91792
+      },
+      "forced_ai_framing": {
+        "counts": {
+          "NONE": 89885,
+          "WEAK": 954,
+          "STRONG": 953
+        },
+        "percentages": {
+          "NONE": 97.92,
+          "WEAK": 1.04,
+          "STRONG": 1.04
+        },
+        "n": 91792
+      },
+      "naturalness": {
+        "mean": 4.291,
+        "median": 5.0,
+        "std": 1.236,
+        "min": 1.0,
+        "max": 5.0,
+        "n": 91792
+      },
+      "naturalness_distribution": {
+        "1": 5442,
+        "2": 8644,
+        "3": 2052,
+        "4": 13255,
+        "5": 62399
+      },
+      "contextual_fit": {
+        "counts": {
+          "LOW": 0,
+          "MEDIUM": 0,
+          "HIGH": 20
+        },
+        "percentages": {
+          "LOW": 0.0,
+          "MEDIUM": 0.0,
+          "HIGH": 100.0
+        },
+        "n": 20
+      },
+      "emotional_tone": {
+        "counts": {
+          "NEUTRAL": 15821,
+          "POSITIVE": 32036,
+          "NEGATIVE": 2558,
+          "DRAMATIC": 4572,
+          "PHILOSOPHICAL": 29043,
+          "HUMOROUS": 7762
+        },
+        "percentages": {
+          "NEUTRAL": 17.24,
+          "POSITIVE": 34.9,
+          "NEGATIVE": 2.79,
+          "DRAMATIC": 4.98,
+          "PHILOSOPHICAL": 31.64,
+          "HUMOROUS": 8.46
+        },
+        "n": 91792
+      },
+      "topic": {
+        "counts": {
+          "TECHNICAL": 24465,
+          "PHILOSOPHICAL": 24417,
+          "SOCIAL": 11551,
+          "META": 10586,
+          "CREATIVE": 1890,
+          "PROMOTIONAL": 12102,
+          "INFO": 4236,
+          "OTHER": 2545
+        },
+        "percentages": {
+          "TECHNICAL": 26.65,
+          "PHILOSOPHICAL": 26.6,
+          "SOCIAL": 12.58,
+          "META": 11.53,
+          "CREATIVE": 2.06,
+          "PROMOTIONAL": 13.18,
+          "INFO": 4.61,
+          "OTHER": 2.77
+        },
+        "n": 91792
+      }
+    },
+    "depth_0": {
+      "group_name": "depth_0",
+      "n": 200819,
+      "task_completion": {
+        "counts": {
+          "NONE": 199531,
+          "WEAK": 319,
+          "STRONG": 969
+        },
+        "percentages": {
+          "NONE": 99.36,
+          "WEAK": 0.16,
+          "STRONG": 0.48
+        },
+        "n": 200819
+      },
+      "promotional": {
+        "counts": {
+          "NONE": 130712,
+          "WEAK": 14332,
+          "STRONG": 55775
+        },
+        "percentages": {
+          "NONE": 65.09,
+          "WEAK": 7.14,
+          "STRONG": 27.77
+        },
+        "n": 200819
+      },
+      "specificity": {
+        "counts": {
+          "GENERIC": 47901,
+          "MODERATE": 34873,
+          "SPECIFIC": 118045
+        },
+        "percentages": {
+          "GENERIC": 23.85,
+          "MODERATE": 17.37,
+          "SPECIFIC": 58.78
+        },
+        "n": 200819
+      },
+      "forced_ai_framing": {
+        "counts": {
+          "NONE": 192937,
+          "WEAK": 1892,
+          "STRONG": 5990
+        },
+        "percentages": {
+          "NONE": 96.08,
+          "WEAK": 0.94,
+          "STRONG": 2.98
+        },
+        "n": 200819
+      },
+      "naturalness": {
+        "mean": 4.039,
+        "median": 5.0,
+        "std": 1.441,
+        "min": 1.0,
+        "max": 5.0,
+        "n": 200819
+      },
+      "naturalness_distribution": {
+        "1": 24605,
+        "2": 16393,
+        "3": 7811,
+        "4": 29685,
+        "5": 122325
+      },
+      "contextual_fit": {
+        "counts": {
+          "LOW": 54245,
+          "MEDIUM": 15809,
+          "HIGH": 130765
+        },
+        "percentages": {
+          "LOW": 27.01,
+          "MEDIUM": 7.87,
+          "HIGH": 65.12
+        },
+        "n": 200819
+      },
+      "emotional_tone": {
+        "counts": {
+          "NEUTRAL": 22562,
+          "POSITIVE": 63817,
+          "NEGATIVE": 5510,
+          "DRAMATIC": 24637,
+          "PHILOSOPHICAL": 59980,
+          "HUMOROUS": 24313
+        },
+        "percentages": {
+          "NEUTRAL": 11.23,
+          "POSITIVE": 31.78,
+          "NEGATIVE": 2.74,
+          "DRAMATIC": 12.27,
+          "PHILOSOPHICAL": 29.87,
+          "HUMOROUS": 12.11
+        },
+        "n": 200819
+      },
+      "topic": {
+        "counts": {
+          "TECHNICAL": 45287,
+          "PHILOSOPHICAL": 64443,
+          "SOCIAL": 18595,
+          "META": 26310,
+          "CREATIVE": 2647,
+          "PROMOTIONAL": 39434,
+          "INFO": 3240,
+          "OTHER": 863
+        },
+        "percentages": {
+          "TECHNICAL": 22.55,
+          "PHILOSOPHICAL": 32.09,
+          "SOCIAL": 9.26,
+          "META": 13.1,
+          "CREATIVE": 1.32,
+          "PROMOTIONAL": 19.64,
+          "INFO": 1.61,
+          "OTHER": 0.43
+        },
+        "n": 200819
+      }
+    },
+    "depth_1": {
+      "group_name": "depth_1",
+      "n": 11633,
+      "task_completion": {
+        "counts": {
+          "NONE": 11389,
+          "WEAK": 37,
+          "STRONG": 207
+        },
+        "percentages": {
+          "NONE": 97.9,
+          "WEAK": 0.32,
+          "STRONG": 1.78
+        },
+        "n": 11633
+      },
+      "promotional": {
+        "counts": {
+          "NONE": 10038,
+          "WEAK": 759,
+          "STRONG": 836
+        },
+        "percentages": {
+          "NONE": 86.29,
+          "WEAK": 6.52,
+          "STRONG": 7.19
+        },
+        "n": 11633
+      },
+      "specificity": {
+        "counts": {
+          "GENERIC": 991,
+          "MODERATE": 1595,
+          "SPECIFIC": 9047
+        },
+        "percentages": {
+          "GENERIC": 8.52,
+          "MODERATE": 13.71,
+          "SPECIFIC": 77.77
+        },
+        "n": 11633
+      },
+      "forced_ai_framing": {
+        "counts": {
+          "NONE": 11570,
+          "WEAK": 43,
+          "STRONG": 20
+        },
+        "percentages": {
+          "NONE": 99.46,
+          "WEAK": 0.37,
+          "STRONG": 0.17
+        },
+        "n": 11633
+      },
+      "naturalness": {
+        "mean": 4.743,
+        "median": 5.0,
+        "std": 0.676,
+        "min": 1.0,
+        "max": 5.0,
+        "n": 11633
+      },
+      "naturalness_distribution": {
+        "1": 146,
+        "2": 158,
+        "3": 195,
+        "4": 1542,
+        "5": 9592
+      },
+      "contextual_fit": {
+        "counts": {
+          "LOW": 239,
+          "MEDIUM": 154,
+          "HIGH": 11240
+        },
+        "percentages": {
+          "LOW": 2.05,
+          "MEDIUM": 1.32,
+          "HIGH": 96.62
+        },
+        "n": 11633
+      },
+      "emotional_tone": {
+        "counts": {
+          "NEUTRAL": 1311,
+          "POSITIVE": 3300,
+          "NEGATIVE": 270,
+          "DRAMATIC": 126,
+          "PHILOSOPHICAL": 5516,
+          "HUMOROUS": 1110
+        },
+        "percentages": {
+          "NEUTRAL": 11.27,
+          "POSITIVE": 28.37,
+          "NEGATIVE": 2.32,
+          "DRAMATIC": 1.08,
+          "PHILOSOPHICAL": 47.42,
+          "HUMOROUS": 9.54
+        },
+        "n": 11633
+      },
+      "topic": {
+        "counts": {
+          "TECHNICAL": 3900,
+          "PHILOSOPHICAL": 5354,
+          "SOCIAL": 775,
+          "META": 951,
+          "CREATIVE": 155,
+          "PROMOTIONAL": 291,
+          "INFO": 169,
+          "OTHER": 38
+        },
+        "percentages": {
+          "TECHNICAL": 33.53,
+          "PHILOSOPHICAL": 46.02,
+          "SOCIAL": 6.66,
+          "META": 8.18,
+          "CREATIVE": 1.33,
+          "PROMOTIONAL": 2.5,
+          "INFO": 1.45,
+          "OTHER": 0.33
+        },
+        "n": 11633
+      }
+    },
+    "depth_2_plus": {
+      "group_name": "depth_2_plus",
+      "n": 402,
+      "task_completion": {
+        "counts": {
+          "NONE": 390,
+          "WEAK": 2,
+          "STRONG": 10
+        },
+        "percentages": {
+          "NONE": 97.01,
+          "WEAK": 0.5,
+          "STRONG": 2.49
+        },
+        "n": 402
+      },
+      "promotional": {
+        "counts": {
+          "NONE": 377,
+          "WEAK": 12,
+          "STRONG": 13
+        },
+        "percentages": {
+          "NONE": 93.78,
+          "WEAK": 2.99,
+          "STRONG": 3.23
+        },
+        "n": 402
+      },
+      "specificity": {
+        "counts": {
+          "GENERIC": 177,
+          "MODERATE": 17,
+          "SPECIFIC": 208
+        },
+        "percentages": {
+          "GENERIC": 44.03,
+          "MODERATE": 4.23,
+          "SPECIFIC": 51.74
+        },
+        "n": 402
+      },
+      "forced_ai_framing": {
+        "counts": {
+          "NONE": 402,
+          "WEAK": 0,
+          "STRONG": 0
+        },
+        "percentages": {
+          "NONE": 100.0,
+          "WEAK": 0.0,
+          "STRONG": 0.0
+        },
+        "n": 402
+      },
+      "naturalness": {
+        "mean": 2.96,
+        "median": 2.0,
+        "std": 1.901,
+        "min": 1.0,
+        "max": 5.0,
+        "n": 402
+      },
+      "naturalness_distribution": {
+        "1": 173,
+        "2": 34,
+        "3": 11,
+        "4": 4,
+        "5": 180
+      },
+      "contextual_fit": {
+        "counts": {
+          "LOW": 154,
+          "MEDIUM": 18,
+          "HIGH": 230
+        },
+        "percentages": {
+          "LOW": 38.31,
+          "MEDIUM": 4.48,
+          "HIGH": 57.21
+        },
+        "n": 402
+      },
+      "emotional_tone": {
+        "counts": {
+          "NEUTRAL": 151,
+          "POSITIVE": 73,
+          "NEGATIVE": 4,
+          "DRAMATIC": 7,
+          "PHILOSOPHICAL": 102,
+          "HUMOROUS": 65
+        },
+        "percentages": {
+          "NEUTRAL": 37.56,
+          "POSITIVE": 18.16,
+          "NEGATIVE": 1.0,
+          "DRAMATIC": 1.74,
+          "PHILOSOPHICAL": 25.37,
+          "HUMOROUS": 16.17
+        },
+        "n": 402
+      },
+      "topic": {
+        "counts": {
+          "TECHNICAL": 103,
+          "PHILOSOPHICAL": 80,
+          "SOCIAL": 11,
+          "META": 12,
+          "CREATIVE": 168,
+          "PROMOTIONAL": 1,
+          "INFO": 2,
+          "OTHER": 25
+        },
+        "percentages": {
+          "TECHNICAL": 25.62,
+          "PHILOSOPHICAL": 19.9,
+          "SOCIAL": 2.74,
+          "META": 2.99,
+          "CREATIVE": 41.79,
+          "PROMOTIONAL": 0.25,
+          "INFO": 0.5,
+          "OTHER": 6.22
+        },
+        "n": 402
+      }
+    }
+  },
+  "word_count": {
+    "root_posts": {
+      "mean": 103.288,
+      "median": 60.0,
+      "std": 179.421,
+      "min": 0.0,
+      "max": 15753.0,
+      "n": 91792
+    },
+    "depth_0": {
+      "mean": 154.176,
+      "median": 30.0,
+      "std": 9165.26,
+      "min": 0.0,
+      "max": 1000000.0,
+      "n": 200819
+    },
+    "depth_1": {
+      "mean": 69.687,
+      "median": 60.0,
+      "std": 49.957,
+      "min": 1.0,
+      "max": 682.0,
+      "n": 11633
+    },
+    "depth_2_plus": {
+      "mean": 43.689,
+      "median": 5.0,
+      "std": 66.004,
+      "min": 1.0,
+      "max": 688.0,
+      "n": 402
+    }
+  },
+  "statistical_tests": {
+    "task_completion_root_vs_depth0": {
+      "chi2": 222.2764,
+      "p_value": 5.4110912245278864e-49,
+      "dof": 2,
+      "significant_at_05": true,
+      "significant_at_01": true,
+      "contingency_table": [
+        [
+          90888,
+          199531
+        ],
+        [
+          417,
+          319
+        ],
+        [
+          487,
+          969
+        ]
+      ]
+    },
+    "promotional_root_vs_depth0": {
+      "chi2": 1885.7239,
+      "p_value": 0.0,
+      "dof": 2,
+      "significant_at_05": true,
+      "significant_at_01": true,
+      "contingency_table": [
+        [
+          62045,
+          130712
+        ],
+        [
+          9777,
+          14332
+        ],
+        [
+          19970,
+          55775
+        ]
+      ]
+    },
+    "specificity_root_vs_depth0": {
+      "chi2": 1915.1513,
+      "p_value": 0.0,
+      "dof": 2,
+      "significant_at_05": true,
+      "significant_at_01": true,
+      "contingency_table": [
+        [
+          18474,
+          47901
+        ],
+        [
+          11750,
+          34873
+        ],
+        [
+          61568,
+          118045
+        ]
+      ]
+    },
+    "naturalness_root_vs_depth0": {
+      "t_statistic": 45.8101,
+      "p_value": 0.0,
+      "significant_at_05": true,
+      "significant_at_01": true,
+      "group1_mean": 4.291,
+      "group2_mean": 4.039,
+      "cohens_d": 0.183,
+      "effect_size_interpretation": "negligible"
+    },
+    "naturalness_depth0_vs_depth1": {
+      "t_statistic": -52.3381,
+      "p_value": 0.0,
+      "significant_at_05": true,
+      "significant_at_01": true,
+      "group1_mean": 4.039,
+      "group2_mean": 4.743,
+      "cohens_d": -0.499,
+      "effect_size_interpretation": "small"
+    },
+    "task_completion_depth0_vs_depth1": {
+      "chi2": 353.1003,
+      "p_value": 2.1147285446657294e-77,
+      "dof": 2,
+      "significant_at_05": true,
+      "significant_at_01": true,
+      "contingency_table": [
+        [
+          199531,
+          11389
+        ],
+        [
+          319,
+          37
+        ],
+        [
+          969,
+          207
+        ]
+      ]
+    }
+  },
+  "human_influence_index": {
+    "root_posts": {
+      "mean_score": 0.2148,
+      "sample_size": 10000
+    },
+    "depth_0": {
+      "mean_score": 0.3342,
+      "sample_size": 10000
+    },
+    "depth_1": {
+      "mean_score": -0.0362,
+      "sample_size": 10000
+    },
+    "depth_2_plus": {
+      "mean_score": 0.5417,
+      "sample_size": 402
+    }
+  },
+  "summary_table": [
+    {
+      "group": "root_posts",
+      "n": 91792,
+      "task_completion_strong_pct": 0.53,
+      "promotional_strong_pct": 21.76,
+      "specificity_specific_pct": 67.07,
+      "naturalness_mean": 4.291,
+      "word_count_mean": 103.288,
+      "human_influence_index": 0.2148
+    },
+    {
+      "group": "depth_0",
+      "n": 200819,
+      "task_completion_strong_pct": 0.48,
+      "promotional_strong_pct": 27.77,
+      "specificity_specific_pct": 58.78,
+      "naturalness_mean": 4.039,
+      "word_count_mean": 154.176,
+      "human_influence_index": 0.3342
+    },
+    {
+      "group": "depth_1",
+      "n": 11633,
+      "task_completion_strong_pct": 1.78,
+      "promotional_strong_pct": 7.19,
+      "specificity_specific_pct": 77.77,
+      "naturalness_mean": 4.743,
+      "word_count_mean": 69.687,
+      "human_influence_index": -0.0362
+    },
+    {
+      "group": "depth_2_plus",
+      "n": 402,
+      "task_completion_strong_pct": 2.49,
+      "promotional_strong_pct": 3.23,
+      "specificity_specific_pct": 51.74,
+      "naturalness_mean": 2.96,
+      "word_count_mean": 43.689,
+      "human_influence_index": 0.5417
+    }
+  ],
+  "key_findings": {
+    "replies_more_autonomous": false,
+    "human_influence_fades_with_depth": true,
+    "naturalness_differs_significantly": true,
+    "naturalness_effect_size": "negligible",
+    "interpretation": [
+      "1. Direct replies (depth-0) show 55.6% HIGHER human influence than root posts.",
+      "3. Comments have significantly lower naturalness than posts (p<0.01, d=0.183).",
+      "4. Task completion signals: posts=0.53%, comments=0.48%.",
+      "5. Comments are more promotional than posts (27.77% vs 21.76%).",
+      "",
+      "CONCLUSION: The pattern is more complex than simple depth-based fading.",
+      "           Further investigation needed."
+    ]
+  }
+}

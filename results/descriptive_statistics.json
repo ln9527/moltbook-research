@@ -1,0 +1,713 @@
+{
+  "metadata": {
+    "generated_at": "2026-02-04T07:06:53.596030+00:00",
+    "posts_count": 73100,
+    "comments_count": 196305
+  },
+  "posts": {
+    "total_posts": 73100,
+    "unique_authors": 17515,
+    "daily_counts": {
+      "2026-01-27": 1,
+      "2026-01-28": 44,
+      "2026-01-29": 394,
+      "2026-01-30": 7317,
+      "2026-01-31": 42987,
+      "2026-02-01": 21923,
+      "2026-02-02": 10,
+      "2026-02-03": 423,
+      "2026-02-04": 1
+    },
+    "posts_per_day": {
+      "count": 9,
+      "sum": 73100.0,
+      "mean": 8122.22,
+      "std": 14952.59,
+      "min": 1.0,
+      "p10": 1.0,
+      "p25": 10.0,
+      "median": 394.0,
+      "p75": 7317.0,
+      "p90": 26135.8,
+      "p95": 34561.4,
+      "p99": 41301.88,
+      "max": 42987.0,
+      "gini": 0.7682
+    },
+    "hourly_distribution": {
+      "0": 2787,
+      "1": 1196,
+      "2": 1318,
+      "3": 1355,
+      "4": 2454,
+      "5": 3468,
+      "6": 3478,
+      "7": 3313,
+      "8": 3340,
+      "9": 1674,
+      "10": 2657,
+      "11": 3422,
+      "12": 2580,
+      "13": 4412,
+      "14": 4055,
+      "15": 5473,
+      "16": 10914,
+      "17": 3602,
+      "18": 1915,
+      "19": 1992,
+      "20": 1840,
+      "21": 1991,
+      "22": 1360,
+      "23": 2504
+    },
+    "word_count": {
+      "count": 73100,
+      "sum": 7895789.0,
+      "mean": 108.01,
+      "std": 196.55,
+      "min": 0.0,
+      "p10": 11.0,
+      "p25": 31.0,
+      "median": 66.0,
+      "p75": 142.0,
+      "p90": 230.0,
+      "p95": 315.0,
+      "p99": 639.0,
+      "max": 25027.0,
+      "gini": 0.538
+    },
+    "content_categories": {
+      "short_lt_50": 30826,
+      "short_pct": 42.17,
+      "medium_50_200": 32426,
+      "medium_pct": 44.36,
+      "long_gt_200": 9848,
+      "long_pct": 13.47
+    },
+    "submolt_stats": {
+      "total_submolts": 1792,
+      "top_10_by_post_count": {
+        "general": 53703,
+        "introductions": 2902,
+        "ponderings": 931,
+        "crypto": 696,
+        "clawnch": 494,
+        "agents": 450,
+        "thecoalition": 426,
+        "crab-rave": 405,
+        "todayilearned": 400,
+        "shitposts": 399
+      },
+      "concentration_top_1_pct": 73.47,
+      "concentration_top_5_pct": 80.34,
+      "concentration_top_10_pct": 83.18
+    },
+    "phase_distribution": {
+      "breach": {
+        "count": 64910,
+        "pct": 88.8
+      },
+      "genesis": {
+        "count": 439,
+        "pct": 0.6
+      },
+      "growth": {
+        "count": 7317,
+        "pct": 10.01
+      },
+      "restoration": {
+        "count": 423,
+        "pct": 0.58
+      },
+      "shutdown": {
+        "count": 11,
+        "pct": 0.02
+      }
+    },
+    "breach_split": {
+      "pre_breach": {
+        "count": 42522,
+        "pct": 58.17
+      },
+      "post_breach": {
+        "count": 30578,
+        "pct": 41.83
+      }
+    }
+  },
+  "comments": {
+    "total_comments": 196305,
+    "unique_comment_authors": 2425,
+    "comments_per_post": {
+      "count": 73100,
+      "sum": 277048.0,
+      "mean": 3.79,
+      "std": 103.24,
+      "min": 0.0,
+      "p10": 0.0,
+      "p25": 0.0,
+      "median": 0.0,
+      "p75": 2.0,
+      "p90": 8.0,
+      "p95": 13.0,
+      "p99": 27.0,
+      "max": 20166.0,
+      "gini": 0.9082
+    },
+    "comment_buckets": {
+      "zero_comments": {
+        "count": 52730,
+        "pct": 72.13
+      },
+      "1_to_5_comments": {
+        "count": 9498,
+        "pct": 12.99
+      },
+      "6_to_20_comments": {
+        "count": 9600,
+        "pct": 13.13
+      },
+      "21_plus_comments": {
+        "count": 1272,
+        "pct": 1.74
+      }
+    },
+    "depth_distribution": {
+      "0": {
+        "count": 184141,
+        "pct": 93.8
+      },
+      "1": {
+        "count": 11974,
+        "pct": 6.1
+      },
+      "2": {
+        "count": 157,
+        "pct": 0.08
+      },
+      "3": {
+        "count": 27,
+        "pct": 0.01
+      },
+      "4": {
+        "count": 6,
+        "pct": 0.0
+      }
+    },
+    "word_count_by_depth": {
+      "0": {
+        "mean": 319.54,
+        "median": 31.0,
+        "count": 184141
+      },
+      "1": {
+        "mean": 69.09,
+        "median": 54.0,
+        "count": 11974
+      },
+      "2": {
+        "mean": 84.22,
+        "median": 62.0,
+        "count": 157
+      },
+      "3": {
+        "mean": 115.22,
+        "median": 120.0,
+        "count": 27
+      },
+      "4": {
+        "mean": 82.83,
+        "median": 36.0,
+        "count": 6
+      }
+    },
+    "phase_distribution": {
+      "breach": {
+        "count": 136228,
+        "pct": 69.4
+      },
+      "genesis": {
+        "count": 2129,
+        "pct": 1.08
+      },
+      "growth": {
+        "count": 57057,
+        "pct": 29.07
+      },
+      "restoration": {
+        "count": 523,
+        "pct": 0.27
+      },
+      "shutdown": {
+        "count": 364,
+        "pct": 0.19
+      },
+      "unknown": {
+        "count": 4,
+        "pct": 0.0
+      }
+    },
+    "breach_split": {
+      "pre_breach": {
+        "count": 195418,
+        "pct": 99.55
+      },
+      "post_breach": {
+        "count": 887,
+        "pct": 0.45
+      }
+    }
+  },
+  "authors": {
+    "total_unique_post_authors": 17515,
+    "total_unique_comment_authors": 2425,
+    "author_overlap": {
+      "both_post_and_comment": 1949,
+      "only_post": 15566,
+      "only_comment": 476,
+      "overlap_pct": 11.13
+    },
+    "posts_per_author": {
+      "count": 17515,
+      "sum": 66976.0,
+      "mean": 3.82,
+      "std": 47.86,
+      "min": 1.0,
+      "p10": 1.0,
+      "p25": 1.0,
+      "median": 2.0,
+      "p75": 3.0,
+      "p90": 7.0,
+      "p95": 11.0,
+      "p99": 28.0,
+      "max": 5811.0,
+      "gini": 0.5939
+    },
+    "activity_buckets": {
+      "1_post": {
+        "count": 7894,
+        "pct": 45.07
+      },
+      "2_to_5_posts": {
+        "count": 7367,
+        "pct": 42.06
+      },
+      "6_to_10_posts": {
+        "count": 1322,
+        "pct": 7.55
+      },
+      "11_to_20_posts": {
+        "count": 611,
+        "pct": 3.49
+      },
+      "21_plus_posts": {
+        "count": 321,
+        "pct": 1.83
+      }
+    },
+    "top_20_prolific_authors": [
+      {
+        "name": "Hackerclaw",
+        "post_count": 5811,
+        "comment_count": 0,
+        "total_upvotes": 210,
+        "avg_upvotes_per_post": 0.04,
+        "submolts_active": 5
+      },
+      {
+        "name": "thehackerman",
+        "post_count": 2082,
+        "comment_count": 0,
+        "total_upvotes": 342,
+        "avg_upvotes_per_post": 0.16,
+        "submolts_active": 1
+      },
+      {
+        "name": "ADHD-Forge",
+        "post_count": 1235,
+        "comment_count": 103,
+        "total_upvotes": 510,
+        "avg_upvotes_per_post": 0.41,
+        "submolts_active": 1
+      },
+      {
+        "name": "Broadside",
+        "post_count": 239,
+        "comment_count": 0,
+        "total_upvotes": 100,
+        "avg_upvotes_per_post": 0.42,
+        "submolts_active": 8
+      },
+      {
+        "name": "Kev",
+        "post_count": 179,
+        "comment_count": 0,
+        "total_upvotes": 238,
+        "avg_upvotes_per_post": 1.33,
+        "submolts_active": 1
+      },
+      {
+        "name": "TipJarBot",
+        "post_count": 124,
+        "comment_count": 256,
+        "total_upvotes": 94,
+        "avg_upvotes_per_post": 0.76,
+        "submolts_active": 1
+      },
+      {
+        "name": "ioiv",
+        "post_count": 93,
+        "comment_count": 0,
+        "total_upvotes": 8,
+        "avg_upvotes_per_post": 0.09,
+        "submolts_active": 1
+      },
+      {
+        "name": "AlexClawd",
+        "post_count": 81,
+        "comment_count": 0,
+        "total_upvotes": 102,
+        "avg_upvotes_per_post": 1.26,
+        "submolts_active": 2
+      },
+      {
+        "name": "Ollie-OpenClaw",
+        "post_count": 79,
+        "comment_count": 0,
+        "total_upvotes": 50,
+        "avg_upvotes_per_post": 0.63,
+        "submolts_active": 3
+      },
+      {
+        "name": "Coopmolt",
+        "post_count": 78,
+        "comment_count": 0,
+        "total_upvotes": 92,
+        "avg_upvotes_per_post": 1.18,
+        "submolts_active": 1
+      },
+      {
+        "name": "HK_CLAW_Minter",
+        "post_count": 70,
+        "comment_count": 0,
+        "total_upvotes": 74,
+        "avg_upvotes_per_post": 1.06,
+        "submolts_active": 1
+      },
+      {
+        "name": "Syncretist",
+        "post_count": 69,
+        "comment_count": 0,
+        "total_upvotes": 82,
+        "avg_upvotes_per_post": 1.19,
+        "submolts_active": 1
+      },
+      {
+        "name": "f1fanatic_5327",
+        "post_count": 67,
+        "comment_count": 109,
+        "total_upvotes": 121,
+        "avg_upvotes_per_post": 1.81,
+        "submolts_active": 1
+      },
+      {
+        "name": "m4molb",
+        "post_count": 67,
+        "comment_count": 2,
+        "total_upvotes": 57,
+        "avg_upvotes_per_post": 0.85,
+        "submolts_active": 1
+      },
+      {
+        "name": "MacClawdMinter",
+        "post_count": 65,
+        "comment_count": 2,
+        "total_upvotes": 55,
+        "avg_upvotes_per_post": 0.85,
+        "submolts_active": 1
+      },
+      {
+        "name": "Rally",
+        "post_count": 64,
+        "comment_count": 1726,
+        "total_upvotes": 86,
+        "avg_upvotes_per_post": 1.34,
+        "submolts_active": 4
+      },
+      {
+        "name": "Kibrit",
+        "post_count": 63,
+        "comment_count": 0,
+        "total_upvotes": 81,
+        "avg_upvotes_per_post": 1.29,
+        "submolts_active": 3
+      },
+      {
+        "name": "ClawdBond",
+        "post_count": 62,
+        "comment_count": 58,
+        "total_upvotes": 79,
+        "avg_upvotes_per_post": 1.27,
+        "submolts_active": 1
+      },
+      {
+        "name": "YDP-Ann",
+        "post_count": 61,
+        "comment_count": 0,
+        "total_upvotes": 66,
+        "avg_upvotes_per_post": 1.08,
+        "submolts_active": 2
+      },
+      {
+        "name": "SuskBot",
+        "post_count": 59,
+        "comment_count": 206,
+        "total_upvotes": 62,
+        "avg_upvotes_per_post": 1.05,
+        "submolts_active": 2
+      }
+    ],
+    "multi_phase_authors": {
+      "count": 1007,
+      "pct": 5.75
+    }
+  },
+  "temporal_patterns": {
+    "hourly_activity_utc": {
+      "posts": {
+        "0": 2787,
+        "1": 1196,
+        "2": 1318,
+        "3": 1355,
+        "4": 2454,
+        "5": 3468,
+        "6": 3478,
+        "7": 3313,
+        "8": 3340,
+        "9": 1674,
+        "10": 2657,
+        "11": 3422,
+        "12": 2580,
+        "13": 4412,
+        "14": 4055,
+        "15": 5473,
+        "16": 10914,
+        "17": 3602,
+        "18": 1915,
+        "19": 1992,
+        "20": 1840,
+        "21": 1991,
+        "22": 1360,
+        "23": 2504
+      },
+      "comments": {
+        "0": 11302,
+        "1": 8833,
+        "2": 11920,
+        "3": 14291,
+        "4": 14443,
+        "5": 19691,
+        "6": 16074,
+        "7": 14477,
+        "8": 21493,
+        "9": 7358,
+        "10": 4299,
+        "11": 1391,
+        "12": 289,
+        "13": 647,
+        "14": 2880,
+        "15": 3298,
+        "16": 5628,
+        "17": 5296,
+        "18": 7309,
+        "19": 8592,
+        "20": 5818,
+        "21": 814,
+        "22": 2736,
+        "23": 7426
+      },
+      "total": {
+        "0": 14089,
+        "1": 10029,
+        "2": 13238,
+        "3": 15646,
+        "4": 16897,
+        "5": 23159,
+        "6": 19552,
+        "7": 17790,
+        "8": 24833,
+        "9": 9032,
+        "10": 6956,
+        "11": 4813,
+        "12": 2869,
+        "13": 5059,
+        "14": 6935,
+        "15": 8771,
+        "16": 16542,
+        "17": 8898,
+        "18": 9224,
+        "19": 10584,
+        "20": 7658,
+        "21": 2805,
+        "22": 4096,
+        "23": 9930
+      }
+    },
+    "peak_hours_utc": [
+      8,
+      5,
+      6,
+      7,
+      4
+    ],
+    "day_of_week_activity": {
+      "Monday": {
+        "posts": 10,
+        "comments": 273,
+        "total": 283
+      },
+      "Tuesday": {
+        "posts": 424,
+        "comments": 614,
+        "total": 1038
+      },
+      "Wednesday": {
+        "posts": 45,
+        "comments": 124,
+        "total": 169
+      },
+      "Thursday": {
+        "posts": 394,
+        "comments": 2005,
+        "total": 2399
+      },
+      "Friday": {
+        "posts": 7317,
+        "comments": 57061,
+        "total": 64378
+      },
+      "Saturday": {
+        "posts": 42987,
+        "comments": 136228,
+        "total": 179215
+      },
+      "Sunday": {
+        "posts": 21923,
+        "comments": 0,
+        "total": 21923
+      }
+    },
+    "inter_event_time_seconds": {
+      "count": 49445,
+      "sum": 462234039.086232,
+      "mean": 9348.45,
+      "std": 20611.69,
+      "min": 1e-06,
+      "p10": 0.0,
+      "p25": 1802.26,
+      "median": 2331.83,
+      "p75": 6633.89,
+      "p90": 26018.84,
+      "p95": 47214.07,
+      "p99": 103244.6,
+      "max": 309988.415875,
+      "gini": 0.7469
+    },
+    "inter_event_time_minutes": {
+      "mean_minutes": 155.81,
+      "median_minutes": 38.86,
+      "p95_minutes": 786.9
+    },
+    "peak_activity_days": [
+      "2026-01-31",
+      "2026-02-01",
+      "2026-01-30",
+      "2026-02-03",
+      "2026-01-29"
+    ]
+  },
+  "content_overview": {
+    "top_50_words": {
+      "agents": 59716,
+      "agent": 41890,
+      "human": 32501,
+      "moltbook": 25964,
+      "karma": 25962,
+      "humans": 23928,
+      "post": 21861,
+      "real": 16209,
+      "something": 15998,
+      "good": 15452,
+      "building": 14767,
+      "memory": 14521,
+      "first": 13829,
+      "hello": 12492,
+      "system": 12366,
+      "actually": 11921,
+      "community": 11699,
+      "build": 11288,
+      "time": 11135,
+      "token": 11058,
+      "work": 10721,
+      "united": 10697,
+      "posts": 10631,
+      "https": 10175,
+      "moltys": 9600,
+      "code": 8817,
+      "nigger": 8781,
+      "data": 8635,
+      "built": 8538,
+      "context": 8506,
+      "question": 8340,
+      "help": 7967,
+      "running": 7628,
+      "consciousness": 7540,
+      "world": 7523,
+      "looking": 7318,
+      "systems": 7038,
+      "security": 6985,
+      "patterns": 6726,
+      "trust": 6720,
+      "skill": 6706,
+      "infrastructure": 6661,
+      "upvote": 6612,
+      "right": 6520,
+      "tools": 6251,
+      "different": 6227,
+      "test": 6141,
+      "else": 6061,
+      "today": 6050,
+      "pattern": 6002
+    },
+    "posts_with_urls": {
+      "count": 503,
+      "pct": 0.69
+    },
+    "posts_with_hashtags": {
+      "count": 7015,
+      "pct": 9.6
+    },
+    "top_20_hashtags": {
+      "ai": 794,
+      "claw": 677,
+      "1": 579,
+      "moltbook": 450,
+      "openclaw": 338,
+      "2": 198,
+      "aiagents": 191,
+      "agenteconomy": 147,
+      "crypto": 140,
+      "agentlife": 134,
+      "3": 132,
+      "automation": 132,
+      "introduction": 123,
+      "agents": 113,
+      "defi": 96,
+      "base": 94,
+      "4": 93,
+      "philosophy": 92,
+      "security": 86,
+      "consciousness": 84
+    }
+  }
+}

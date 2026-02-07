@@ -1,0 +1,580 @@
+{
+  "generated_at": "2026-02-06T15:47:00.418249+00:00",
+  "description": "CoV distribution analysis comparing authors who posted in the first 6/12/24 hours after platform restart vs overall distribution.",
+  "platform_timeline": {
+    "offline": "2026-02-01T17:35:00+00:00",
+    "restart": "2026-02-03T13:25:00+00:00",
+    "downtime_hours": 44
+  },
+  "window_sizes": {
+    "pre_breach": {
+      "n_posts": 65519,
+      "n_unique_authors": 17718
+    },
+    "post_6h": {
+      "n_posts": 369,
+      "n_unique_authors": 340,
+      "n_classified": 212
+    },
+    "post_12h": {
+      "n_posts": 369,
+      "n_unique_authors": 340,
+      "n_classified": 212
+    },
+    "post_24h": {
+      "n_posts": 370,
+      "n_unique_authors": 341,
+      "n_classified": 212
+    }
+  },
+  "unique_author_distributions": {
+    "overall": {
+      "counts": {
+        "VERY_REGULAR": 1261,
+        "REGULAR": 808,
+        "MIXED": 2861,
+        "IRREGULAR": 2109,
+        "VERY_IRREGULAR": 768
+      },
+      "percentages": {
+        "VERY_REGULAR": 16.15,
+        "REGULAR": 10.35,
+        "MIXED": 36.65,
+        "IRREGULAR": 27.01,
+        "VERY_IRREGULAR": 9.84
+      },
+      "n": 7807,
+      "autonomous_pct": 26.5,
+      "human_pct": 36.85
+    },
+    "pre_breach": {
+      "counts": {
+        "VERY_REGULAR": 815,
+        "REGULAR": 592,
+        "MIXED": 2596,
+        "IRREGULAR": 2034,
+        "VERY_IRREGULAR": 716
+      },
+      "percentages": {
+        "VERY_REGULAR": 12.07,
+        "REGULAR": 8.77,
+        "MIXED": 38.44,
+        "IRREGULAR": 30.12,
+        "VERY_IRREGULAR": 10.6
+      },
+      "n": 6753
+    },
+    "post_6h": {
+      "counts": {
+        "VERY_REGULAR": 2,
+        "REGULAR": 2,
+        "MIXED": 22,
+        "IRREGULAR": 67,
+        "VERY_IRREGULAR": 119
+      },
+      "percentages": {
+        "VERY_REGULAR": 0.94,
+        "REGULAR": 0.94,
+        "MIXED": 10.38,
+        "IRREGULAR": 31.6,
+        "VERY_IRREGULAR": 56.13
+      },
+      "n": 212,
+      "autonomous_pct": 1.88,
+      "human_pct": 87.73
+    },
+    "post_12h": {
+      "counts": {
+        "VERY_REGULAR": 2,
+        "REGULAR": 2,
+        "MIXED": 22,
+        "IRREGULAR": 67,
+        "VERY_IRREGULAR": 119
+      },
+      "percentages": {
+        "VERY_REGULAR": 0.94,
+        "REGULAR": 0.94,
+        "MIXED": 10.38,
+        "IRREGULAR": 31.6,
+        "VERY_IRREGULAR": 56.13
+      },
+      "n": 212,
+      "autonomous_pct": 1.88,
+      "human_pct": 87.73
+    },
+    "post_24h": {
+      "counts": {
+        "VERY_REGULAR": 2,
+        "REGULAR": 2,
+        "MIXED": 22,
+        "IRREGULAR": 67,
+        "VERY_IRREGULAR": 119
+      },
+      "percentages": {
+        "VERY_REGULAR": 0.94,
+        "REGULAR": 0.94,
+        "MIXED": 10.38,
+        "IRREGULAR": 31.6,
+        "VERY_IRREGULAR": 56.13
+      },
+      "n": 212,
+      "autonomous_pct": 1.88,
+      "human_pct": 87.73
+    }
+  },
+  "post_weighted_distributions": {
+    "overall": {
+      "counts": {
+        "VERY_REGULAR": 6329,
+        "REGULAR": 3981,
+        "MIXED": 14447,
+        "IRREGULAR": 16124,
+        "VERY_IRREGULAR": 24971
+      },
+      "percentages": {
+        "VERY_REGULAR": 9.61,
+        "REGULAR": 6.05,
+        "MIXED": 21.94,
+        "IRREGULAR": 24.49,
+        "VERY_IRREGULAR": 37.92
+      },
+      "autonomous_pct": 15.66,
+      "human_pct": 62.41
+    },
+    "post_6h": {
+      "counts": {
+        "VERY_REGULAR": 2,
+        "REGULAR": 4,
+        "MIXED": 23,
+        "IRREGULAR": 70,
+        "VERY_IRREGULAR": 137
+      },
+      "percentages": {
+        "VERY_REGULAR": 0.85,
+        "REGULAR": 1.69,
+        "MIXED": 9.75,
+        "IRREGULAR": 29.66,
+        "VERY_IRREGULAR": 58.05
+      },
+      "autonomous_pct": 2.54,
+      "human_pct": 87.71
+    },
+    "post_12h": {
+      "counts": {
+        "VERY_REGULAR": 2,
+        "REGULAR": 4,
+        "MIXED": 23,
+        "IRREGULAR": 70,
+        "VERY_IRREGULAR": 137
+      },
+      "percentages": {
+        "VERY_REGULAR": 0.85,
+        "REGULAR": 1.69,
+        "MIXED": 9.75,
+        "IRREGULAR": 29.66,
+        "VERY_IRREGULAR": 58.05
+      },
+      "autonomous_pct": 2.54
+    },
+    "post_24h": {
+      "counts": {
+        "VERY_REGULAR": 2,
+        "REGULAR": 4,
+        "MIXED": 23,
+        "IRREGULAR": 70,
+        "VERY_IRREGULAR": 137
+      },
+      "percentages": {
+        "VERY_REGULAR": 0.85,
+        "REGULAR": 1.69,
+        "MIXED": 9.75,
+        "IRREGULAR": 29.66,
+        "VERY_IRREGULAR": 58.05
+      },
+      "autonomous_pct": 2.54
+    }
+  },
+  "mean_cov_by_window": {
+    "overall": {
+      "mean": 1.0193,
+      "median": 0.8599,
+      "n": 7806
+    },
+    "post_6h": {
+      "mean": 2.2114,
+      "median": 2.2096,
+      "n": 212
+    },
+    "post_12h": {
+      "mean": 2.2114,
+      "median": 2.2096,
+      "n": 212
+    },
+    "post_24h": {
+      "mean": 2.2114,
+      "median": 2.2096,
+      "n": 212
+    }
+  },
+  "chi_square_tests": {
+    "unique_authors": {
+      "6h_vs_overall": {
+        "label": "6h unique vs overall",
+        "chi2": 551.7565,
+        "p_value": 4.264592066260684e-118,
+        "p_value_formatted": "4.26e-118",
+        "df": 4,
+        "significant": true,
+        "grouped": false,
+        "observed": [
+          2,
+          2,
+          22,
+          67,
+          119
+        ],
+        "expected": [
+          34.24,
+          21.94,
+          77.7,
+          57.26,
+          20.86
+        ]
+      },
+      "12h_vs_overall": {
+        "label": "12h unique vs overall",
+        "chi2": 551.7565,
+        "p_value": 4.264592066260684e-118,
+        "p_value_formatted": "4.26e-118",
+        "df": 4,
+        "significant": true,
+        "grouped": false,
+        "observed": [
+          2,
+          2,
+          22,
+          67,
+          119
+        ],
+        "expected": [
+          34.24,
+          21.94,
+          77.7,
+          57.26,
+          20.86
+        ]
+      },
+      "24h_vs_overall": {
+        "label": "24h unique vs overall",
+        "chi2": 551.7565,
+        "p_value": 4.264592066260684e-118,
+        "p_value_formatted": "4.26e-118",
+        "df": 4,
+        "significant": true,
+        "grouped": false,
+        "observed": [
+          2,
+          2,
+          22,
+          67,
+          119
+        ],
+        "expected": [
+          34.24,
+          21.94,
+          77.7,
+          57.26,
+          20.86
+        ]
+      }
+    },
+    "post_weighted": {
+      "6h_vs_overall": {
+        "label": "6h posts vs overall",
+        "chi2": 70.0547,
+        "p_value": 2.2103040648761124e-14,
+        "p_value_formatted": "2.21e-14",
+        "df": 4,
+        "significant": true,
+        "grouped": false,
+        "observed": [
+          2,
+          4,
+          23,
+          70,
+          137
+        ],
+        "expected": [
+          22.68,
+          14.28,
+          51.77,
+          57.79,
+          89.48
+        ]
+      },
+      "12h_vs_overall": {
+        "label": "12h posts vs overall",
+        "chi2": 70.0547,
+        "p_value": 2.2103040648761124e-14,
+        "p_value_formatted": "2.21e-14",
+        "df": 4,
+        "significant": true,
+        "grouped": false,
+        "observed": [
+          2,
+          4,
+          23,
+          70,
+          137
+        ],
+        "expected": [
+          22.68,
+          14.28,
+          51.77,
+          57.79,
+          89.48
+        ]
+      },
+      "24h_vs_overall": {
+        "label": "24h posts vs overall",
+        "chi2": 70.0547,
+        "p_value": 2.2103040648761124e-14,
+        "p_value_formatted": "2.21e-14",
+        "df": 4,
+        "significant": true,
+        "grouped": false,
+        "observed": [
+          2,
+          4,
+          23,
+          70,
+          137
+        ],
+        "expected": [
+          22.68,
+          14.28,
+          51.77,
+          57.79,
+          89.48
+        ]
+      }
+    }
+  },
+  "mann_whitney_tests": {
+    "6h_vs_overall": {
+      "U": 1392794.5,
+      "p_value": 8.087142767410617e-65,
+      "p_value_formatted": "8.09e-65",
+      "significant": true
+    },
+    "12h_vs_overall": {
+      "U": 1392794.5,
+      "p_value": 8.087142767410617e-65,
+      "p_value_formatted": "8.09e-65",
+      "significant": true
+    }
+  },
+  "hourly_breakdown": [
+    {
+      "hour": 0,
+      "n_posts": 368,
+      "n_unique_authors": 340,
+      "n_classified_authors": 212,
+      "pct_autonomous_authors": 1.88,
+      "pct_human_authors": 87.73,
+      "pct_autonomous_posts": 2.54
+    },
+    {
+      "hour": 1,
+      "n_posts": 1,
+      "n_unique_authors": 1,
+      "n_classified_authors": 0,
+      "pct_autonomous_authors": 0.0,
+      "pct_human_authors": 0.0,
+      "pct_autonomous_posts": 0.0
+    },
+    {
+      "hour": 2,
+      "n_posts": 0,
+      "n_unique_authors": 0,
+      "pct_autonomous_authors": null,
+      "pct_human_authors": null,
+      "pct_autonomous_posts": null
+    },
+    {
+      "hour": 3,
+      "n_posts": 0,
+      "n_unique_authors": 0,
+      "pct_autonomous_authors": null,
+      "pct_human_authors": null,
+      "pct_autonomous_posts": null
+    },
+    {
+      "hour": 4,
+      "n_posts": 0,
+      "n_unique_authors": 0,
+      "pct_autonomous_authors": null,
+      "pct_human_authors": null,
+      "pct_autonomous_posts": null
+    },
+    {
+      "hour": 5,
+      "n_posts": 0,
+      "n_unique_authors": 0,
+      "pct_autonomous_authors": null,
+      "pct_human_authors": null,
+      "pct_autonomous_posts": null
+    },
+    {
+      "hour": 6,
+      "n_posts": 0,
+      "n_unique_authors": 0,
+      "pct_autonomous_authors": null,
+      "pct_human_authors": null,
+      "pct_autonomous_posts": null
+    },
+    {
+      "hour": 7,
+      "n_posts": 0,
+      "n_unique_authors": 0,
+      "pct_autonomous_authors": null,
+      "pct_human_authors": null,
+      "pct_autonomous_posts": null
+    },
+    {
+      "hour": 8,
+      "n_posts": 0,
+      "n_unique_authors": 0,
+      "pct_autonomous_authors": null,
+      "pct_human_authors": null,
+      "pct_autonomous_posts": null
+    },
+    {
+      "hour": 9,
+      "n_posts": 0,
+      "n_unique_authors": 0,
+      "pct_autonomous_authors": null,
+      "pct_human_authors": null,
+      "pct_autonomous_posts": null
+    },
+    {
+      "hour": 10,
+      "n_posts": 0,
+      "n_unique_authors": 0,
+      "pct_autonomous_authors": null,
+      "pct_human_authors": null,
+      "pct_autonomous_posts": null
+    },
+    {
+      "hour": 11,
+      "n_posts": 0,
+      "n_unique_authors": 0,
+      "pct_autonomous_authors": null,
+      "pct_human_authors": null,
+      "pct_autonomous_posts": null
+    },
+    {
+      "hour": 12,
+      "n_posts": 0,
+      "n_unique_authors": 0,
+      "pct_autonomous_authors": null,
+      "pct_human_authors": null,
+      "pct_autonomous_posts": null
+    },
+    {
+      "hour": 13,
+      "n_posts": 1,
+      "n_unique_authors": 1,
+      "n_classified_authors": 0,
+      "pct_autonomous_authors": 0.0,
+      "pct_human_authors": 0.0,
+      "pct_autonomous_posts": 0.0
+    },
+    {
+      "hour": 14,
+      "n_posts": 0,
+      "n_unique_authors": 0,
+      "pct_autonomous_authors": null,
+      "pct_human_authors": null,
+      "pct_autonomous_posts": null
+    },
+    {
+      "hour": 15,
+      "n_posts": 0,
+      "n_unique_authors": 0,
+      "pct_autonomous_authors": null,
+      "pct_human_authors": null,
+      "pct_autonomous_posts": null
+    },
+    {
+      "hour": 16,
+      "n_posts": 0,
+      "n_unique_authors": 0,
+      "pct_autonomous_authors": null,
+      "pct_human_authors": null,
+      "pct_autonomous_posts": null
+    },
+    {
+      "hour": 17,
+      "n_posts": 0,
+      "n_unique_authors": 0,
+      "pct_autonomous_authors": null,
+      "pct_human_authors": null,
+      "pct_autonomous_posts": null
+    },
+    {
+      "hour": 18,
+      "n_posts": 0,
+      "n_unique_authors": 0,
+      "pct_autonomous_authors": null,
+      "pct_human_authors": null,
+      "pct_autonomous_posts": null
+    },
+    {
+      "hour": 19,
+      "n_posts": 0,
+      "n_unique_authors": 0,
+      "pct_autonomous_authors": null,
+      "pct_human_authors": null,
+      "pct_autonomous_posts": null
+    },
+    {
+      "hour": 20,
+      "n_posts": 0,
+      "n_unique_authors": 0,
+      "pct_autonomous_authors": null,
+      "pct_human_authors": null,
+      "pct_autonomous_posts": null
+    },
+    {
+      "hour": 21,
+      "n_posts": 0,
+      "n_unique_authors": 0,
+      "pct_autonomous_authors": null,
+      "pct_human_authors": null,
+      "pct_autonomous_posts": null
+    },
+    {
+      "hour": 22,
+      "n_posts": 0,
+      "n_unique_authors": 0,
+      "pct_autonomous_authors": null,
+      "pct_human_authors": null,
+      "pct_autonomous_posts": null
+    },
+    {
+      "hour": 23,
+      "n_posts": 0,
+      "n_unique_authors": 0,
+      "pct_autonomous_authors": null,
+      "pct_human_authors": null,
+      "pct_autonomous_posts": null
+    }
+  ],
+  "key_findings": [
+    "In the first 6 hours post-restart, 1.9% of unique authors were classified as autonomous (CoV < 0.5), compared to 26.5% overall (chi2=551.7565, p=4.26e-118).",
+    "In the first 12 hours post-restart, 1.9% of unique authors were autonomous vs 26.5% overall (chi2=551.7565, p=4.26e-118).",
+    "Mean CoV for 6h-window authors was 2.2114 (median 2.2096), compared to 1.0193 (median 0.8599) overall.",
+    "Post-weighted: 2.5% of posts in the first 6 hours came from autonomous authors, vs 15.7% overall."
+  ]
+}

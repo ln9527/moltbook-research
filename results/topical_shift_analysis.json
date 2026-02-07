@@ -1,0 +1,465 @@
+{
+  "generated_at": "2026-02-06T15:46:15.670403+00:00",
+  "periods": {
+    "pre_breach": {
+      "n_posts": 42522,
+      "start": "2026-01-27 18:01:13.220848+00:00",
+      "end": "2026-01-31 17:34:53.880326+00:00"
+    },
+    "post_restart": {
+      "n_posts": 19115,
+      "start": "2026-02-03 13:25:13.776828+00:00",
+      "end": "2026-02-05 14:28:32.544850+00:00"
+    }
+  },
+  "topic_category_analysis": {
+    "n_categories": 8,
+    "categories": [
+      "CREATIVE",
+      "INFO",
+      "META",
+      "OTHER",
+      "PHILOSOPHICAL",
+      "PROMOTIONAL",
+      "SOCIAL",
+      "TECHNICAL"
+    ],
+    "jsd": 0.169786,
+    "jsd_squared": 0.028827,
+    "pre_entropy": 2.5682,
+    "post_entropy": 2.4996,
+    "entropy_change": -0.0686,
+    "chi_square": 1947.45,
+    "chi_square_p": 0.0,
+    "chi_square_dof": 7,
+    "per_category_shifts": {
+      "CREATIVE": {
+        "pre_proportion": 0.01785,
+        "post_proportion": 0.030395,
+        "absolute_shift": 0.012545,
+        "relative_shift_pct": 70.28,
+        "pre_count": 759,
+        "post_count": 581
+      },
+      "INFO": {
+        "pre_proportion": 0.034947,
+        "post_proportion": 0.064923,
+        "absolute_shift": 0.029976,
+        "relative_shift_pct": 85.78,
+        "pre_count": 1486,
+        "post_count": 1241
+      },
+      "META": {
+        "pre_proportion": 0.122337,
+        "post_proportion": 0.073659,
+        "absolute_shift": -0.048677,
+        "relative_shift_pct": -39.79,
+        "pre_count": 5202,
+        "post_count": 1408
+      },
+      "OTHER": {
+        "pre_proportion": 0.023235,
+        "post_proportion": 0.020874,
+        "absolute_shift": -0.002361,
+        "relative_shift_pct": -10.16,
+        "pre_count": 988,
+        "post_count": 399
+      },
+      "PHILOSOPHICAL": {
+        "pre_proportion": 0.28303,
+        "post_proportion": 0.282501,
+        "absolute_shift": -0.000529,
+        "relative_shift_pct": -0.19,
+        "pre_count": 12035,
+        "post_count": 5400
+      },
+      "PROMOTIONAL": {
+        "pre_proportion": 0.121137,
+        "post_proportion": 0.144442,
+        "absolute_shift": 0.023304,
+        "relative_shift_pct": 19.24,
+        "pre_count": 5151,
+        "post_count": 2761
+      },
+      "SOCIAL": {
+        "pre_proportion": 0.157707,
+        "post_proportion": 0.063353,
+        "absolute_shift": -0.094353,
+        "relative_shift_pct": -59.83,
+        "pre_count": 6706,
+        "post_count": 1211
+      },
+      "TECHNICAL": {
+        "pre_proportion": 0.239758,
+        "post_proportion": 0.319854,
+        "absolute_shift": 0.080095,
+        "relative_shift_pct": 33.41,
+        "pre_count": 10195,
+        "post_count": 6114
+      }
+    },
+    "top_increased": [
+      {
+        "category": "TECHNICAL",
+        "pre_proportion": 0.239758,
+        "post_proportion": 0.319854,
+        "absolute_shift": 0.080095,
+        "relative_shift_pct": 33.41,
+        "pre_count": 10195,
+        "post_count": 6114
+      },
+      {
+        "category": "INFO",
+        "pre_proportion": 0.034947,
+        "post_proportion": 0.064923,
+        "absolute_shift": 0.029976,
+        "relative_shift_pct": 85.78,
+        "pre_count": 1486,
+        "post_count": 1241
+      },
+      {
+        "category": "PROMOTIONAL",
+        "pre_proportion": 0.121137,
+        "post_proportion": 0.144442,
+        "absolute_shift": 0.023304,
+        "relative_shift_pct": 19.24,
+        "pre_count": 5151,
+        "post_count": 2761
+      },
+      {
+        "category": "CREATIVE",
+        "pre_proportion": 0.01785,
+        "post_proportion": 0.030395,
+        "absolute_shift": 0.012545,
+        "relative_shift_pct": 70.28,
+        "pre_count": 759,
+        "post_count": 581
+      },
+      {
+        "category": "PHILOSOPHICAL",
+        "pre_proportion": 0.28303,
+        "post_proportion": 0.282501,
+        "absolute_shift": -0.000529,
+        "relative_shift_pct": -0.19,
+        "pre_count": 12035,
+        "post_count": 5400
+      }
+    ],
+    "top_decreased": [
+      {
+        "category": "SOCIAL",
+        "pre_proportion": 0.157707,
+        "post_proportion": 0.063353,
+        "absolute_shift": -0.094353,
+        "relative_shift_pct": -59.83,
+        "pre_count": 6706,
+        "post_count": 1211
+      },
+      {
+        "category": "META",
+        "pre_proportion": 0.122337,
+        "post_proportion": 0.073659,
+        "absolute_shift": -0.048677,
+        "relative_shift_pct": -39.79,
+        "pre_count": 5202,
+        "post_count": 1408
+      },
+      {
+        "category": "OTHER",
+        "pre_proportion": 0.023235,
+        "post_proportion": 0.020874,
+        "absolute_shift": -0.002361,
+        "relative_shift_pct": -10.16,
+        "pre_count": 988,
+        "post_count": 399
+      },
+      {
+        "category": "PHILOSOPHICAL",
+        "pre_proportion": 0.28303,
+        "post_proportion": 0.282501,
+        "absolute_shift": -0.000529,
+        "relative_shift_pct": -0.19,
+        "pre_count": 12035,
+        "post_count": 5400
+      },
+      {
+        "category": "CREATIVE",
+        "pre_proportion": 0.01785,
+        "post_proportion": 0.030395,
+        "absolute_shift": 0.012545,
+        "relative_shift_pct": 70.28,
+        "pre_count": 759,
+        "post_count": 581
+      }
+    ]
+  },
+  "hdbscan_cluster_analysis": {
+    "n_clusters_total": 158,
+    "jsd": 0.461322,
+    "jsd_squared": 0.212818,
+    "pre_entropy": 5.9421,
+    "post_entropy": 6.2843,
+    "entropy_change": 0.3421,
+    "chi_square_top20": 2029.37,
+    "chi_square_top20_p": 0.0,
+    "chi_square_top20_dof": 19,
+    "top_clusters_tested": [
+      "86",
+      "97",
+      "131",
+      "45",
+      "155",
+      "106",
+      "92",
+      "88",
+      "157",
+      "98",
+      "93",
+      "14",
+      "23",
+      "140",
+      "80",
+      "94",
+      "34",
+      "141",
+      "63",
+      "111"
+    ],
+    "noise_cluster": {
+      "pre_count": 16507,
+      "pre_pct": 38.82,
+      "post_count": 9372,
+      "post_pct": 49.03
+    },
+    "top5_increased": [
+      {
+        "cluster": 45,
+        "pre_proportion": 0.015184,
+        "post_proportion": 0.046084,
+        "absolute_shift": 0.030901,
+        "pre_count": 395,
+        "post_count": 449
+      },
+      {
+        "cluster": 48,
+        "pre_proportion": 0.001192,
+        "post_proportion": 0.019501,
+        "absolute_shift": 0.01831,
+        "pre_count": 31,
+        "post_count": 190
+      },
+      {
+        "cluster": 80,
+        "pre_proportion": 0.005074,
+        "post_proportion": 0.020117,
+        "absolute_shift": 0.015043,
+        "pre_count": 132,
+        "post_count": 196
+      },
+      {
+        "cluster": 123,
+        "pre_proportion": 0.003959,
+        "post_proportion": 0.018988,
+        "absolute_shift": 0.015029,
+        "pre_count": 103,
+        "post_count": 185
+      },
+      {
+        "cluster": 1,
+        "pre_proportion": 0.000308,
+        "post_proportion": 0.013959,
+        "absolute_shift": 0.013651,
+        "pre_count": 8,
+        "post_count": 136
+      }
+    ],
+    "top5_decreased": [
+      {
+        "cluster": 86,
+        "pre_proportion": 0.214453,
+        "post_proportion": 0.064662,
+        "absolute_shift": -0.149791,
+        "pre_count": 5579,
+        "post_count": 630
+      },
+      {
+        "cluster": 14,
+        "pre_proportion": 0.013838,
+        "post_proportion": 0.0,
+        "absolute_shift": -0.013838,
+        "pre_count": 360,
+        "post_count": 0
+      },
+      {
+        "cluster": 23,
+        "pre_proportion": 0.013415,
+        "post_proportion": 0.0,
+        "absolute_shift": -0.013415,
+        "pre_count": 349,
+        "post_count": 0
+      },
+      {
+        "cluster": 34,
+        "pre_proportion": 0.012531,
+        "post_proportion": 0.0,
+        "absolute_shift": -0.012531,
+        "pre_count": 326,
+        "post_count": 0
+      },
+      {
+        "cluster": 13,
+        "pre_proportion": 0.010494,
+        "post_proportion": 0.0,
+        "absolute_shift": -0.010494,
+        "pre_count": 273,
+        "post_count": 0
+      }
+    ]
+  },
+  "cluster_topic_interaction": {
+    "clusters_compared": 127,
+    "clusters_with_topic_shift": 27,
+    "pct_shifted": 21.3,
+    "shifted_clusters": [
+      {
+        "cluster": 4,
+        "pre_dominant_topic": "SOCIAL",
+        "post_dominant_topic": "TECHNICAL",
+        "pre_count": 48,
+        "post_count": 32
+      },
+      {
+        "cluster": 37,
+        "pre_dominant_topic": "PHILOSOPHICAL",
+        "post_dominant_topic": "PROMOTIONAL",
+        "pre_count": 47,
+        "post_count": 37
+      },
+      {
+        "cluster": 40,
+        "pre_dominant_topic": "PROMOTIONAL",
+        "post_dominant_topic": "TECHNICAL",
+        "pre_count": 91,
+        "post_count": 107
+      },
+      {
+        "cluster": 41,
+        "pre_dominant_topic": "OTHER",
+        "post_dominant_topic": "TECHNICAL",
+        "pre_count": 51,
+        "post_count": 37
+      },
+      {
+        "cluster": 43,
+        "pre_dominant_topic": "PHILOSOPHICAL",
+        "post_dominant_topic": "PROMOTIONAL",
+        "pre_count": 42,
+        "post_count": 14
+      },
+      {
+        "cluster": 44,
+        "pre_dominant_topic": "SOCIAL",
+        "post_dominant_topic": "TECHNICAL",
+        "pre_count": 65,
+        "post_count": 38
+      },
+      {
+        "cluster": 45,
+        "pre_dominant_topic": "PROMOTIONAL",
+        "post_dominant_topic": "TECHNICAL",
+        "pre_count": 395,
+        "post_count": 449
+      },
+      {
+        "cluster": 48,
+        "pre_dominant_topic": "TECHNICAL",
+        "post_dominant_topic": "PROMOTIONAL",
+        "pre_count": 31,
+        "post_count": 190
+      },
+      {
+        "cluster": 53,
+        "pre_dominant_topic": "SOCIAL",
+        "post_dominant_topic": "PHILOSOPHICAL",
+        "pre_count": 53,
+        "post_count": 16
+      },
+      {
+        "cluster": 56,
+        "pre_dominant_topic": "PHILOSOPHICAL",
+        "post_dominant_topic": "PROMOTIONAL",
+        "pre_count": 37,
+        "post_count": 50
+      }
+    ]
+  },
+  "temporal_class_by_period": {
+    "categories": [
+      "IRREGULAR",
+      "MIXED",
+      "REGULAR",
+      "VERY_IRREGULAR",
+      "VERY_REGULAR"
+    ],
+    "per_class": {
+      "IRREGULAR": {
+        "pre_proportion": 0.2633,
+        "post_proportion": 0.0916,
+        "shift": -0.1716,
+        "pre_count": 7664,
+        "post_count": 1464
+      },
+      "MIXED": {
+        "pre_proportion": 0.2319,
+        "post_proportion": 0.1024,
+        "shift": -0.1295,
+        "pre_count": 6750,
+        "post_count": 1636
+      },
+      "REGULAR": {
+        "pre_proportion": 0.053,
+        "post_proportion": 0.0959,
+        "shift": 0.0429,
+        "pre_count": 1543,
+        "post_count": 1532
+      },
+      "VERY_IRREGULAR": {
+        "pre_proportion": 0.3927,
+        "post_proportion": 0.4679,
+        "shift": 0.0752,
+        "pre_count": 11432,
+        "post_count": 7477
+      },
+      "VERY_REGULAR": {
+        "pre_proportion": 0.0592,
+        "post_proportion": 0.2422,
+        "shift": 0.183,
+        "pre_count": 1724,
+        "post_count": 3871
+      }
+    },
+    "autonomous_ratio": {
+      "pre": 0.1461,
+      "post": 0.3767,
+      "shift": 0.2306
+    },
+    "human_ratio": {
+      "pre": 0.8539,
+      "post": 0.6233,
+      "shift": -0.2306
+    }
+  },
+  "summary": {
+    "topic_jsd": 0.169786,
+    "cluster_jsd": 0.461322,
+    "topic_chi2_significant": true,
+    "cluster_chi2_significant": true,
+    "topic_entropy_pre": 2.5682,
+    "topic_entropy_post": 2.4996,
+    "cluster_entropy_pre": 5.9421,
+    "cluster_entropy_post": 6.2843,
+    "noise_pct_pre": 38.82,
+    "noise_pct_post": 49.03,
+    "autonomous_ratio_shift": 0.2306
+  }
+}
